@@ -1,0 +1,8 @@
+{
+  "matches": [
+    {
+      "id": "20261012-234726-inbox-openai-vs-jev-1",
+      "reason": "The machine slept mid-match (on battery, before stall detection existed): the game clock caught up on wake with few or no requests sent."
+    }
+  ]
+}

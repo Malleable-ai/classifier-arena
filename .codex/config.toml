@@ -1,0 +1,20 @@
+# Project equivalent of .claude/settings.json.
+# Requires a trusted project and Codex permission-profile support.
+default_permissions = "classifier-arena"
+approval_policy = "on-request"
+approvals_reviewer = "user"
+
+[permissions.classifier-arena]
+extends = ":workspace"
+
+[permissions.classifier-arena.filesystem.":workspace_roots"]
+"**/.env" = "deny"
+"**/.env.local" = "deny"
+".claude/skills" = "read"
+".agents/skills" = "read"
+".codex/skills" = "read"
+
+# Attach to Chrome started by skills/dev-loop/scripts/ensure-chrome.sh.
+[mcp_servers.chrome-devtools]
+command = "npx"
+args = ["-y", "chrome-devtools-mcp@latest", "--browserUrl", "http://127.0.0.1:9222"]

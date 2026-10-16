@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 5,
+  "game": "fighter",
+  "label": "Fighter",
+  "graded": false,
+  "gameVersion": 2,
+  "runIds": [
+    "m-156ca376dca4",
+    "m-e68aa2cc38b5",
+    "m-f2d69b452ec5"
+  ],
+  "matches": {
+    "total": 106,
+    "valid": 103,
+    "invalid": 3,
+    "excluded": 0,
+    "unfinished": 0,
+    "olderVersion": 0
+  },
+  "invalidMatches": [
+    {
+      "id": "20261012-210606-fighter-openai-vs-scripted-1",
+      "reason": "OpenAI Decisions (seat 0) had transport errors on 10.2% of its decisions (limit 2%)"
+    },
+    {
+      "id": "20261012-210641-fighter-scripted-vs-openai-1",
+      "reason": "OpenAI Decisions (seat 1) had transport errors on 19.2% of its decisions (limit 2%)"
+    },
+    {
+      "id": "20261012-210715-fighter-openai-vs-scripted-1",
+      "reason": "OpenAI Decisions (seat 0) had transport errors on 79.2% of its decisions (limit 2%)"
+    }
+  ],
+  "excluded": [],
+  "olderVersion": [],
+  "rescored": [
+    {
+      "id": "20261012-210054-fighter-openai-vs-scripted-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-210939-fighter-openai-vs-scripted-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-211029-fighter-scripted-vs-openai-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-211152-fighter-scripted-vs-openai-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261015-232156-fighter-openai-vs-jev-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261015-232349-fighter-jev-vs-openai-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261015-233100-fighter-jev-vs-openai-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261015-233213-fighter-openai-vs-jev-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261015-233325-fighter-jev-vs-openai-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261015-233441-fighter-openai-vs-jev-1",
+      "loggedValid": false,
+      "valid": true
+    }
+  ],
+  "totalCostUsd": 2.4660900940000006,
+  "players": [
+    {
+      "player": "jev",
+      "label": "Jev (TypeSafe)",
+      "kind": "provider",
+      "model": "jev-latest",
+      "hosting": "vendor-api",
+      "matches": 76,
+      "decisions": 21857,
+      "misses": 26,
+      "missRate": 0.0011895502584984216,
+      "refusals": 0,
+      "refusalRate": 0,
+      "dropped": 13662,
+      "graded": 0,
+      "correct": 0,
+      "accuracy": null,
+      "latencyMs": {
+        "p50": 147.2,
+        "p95": 238.4,
+        "n": 21831
+      },
+      "costUsd": 1.064855694000001,
+      "costPer1000": 0.04871920638696989
+    },
+    {
+      "player": "openai",
+      "label": "OpenAI Decisions (gpt-6-luna)",
+      "kind": "provider",
+      "model": "gpt-6-luna",
+      "hosting": "vendor-api",
+      "matches": 80,
+      "decisions": 17940,
+      "misses": 104,
+      "missRate": 0.005797101449275362,
+      "refusals": 283,
+      "refusalRate": 0.01577480490523969,
+      "dropped": 8834,
+      "graded": 0,
+      "correct": 0,
+      "accuracy": null,
+      "latencyMs": {
+        "p50": 188.2,
+        "p95": 384.7,
+        "n": 17553
+      },
+      "costUsd": 1.3829306000000003,
+      "costPer1000": 0.07708643255295432
+    },
+    {
+      "player": "random",
+      "label": "Random (uniform)",
+      "kind": "baseline",
+      "model": null,
+      "hosting": null,
+      "matches": 23,
+      "decisions": 5392,
+      "misses": 0,
+      "missRate": 0,
+      "refusals": 0,
+      "refusalRate": 0,
+      "dropped": 2937,
+      "graded": 0,
+      "correct": 0,
+      "accuracy": null,
+      "latencyMs": {
+        "p50": 199.7,
+        "p95": 200.5,
+        "n": 5392
+      },
+      "costUsd": 0,
+      "costPer1000": 0
+    },
+    {
+      "player": "scripted",
+      "label": "Scripted bot",
+      "kind": "baseline",
+      "model": null,
+      "hosting": null,
+      "matches": 27,
+      "decisions": 5512,
+      "misses": 0,
+      "missRate": 0,
+      "refusals": 0,
+      "refusalRate": 0,
+      "dropped": 2365,
+      "graded": 0,
+      "correct": 0,
+      "accuracy": null,
+      "latencyMs": {
+        "p50": 199.7,
+        "p95": 200.5,
+        "n": 5512
+      },
+      "costUsd": 0,
+      "costPer1000": 0
+    }
+  ],
+  "pairings": [
+    {
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "headToHead": true,
+      "matches": 56,
+      "invalid": 0,
+      "wins": 42,
+      "draws": 0,
+      "losses": 14,
+      "winRate": {
+        "p": 0.75,
+        "low": 0.6230710799856808,
+        "high": 0.8448308477702616
+      }
+    },
+    {
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "headToHead": false,
+      "matches": 10,
+      "invalid": 0,
+      "wins": 10,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7224598312333834,
+        "high": 1
+      }
+    },
+    {
+      "players": [
+        "jev",
+        "scripted"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Scripted bot"
+      ],
+      "headToHead": false,
+      "matches": 10,
+      "invalid": 0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 8,
+      "winRate": {
+        "p": 0.2,
+        "low": 0.056680947980693314,
+        "high": 0.5098431532792765
+      }
+    },
+    {
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "headToHead": false,
+      "matches": 10,
+      "invalid": 0,
+      "wins": 10,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7224598312333834,
+        "high": 1
+      }
+    },
+    {
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Scripted bot"
+      ],
+      "headToHead": false,
+      "matches": 14,
+      "invalid": 3,
+      "wins": 7,
+      "draws": 0,
+      "losses": 7,
+      "winRate": {
+        "p": 0.5,
+        "low": 0.2679886791947528,
+        "high": 0.7320113208052472
+      }
+    },
+    {
+      "players": [
+        "random",
+        "scripted"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Scripted bot"
+      ],
+      "headToHead": false,
+      "matches": 3,
+      "invalid": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 3,
+      "winRate": {
+        "p": 0,
+        "low": 0,
+        "high": 0.5615060804490177
+      }
+    }
+  ],
+  "featured": {
+    "id": "20261015-235712-fighter-jev-vs-openai-1",
+    "players": [
+      "jev",
+      "openai"
+    ],
+    "winner": 0,
+    "scores": [
+      2,
+      1
+    ],
+    "margin": 1,
+    "totalTicks": 7716
+  },
+  "runCheck": {
+    "maxMissRate": 0.02,
+    "passed": true,
+    "failing": []
+  }
+}

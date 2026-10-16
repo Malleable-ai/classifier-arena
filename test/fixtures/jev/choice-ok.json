@@ -1,0 +1,27 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "next_move": {
+      "type": "choice",
+      "choice": "fireball",
+      "confidence": 0.66,
+      "probabilities": {
+        "block_high": 0.07,
+        "walk_forward": 0,
+        "block_low": 0.06,
+        "heavy_punch": 0.04,
+        "throw": 0,
+        "fireball": 0.6900000000000001,
+        "sweep": 0.07,
+        "walk_back": 0,
+        "jab": 0,
+        "jump_in": 0.06,
+        "uppercut": 0
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 1166,
+    "output_tokens": 107
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "detail": [
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "questions"
+      ],
+      "msg": "Field required",
+      "input": {
+        "model": "jev-latest",
+        "state": {
+          "you": {
+            "health": 72,
+            "x": 410,
+            "airborne": false,
+            "action": "block_high",
+            "phase": "active",
+            "busy_ticks": 0,
+            "fireball_ready": true,
+            "last_moves": [
+              "jab",
+              "walk_forward",
+              "block_high"
+            ]
+          },
+          "opponent": {
+            "health": 65,
+            "x": 590,
+            "airborne": false,
+            "action": "walk_forward",
+            "phase": "active",
+            "busy_ticks": 0,
+            "fireball_ready": false,
+            "last_moves": [
+              "fireball",
+              "walk_back",
+              "walk_forward"
+            ]
+          },
+          "distance": 180,
+          "range": "mid",
+          "opponent_fireball": {
+            "distance": 240,
+            "ticks_to_hit": 40
+          },
+          "your_fireball_on_screen": false,
+          "round": 2,
+          "round_clock_s": 41,
+          "rounds_won": {
+            "you": 1,
+            "opponent": 0
+          }
+        }
+      }
+    }
+  ]
+}

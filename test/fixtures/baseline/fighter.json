@@ -1,0 +1,267 @@
+{
+  "generator": {
+    "salt": 1651731566,
+    "sideOffset": 3,
+    "horizonTicks": 18451
+  },
+  "matches": [
+    { "seed": 1, "interval": [5, 9], "decisionCount": 5287, "decisionsHash": "7a983f5c3f5a0880", "finalHash": "8296594bc614f3cc", "totalTicks": 2394, "winner": 0, "rounds": ["ko", "ko"] },
+    { "seed": 2, "interval": [5, 9], "decisionCount": 5281, "decisionsHash": "5b377ad486577782", "finalHash": "c93778e2e4befa5e", "totalTicks": 2615, "winner": 0, "rounds": ["ko", "ko"] },
+    { "seed": 3, "interval": [5, 9], "decisionCount": 5264, "decisionsHash": "a60212a4d28aa80d", "finalHash": "2feffc7447961423", "totalTicks": 2388, "winner": 0, "rounds": ["ko", "ko"] },
+    { "seed": 4, "interval": [5, 9], "decisionCount": 5250, "decisionsHash": "0fa30ed6bbbf7a59", "finalHash": "bb91b48c23d9962e", "totalTicks": 3695, "winner": 1, "rounds": ["ko", "ko", "ko"] },
+    { "seed": 5, "interval": [5, 9], "decisionCount": 5280, "decisionsHash": "950c69a4a2261845", "finalHash": "d765f76455b18d6b", "totalTicks": 3112, "winner": 0, "rounds": ["ko", "ko", "ko"] },
+    { "seed": 6, "interval": [5, 9], "decisionCount": 5245, "decisionsHash": "26e2bc40cf3f09e7", "finalHash": "5ea1c2395f398886", "totalTicks": 3525, "winner": 1, "rounds": ["ko", "ko", "ko"] },
+    { "seed": 7, "interval": [5, 9], "decisionCount": 5266, "decisionsHash": "238bd12a66c59139", "finalHash": "9ef5ac3b50b55b36", "totalTicks": 3578, "winner": 0, "rounds": ["ko", "ko", "ko"] },
+    { "seed": 8, "interval": [5, 9], "decisionCount": 5288, "decisionsHash": "a9aa3a62b2c6a07e", "finalHash": "02a75fd162e296ec", "totalTicks": 2212, "winner": 0, "rounds": ["ko", "ko"] },
+    { "seed": 9, "interval": [5, 9], "decisionCount": 5267, "decisionsHash": "74998c285d7a8bdf", "finalHash": "d9f8a428c53f94bf", "totalTicks": 3134, "winner": 0, "rounds": ["ko", "ko", "ko"] },
+    { "seed": 10, "interval": [5, 9], "decisionCount": 5261, "decisionsHash": "c7e7e6a2a697962c", "finalHash": "b0a28fc8a98983d4", "totalTicks": 2641, "winner": 1, "rounds": ["ko", "ko"] },
+    { "seed": 11, "interval": [5, 9], "decisionCount": 5254, "decisionsHash": "0db40323bb82f779", "finalHash": "500ce752ba9987eb", "totalTicks": 3888, "winner": 1, "rounds": ["ko", "ko", "ko"] },
+    { "seed": 12, "interval": [5, 9], "decisionCount": 5262, "decisionsHash": "993333c93cb4bc39", "finalHash": "db4eb7e9966c5d57", "totalTicks": 2690, "winner": 0, "rounds": ["ko", "ko"] },
+    { "seed": 13, "interval": [5, 9], "decisionCount": 5241, "decisionsHash": "b5093ce83ad9a5ef", "finalHash": "a79239cde432f47a", "totalTicks": 4088, "winner": 0, "rounds": ["ko", "ko", "ko"] },
+    { "seed": 14, "interval": [5, 9], "decisionCount": 5258, "decisionsHash": "ee64040ed74aac0b", "finalHash": "b5a67da8aefa96c8", "totalTicks": 3326, "winner": 0, "rounds": ["ko", "ko", "ko"] },
+    { "seed": 15, "interval": [5, 9], "decisionCount": 5275, "decisionsHash": "4b48853a50753973", "finalHash": "07c0848ccc6c2500", "totalTicks": 2447, "winner": 1, "rounds": ["ko", "ko"] },
+    { "seed": 16, "interval": [5, 9], "decisionCount": 5269, "decisionsHash": "652d9f674a630c99", "finalHash": "4aa197f4f76f5ff8", "totalTicks": 3224, "winner": 0, "rounds": ["ko", "ko", "ko"] },
+    { "seed": 17, "interval": [5, 9], "decisionCount": 5266, "decisionsHash": "ab7b2d85b85b6398", "finalHash": "4917ed4ce0d20af8", "totalTicks": 2474, "winner": 0, "rounds": ["ko", "ko"] },
+    { "seed": 18, "interval": [5, 9], "decisionCount": 5255, "decisionsHash": "1ecbd4bda4894182", "finalHash": "4be4762a94a461f5", "totalTicks": 2313, "winner": 1, "rounds": ["ko", "ko"] },
+    { "seed": 19, "interval": [5, 9], "decisionCount": 5271, "decisionsHash": "0c7c85c9309fbe78", "finalHash": "9ec069f289decafd", "totalTicks": 3861, "winner": 1, "rounds": ["ko", "ko", "ko"] },
+    { "seed": 20, "interval": [5, 9], "decisionCount": 5277, "decisionsHash": "e52dee4f5159e266", "finalHash": "0a04ac3d40825e78", "totalTicks": 3771, "winner": 0, "rounds": ["ko", "ko", "ko"] },
+    { "seed": 21, "interval": [45, 90], "decisionCount": 544, "decisionsHash": "7f9403577a8d1976", "finalHash": "fe35b8c2b788da9d", "totalTicks": 10530, "winner": 0, "rounds": ["ko", "timeout", "timeout"] },
+    { "seed": 22, "interval": [45, 90], "decisionCount": 546, "decisionsHash": "9cac8f74e708b34d", "finalHash": "dd7734e837177807", "totalTicks": 6732, "winner": 0, "rounds": ["timeout", "ko"] },
+    { "seed": 23, "interval": [45, 90], "decisionCount": 542, "decisionsHash": "c609246c848ff585", "finalHash": "7af99eb0ce8abd22", "totalTicks": 6749, "winner": 1, "rounds": ["ko", "ko"] },
+    { "seed": 24, "interval": [45, 90], "decisionCount": 551, "decisionsHash": "f789b2fe2c87f57b", "finalHash": "709868de3e6e5ce4", "totalTicks": 6502, "winner": 0, "rounds": ["ko", "timeout"] }
+  ],
+  "requestBodies": {
+    "jev": {
+      "canonical": {
+        "model": "jev-latest",
+        "state": {
+          "you": {
+            "health": 72,
+            "x": 410,
+            "airborne": false,
+            "action": "block_high",
+            "phase": "active",
+            "busy_ticks": 0,
+            "fireball_ready": true,
+            "last_moves": ["jab", "walk_forward", "block_high"]
+          },
+          "opponent": {
+            "health": 65,
+            "x": 590,
+            "airborne": false,
+            "action": "walk_forward",
+            "phase": "active",
+            "busy_ticks": 0,
+            "fireball_ready": false,
+            "last_moves": ["fireball", "walk_back", "walk_forward"]
+          },
+          "distance": 180,
+          "range": "mid",
+          "opponent_fireball": {
+            "distance": 240,
+            "ticks_to_hit": 40
+          },
+          "your_fireball_on_screen": false,
+          "round": 2,
+          "round_clock_s": 41,
+          "rounds_won": {
+            "you": 1,
+            "opponent": 0
+          }
+        },
+        "questions": {
+          "next_move": {
+            "type": "choice",
+            "instructions": "You control a fighter in a one-on-one 2D fighting game. The state is from your point of view (\"you\" and \"opponent\"). Pick the move that gives you the best outcome right now. Rules: health starts at 100 and the round goes to whoever has more health when the clock runs out. Ranges: close is under 120 units, mid is 120-350, far is over 350. The right block stops strikes; a throw beats a block; an uppercut beats a jump-in; a sweep beats block_high; a jump-in beats block_low; jumping over a fireball beats it. Every whiffed move leaves a gap the opponent can punish. busy_ticks above 0 means that fighter cannot act yet. opponent_fireball is null when there is none; ticks_to_hit says how soon it arrives.",
+            "criteria": {
+              "walk_forward": "Walk toward the opponent to close distance. Beats nothing directly; loses to any strike or fireball that reaches you.",
+              "walk_back": "Walk away to make space; does not block. Beats short-range moves by staying out of reach; loses to fireball and jump_in.",
+              "block_high": "Hold a high block: stops jab, heavy_punch, jump_in and fireball. Loses to sweep and throw.",
+              "block_low": "Hold a low block: stops jab, heavy_punch, sweep and fireball. Loses to jump_in and throw.",
+              "jab": "Fast short-range punch, 4 damage, little recovery. Beats a slower move at close range; loses to blocks and longer-range moves.",
+              "heavy_punch": "Slower punch with longer reach, 9 damage, pushes back on hit. Beats walk_forward at mid range; loses to blocks and faster jabs.",
+              "sweep": "Low kick that knocks down, 7 damage. Beats block_high and standing opponents; loses to block_low and jump_in.",
+              "fireball": "Projectile, 6 damage, 1 chip on block, needs fireball_ready. Beats walking and far-range waiting; loses to jump_in over it and blocks; cancels the opponent fireball.",
+              "uppercut": "Anti-air, 10 damage, briefly invincible, long recovery. Beats jump_in; loses badly if it misses.",
+              "throw": "Very short-range grab, 10 damage, cannot be blocked. Beats block_high and block_low at close range; loses to airborne opponents and active strikes.",
+              "jump_in": "Forward jump with an overhead kick, 8 damage; jumps over fireballs. Beats block_low and fireball; loses to uppercut and block_high."
+            }
+          }
+        }
+      },
+      "rotated": {
+        "model": "jev-latest",
+        "state": {
+          "you": {
+            "health": 72,
+            "x": 410,
+            "airborne": false,
+            "action": "block_high",
+            "phase": "active",
+            "busy_ticks": 0,
+            "fireball_ready": true,
+            "last_moves": ["jab", "walk_forward", "block_high"]
+          },
+          "opponent": {
+            "health": 65,
+            "x": 590,
+            "airborne": false,
+            "action": "walk_forward",
+            "phase": "active",
+            "busy_ticks": 0,
+            "fireball_ready": false,
+            "last_moves": ["fireball", "walk_back", "walk_forward"]
+          },
+          "distance": 180,
+          "range": "mid",
+          "opponent_fireball": {
+            "distance": 240,
+            "ticks_to_hit": 40
+          },
+          "your_fireball_on_screen": false,
+          "round": 2,
+          "round_clock_s": 41,
+          "rounds_won": {
+            "you": 1,
+            "opponent": 0
+          }
+        },
+        "questions": {
+          "next_move": {
+            "type": "choice",
+            "instructions": "You control a fighter in a one-on-one 2D fighting game. The state is from your point of view (\"you\" and \"opponent\"). Pick the move that gives you the best outcome right now. Rules: health starts at 100 and the round goes to whoever has more health when the clock runs out. Ranges: close is under 120 units, mid is 120-350, far is over 350. The right block stops strikes; a throw beats a block; an uppercut beats a jump-in; a sweep beats block_high; a jump-in beats block_low; jumping over a fireball beats it. Every whiffed move leaves a gap the opponent can punish. busy_ticks above 0 means that fighter cannot act yet. opponent_fireball is null when there is none; ticks_to_hit says how soon it arrives.",
+            "criteria": {
+              "walk_back": "Walk away to make space; does not block. Beats short-range moves by staying out of reach; loses to fireball and jump_in.",
+              "sweep": "Low kick that knocks down, 7 damage. Beats block_high and standing opponents; loses to block_low and jump_in.",
+              "throw": "Very short-range grab, 10 damage, cannot be blocked. Beats block_high and block_low at close range; loses to airborne opponents and active strikes.",
+              "heavy_punch": "Slower punch with longer reach, 9 damage, pushes back on hit. Beats walk_forward at mid range; loses to blocks and faster jabs.",
+              "block_high": "Hold a high block: stops jab, heavy_punch, jump_in and fireball. Loses to sweep and throw.",
+              "uppercut": "Anti-air, 10 damage, briefly invincible, long recovery. Beats jump_in; loses badly if it misses.",
+              "fireball": "Projectile, 6 damage, 1 chip on block, needs fireball_ready. Beats walking and far-range waiting; loses to jump_in over it and blocks; cancels the opponent fireball.",
+              "jab": "Fast short-range punch, 4 damage, little recovery. Beats a slower move at close range; loses to blocks and longer-range moves.",
+              "block_low": "Hold a low block: stops jab, heavy_punch, sweep and fireball. Loses to jump_in and throw.",
+              "walk_forward": "Walk toward the opponent to close distance. Beats nothing directly; loses to any strike or fireball that reaches you.",
+              "jump_in": "Forward jump with an overhead kick, 8 damage; jumps over fireballs. Beats block_low and fireball; loses to uppercut and block_high."
+            }
+          }
+        }
+      }
+    },
+    "openai": {
+      "canonical": {
+        "model": "gpt-6-luna",
+        "input": "{\"you\":{\"health\":72,\"x\":410,\"airborne\":false,\"action\":\"block_high\",\"phase\":\"active\",\"busy_ticks\":0,\"fireball_ready\":true,\"last_moves\":[\"jab\",\"walk_forward\",\"block_high\"]},\"opponent\":{\"health\":65,\"x\":590,\"airborne\":false,\"action\":\"walk_forward\",\"phase\":\"active\",\"busy_ticks\":0,\"fireball_ready\":false,\"last_moves\":[\"fireball\",\"walk_back\",\"walk_forward\"]},\"distance\":180,\"range\":\"mid\",\"opponent_fireball\":{\"distance\":240,\"ticks_to_hit\":40},\"your_fireball_on_screen\":false,\"round\":2,\"round_clock_s\":41,\"rounds_won\":{\"you\":1,\"opponent\":0}}",
+        "questions": [
+          {
+            "type": "choice",
+            "name": "next_move",
+            "instructions": "You control a fighter in a one-on-one 2D fighting game. The state is from your point of view (\"you\" and \"opponent\"). Pick the move that gives you the best outcome right now. Rules: health starts at 100 and the round goes to whoever has more health when the clock runs out. Ranges: close is under 120 units, mid is 120-350, far is over 350. The right block stops strikes; a throw beats a block; an uppercut beats a jump-in; a sweep beats block_high; a jump-in beats block_low; jumping over a fireball beats it. Every whiffed move leaves a gap the opponent can punish. busy_ticks above 0 means that fighter cannot act yet. opponent_fireball is null when there is none; ticks_to_hit says how soon it arrives.",
+            "choices": [
+              {
+                "value": "walk_forward",
+                "description": "Walk toward the opponent to close distance. Beats nothing directly; loses to any strike or fireball that reaches you."
+              },
+              {
+                "value": "walk_back",
+                "description": "Walk away to make space; does not block. Beats short-range moves by staying out of reach; loses to fireball and jump_in."
+              },
+              {
+                "value": "block_high",
+                "description": "Hold a high block: stops jab, heavy_punch, jump_in and fireball. Loses to sweep and throw."
+              },
+              {
+                "value": "block_low",
+                "description": "Hold a low block: stops jab, heavy_punch, sweep and fireball. Loses to jump_in and throw."
+              },
+              {
+                "value": "jab",
+                "description": "Fast short-range punch, 4 damage, little recovery. Beats a slower move at close range; loses to blocks and longer-range moves."
+              },
+              {
+                "value": "heavy_punch",
+                "description": "Slower punch with longer reach, 9 damage, pushes back on hit. Beats walk_forward at mid range; loses to blocks and faster jabs."
+              },
+              {
+                "value": "sweep",
+                "description": "Low kick that knocks down, 7 damage. Beats block_high and standing opponents; loses to block_low and jump_in."
+              },
+              {
+                "value": "fireball",
+                "description": "Projectile, 6 damage, 1 chip on block, needs fireball_ready. Beats walking and far-range waiting; loses to jump_in over it and blocks; cancels the opponent fireball."
+              },
+              {
+                "value": "uppercut",
+                "description": "Anti-air, 10 damage, briefly invincible, long recovery. Beats jump_in; loses badly if it misses."
+              },
+              {
+                "value": "throw",
+                "description": "Very short-range grab, 10 damage, cannot be blocked. Beats block_high and block_low at close range; loses to airborne opponents and active strikes."
+              },
+              {
+                "value": "jump_in",
+                "description": "Forward jump with an overhead kick, 8 damage; jumps over fireballs. Beats block_low and fireball; loses to uppercut and block_high."
+              }
+            ]
+          }
+        ]
+      },
+      "rotated": {
+        "model": "gpt-6-luna",
+        "input": "{\"you\":{\"health\":72,\"x\":410,\"airborne\":false,\"action\":\"block_high\",\"phase\":\"active\",\"busy_ticks\":0,\"fireball_ready\":true,\"last_moves\":[\"jab\",\"walk_forward\",\"block_high\"]},\"opponent\":{\"health\":65,\"x\":590,\"airborne\":false,\"action\":\"walk_forward\",\"phase\":\"active\",\"busy_ticks\":0,\"fireball_ready\":false,\"last_moves\":[\"fireball\",\"walk_back\",\"walk_forward\"]},\"distance\":180,\"range\":\"mid\",\"opponent_fireball\":{\"distance\":240,\"ticks_to_hit\":40},\"your_fireball_on_screen\":false,\"round\":2,\"round_clock_s\":41,\"rounds_won\":{\"you\":1,\"opponent\":0}}",
+        "questions": [
+          {
+            "type": "choice",
+            "name": "next_move",
+            "instructions": "You control a fighter in a one-on-one 2D fighting game. The state is from your point of view (\"you\" and \"opponent\"). Pick the move that gives you the best outcome right now. Rules: health starts at 100 and the round goes to whoever has more health when the clock runs out. Ranges: close is under 120 units, mid is 120-350, far is over 350. The right block stops strikes; a throw beats a block; an uppercut beats a jump-in; a sweep beats block_high; a jump-in beats block_low; jumping over a fireball beats it. Every whiffed move leaves a gap the opponent can punish. busy_ticks above 0 means that fighter cannot act yet. opponent_fireball is null when there is none; ticks_to_hit says how soon it arrives.",
+            "choices": [
+              {
+                "value": "walk_back",
+                "description": "Walk away to make space; does not block. Beats short-range moves by staying out of reach; loses to fireball and jump_in."
+              },
+              {
+                "value": "sweep",
+                "description": "Low kick that knocks down, 7 damage. Beats block_high and standing opponents; loses to block_low and jump_in."
+              },
+              {
+                "value": "throw",
+                "description": "Very short-range grab, 10 damage, cannot be blocked. Beats block_high and block_low at close range; loses to airborne opponents and active strikes."
+              },
+              {
+                "value": "heavy_punch",
+                "description": "Slower punch with longer reach, 9 damage, pushes back on hit. Beats walk_forward at mid range; loses to blocks and faster jabs."
+              },
+              {
+                "value": "block_high",
+                "description": "Hold a high block: stops jab, heavy_punch, jump_in and fireball. Loses to sweep and throw."
+              },
+              {
+                "value": "uppercut",
+                "description": "Anti-air, 10 damage, briefly invincible, long recovery. Beats jump_in; loses badly if it misses."
+              },
+              {
+                "value": "fireball",
+                "description": "Projectile, 6 damage, 1 chip on block, needs fireball_ready. Beats walking and far-range waiting; loses to jump_in over it and blocks; cancels the opponent fireball."
+              },
+              {
+                "value": "jab",
+                "description": "Fast short-range punch, 4 damage, little recovery. Beats a slower move at close range; loses to blocks and longer-range moves."
+              },
+              {
+                "value": "block_low",
+                "description": "Hold a low block: stops jab, heavy_punch, sweep and fireball. Loses to jump_in and throw."
+              },
+              {
+                "value": "walk_forward",
+                "description": "Walk toward the opponent to close distance. Beats nothing directly; loses to any strike or fireball that reaches you."
+              },
+              {
+                "value": "jump_in",
+                "description": "Forward jump with an overhead kick, 8 damage; jumps over fireballs. Beats block_low and fireball; loses to uppercut and block_high."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

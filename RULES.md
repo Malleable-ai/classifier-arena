@@ -1,0 +1,8 @@
+- Put skills in `skills/<name>/SKILL.md`, never in `.claude/skills`, `.agents/skills` or `.codex/skills` (all three are symlinks to `skills/`).
+- Agent instructions go in a `RULES.md`; `CLAUDE.md` and `AGENTS.md` beside it are symlinks to it (`ln -s RULES.md CLAUDE.md`). Follow this in any folder that needs its own rules.
+- Branch off `main` for all work, and open every PR against `main` (see `skills/pr-creation`).
+- New work starts from a brief in `docs/briefs/` (`skills/brief-creator`), then a plan in `docs/plans/` (`skills/brief-to-plan`). Before writing code, read the current brief in `docs/briefs/` (if there is one), the architecture docs in `docs/architecture/`, `docs/research/decision-apis.md` and `docs/research/game-data.md`.
+- Install packages with `pnpm add` (or `pnpm add -D`), never npm or yarn, so `pnpm-lock.yaml` stays the only lockfile.
+- This repo will be public. Never commit API keys, `.env` files, personal data, ROMs, or another studio's characters, names, sprites, stages or sounds (no Capcom anything). Fighters use original or CC0 art, with every source listed in `docs/assets.md`. Name the models in plain text and don't use TypeSafe or OpenAI logos.
+- Fairness is the point of the repo. Both models always get the same state, prompt, options, option order and request cadence. Never tune the prompt for one model. If a change touches any of those, say so in the PR and rerun the affected results.
+- Live matches spend real API money (about $0.08 per head-to-head match). Print the cost estimate before any batch run, and ask before running anything estimated over $5.

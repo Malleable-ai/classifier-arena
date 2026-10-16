@@ -1,0 +1,46 @@
+# Equivalent command approval prefixes from .claude/settings.json.
+prefix_rule(
+    pattern = ["gh", "pr", "merge"],
+    decision = "prompt",
+    justification = "Ask before merging a pull request.",
+)
+prefix_rule(
+    pattern = ["gh", "api"],
+    decision = "prompt",
+    justification = "Ask before calling the GitHub API.",
+)
+prefix_rule(
+    pattern = ["gh", "repo", "create"],
+    decision = "prompt",
+    justification = "Ask before creating a GitHub repository.",
+)
+prefix_rule(
+    pattern = ["gh", "repo", "edit"],
+    decision = "prompt",
+    justification = "Ask before changing repository settings, including making it public.",
+)
+prefix_rule(
+    pattern = ["vercel", "--prod"],
+    decision = "prompt",
+    justification = "Ask before deploying to production on Vercel.",
+)
+prefix_rule(
+    pattern = ["vercel", "deploy", "--prod"],
+    decision = "prompt",
+    justification = "Ask before deploying to production on Vercel.",
+)
+prefix_rule(
+    pattern = ["vercel", "promote"],
+    decision = "prompt",
+    justification = "Ask before promoting a Vercel deployment.",
+)
+prefix_rule(
+    pattern = ["vercel", "env"],
+    decision = "prompt",
+    justification = "Ask before reading or changing Vercel environment variables.",
+)
+prefix_rule(
+    pattern = ["pnpm", "tournament"],
+    decision = "prompt",
+    justification = "Ask before a tournament run, which spends API money.",
+)

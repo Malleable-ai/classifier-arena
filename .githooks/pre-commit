@@ -1,0 +1,9 @@
+#!/bin/sh
+# Prettier on every staged file it supports; ESLint on staged ts/js files.
+set -e
+files=$(git diff --cached --name-only --diff-filter=ACMR)
+[ -z "$files" ] && exit 0
+echo "$files" | xargs pnpm exec prettier --check --ignore-unknown
+lintable=$(echo "$files" | grep -E '\.(ts|tsx|js|mjs|cjs)$' || true)
+[ -z "$lintable" ] && exit 0
+echo "$lintable" | xargs pnpm exec eslint --max-warnings 0

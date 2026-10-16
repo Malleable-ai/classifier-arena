@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 5,
+  "formula": "Overall = the mean of the per-game head-to-head win rates against the other model, every game weighted equally. A game’s win rate = (wins + ½ × draws) ÷ valid head-to-head matches (a draw counts as half a win), shown with its 95% Wilson interval. Only valid matches count. A game with no head-to-head yet shows — and is left out of the mean.",
+  "runIds": [
+    "m-156ca376dca4",
+    "m-8b4e585673bf",
+    "m-e68aa2cc38b5",
+    "m-f2d69b452ec5"
+  ],
+  "games": [
+    {
+      "id": "fighter",
+      "label": "Fighter",
+      "graded": false,
+      "matches": {
+        "valid": 103,
+        "invalid": 3,
+        "excluded": 0,
+        "headToHead": 56
+      },
+      "excluded": [],
+      "featured": "20261015-235712-fighter-jev-vs-openai-1",
+      "runCheck": {
+        "maxMissRate": 0.02,
+        "passed": true,
+        "failing": []
+      }
+    },
+    {
+      "id": "inbox",
+      "label": "Inbox Invaders",
+      "graded": true,
+      "matches": {
+        "valid": 95,
+        "invalid": 5,
+        "excluded": 1,
+        "headToHead": 52
+      },
+      "excluded": [
+        {
+          "id": "20261012-234726-inbox-openai-vs-jev-1",
+          "reason": "The machine slept mid-match (on battery, before stall detection existed): the game clock caught up on wake with few or no requests sent."
+        }
+      ],
+      "featured": "20261012-214212-inbox-jev-vs-openai-1",
+      "runCheck": {
+        "maxMissRate": 0.02,
+        "passed": true,
+        "failing": []
+      }
+    },
+    {
+      "id": "clues",
+      "label": "Clue Clash",
+      "graded": true,
+      "matches": {
+        "valid": 84,
+        "invalid": 0,
+        "excluded": 0,
+        "headToHead": 60
+      },
+      "excluded": [],
+      "featured": "20261012-212303-clues-openai-vs-jev-1",
+      "runCheck": {
+        "maxMissRate": 0.02,
+        "passed": true,
+        "failing": []
+      }
+    }
+  ],
+  "models": [
+    {
+      "player": "jev",
+      "label": "Jev (TypeSafe)",
+      "model": "jev-latest",
+      "hosting": "vendor-api",
+      "overall": 0.82991452991453,
+      "overallGames": [
+        "fighter",
+        "inbox",
+        "clues"
+      ],
+      "games": [
+        {
+          "game": "fighter",
+          "headToHead": {
+            "opponents": [
+              "openai"
+            ],
+            "matches": 56,
+            "wins": 42,
+            "draws": 0,
+            "losses": 14,
+            "winRate": {
+              "p": 0.75,
+              "low": 0.6230710799856808,
+              "high": 0.8448308477702616
+            }
+          },
+          "accuracy": null,
+          "latencyMs": {
+            "p50": 147.2,
+            "p95": 238.4,
+            "n": 21831
+          },
+          "costPer1000": 0.04871920638696989,
+          "decisions": 21857,
+          "missRate": 0.0011895502584984216,
+          "refusals": 0,
+          "refusalRate": 0
+        },
+        {
+          "game": "inbox",
+          "headToHead": {
+            "opponents": [
+              "openai"
+            ],
+            "matches": 52,
+            "wins": 48,
+            "draws": 0,
+            "losses": 4,
+            "winRate": {
+              "p": 0.9230769230769231,
+              "low": 0.8182618931787533,
+              "high": 0.9696811457026542
+            }
+          },
+          "accuracy": 0.9567340134164252,
+          "latencyMs": {
+            "p50": 164.2,
+            "p95": 239.6,
+            "n": 25465
+          },
+          "costPer1000": 0.02363693923692888,
+          "decisions": 25476,
+          "missRate": 0.0004317789291882556,
+          "refusals": 0,
+          "refusalRate": 0
+        },
+        {
+          "game": "clues",
+          "headToHead": {
+            "opponents": [
+              "openai"
+            ],
+            "matches": 60,
+            "wins": 49,
+            "draws": 0,
+            "losses": 11,
+            "winRate": {
+              "p": 0.8166666666666667,
+              "low": 0.7008000677353371,
+              "high": 0.8944231096286387
+            }
+          },
+          "accuracy": 0.8126303246946679,
+          "latencyMs": {
+            "p50": 158.9,
+            "p95": 214.6,
+            "n": 3357
+          },
+          "costPer1000": 0.028323725,
+          "decisions": 3360,
+          "missRate": 0.0008928571428571428,
+          "refusals": 0,
+          "refusalRate": 0
+        }
+      ]
+    },
+    {
+      "player": "openai",
+      "label": "OpenAI Decisions (gpt-6-luna)",
+      "model": "gpt-6-luna",
+      "hosting": "vendor-api",
+      "overall": 0.17008547008547006,
+      "overallGames": [
+        "fighter",
+        "inbox",
+        "clues"
+      ],
+      "games": [
+        {
+          "game": "fighter",
+          "headToHead": {
+            "opponents": [
+              "jev"
+            ],
+            "matches": 56,
+            "wins": 14,
+            "draws": 0,
+            "losses": 42,
+            "winRate": {
+              "p": 0.25,
+              "low": 0.15516915222973843,
+              "high": 0.37692892001431927
+            }
+          },
+          "accuracy": null,
+          "latencyMs": {
+            "p50": 188.2,
+            "p95": 384.7,
+            "n": 17553
+          },
+          "costPer1000": 0.07708643255295432,
+          "decisions": 17940,
+          "missRate": 0.005797101449275362,
+          "refusals": 283,
+          "refusalRate": 0.01577480490523969
+        },
+        {
+          "game": "inbox",
+          "headToHead": {
+            "opponents": [
+              "jev"
+            ],
+            "matches": 52,
+            "wins": 4,
+            "draws": 0,
+            "losses": 48,
+            "winRate": {
+              "p": 0.07692307692307693,
+              "low": 0.03031885429734589,
+              "high": 0.1817381068212467
+            }
+          },
+          "accuracy": 0.9496234972918226,
+          "latencyMs": {
+            "p50": 196.2,
+            "p95": 326.4,
+            "n": 24642
+          },
+          "costPer1000": 0.03439000000000003,
+          "decisions": 24730,
+          "missRate": 0.0035584310553983018,
+          "refusals": 0,
+          "refusalRate": 0
+        },
+        {
+          "game": "clues",
+          "headToHead": {
+            "opponents": [
+              "jev"
+            ],
+            "matches": 60,
+            "wins": 11,
+            "draws": 0,
+            "losses": 49,
+            "winRate": {
+              "p": 0.18333333333333332,
+              "low": 0.1055768903713613,
+              "high": 0.29919993226466285
+            }
+          },
+          "accuracy": 0.7838957963291888,
+          "latencyMs": {
+            "p50": 207.6,
+            "p95": 385.3,
+            "n": 3378
+          },
+          "costPer1000": 0.03464281103286385,
+          "decisions": 3408,
+          "missRate": 0.004988262910798122,
+          "refusals": 13,
+          "refusalRate": 0.0038145539906103286
+        }
+      ]
+    }
+  ],
+  "baselineRecords": [
+    {
+      "game": "fighter",
+      "player": "jev",
+      "label": "Jev (TypeSafe)",
+      "opponent": "random",
+      "opponentLabel": "Random (uniform)",
+      "matches": 10,
+      "wins": 10,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7224598312333834,
+        "high": 1
+      }
+    },
+    {
+      "game": "fighter",
+      "player": "jev",
+      "label": "Jev (TypeSafe)",
+      "opponent": "scripted",
+      "opponentLabel": "Scripted bot",
+      "matches": 10,
+      "wins": 2,
+      "draws": 0,
+      "losses": 8,
+      "winRate": {
+        "p": 0.2,
+        "low": 0.056680947980693314,
+        "high": 0.5098431532792765
+      }
+    },
+    {
+      "game": "fighter",
+      "player": "openai",
+      "label": "OpenAI Decisions (gpt-6-luna)",
+      "opponent": "random",
+      "opponentLabel": "Random (uniform)",
+      "matches": 10,
+      "wins": 10,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7224598312333834,
+        "high": 1
+      }
+    },
+    {
+      "game": "fighter",
+      "player": "openai",
+      "label": "OpenAI Decisions (gpt-6-luna)",
+      "opponent": "scripted",
+      "opponentLabel": "Scripted bot",
+      "matches": 14,
+      "wins": 7,
+      "draws": 0,
+      "losses": 7,
+      "winRate": {
+        "p": 0.5,
+        "low": 0.2679886791947528,
+        "high": 0.7320113208052472
+      }
+    },
+    {
+      "game": "inbox",
+      "player": "jev",
+      "label": "Jev (TypeSafe)",
+      "opponent": "random",
+      "opponentLabel": "Random (uniform)",
+      "matches": 10,
+      "wins": 10,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7224598312333834,
+        "high": 1
+      }
+    },
+    {
+      "game": "inbox",
+      "player": "jev",
+      "label": "Jev (TypeSafe)",
+      "opponent": "scripted",
+      "opponentLabel": "Always legit",
+      "matches": 10,
+      "wins": 10,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7224598312333834,
+        "high": 1
+      }
+    },
+    {
+      "game": "inbox",
+      "player": "openai",
+      "label": "OpenAI Decisions (gpt-6-luna)",
+      "opponent": "random",
+      "opponentLabel": "Random (uniform)",
+      "matches": 10,
+      "wins": 10,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7224598312333834,
+        "high": 1
+      }
+    },
+    {
+      "game": "inbox",
+      "player": "openai",
+      "label": "OpenAI Decisions (gpt-6-luna)",
+      "opponent": "scripted",
+      "opponentLabel": "Always legit",
+      "matches": 10,
+      "wins": 10,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7224598312333834,
+        "high": 1
+      }
+    },
+    {
+      "game": "clues",
+      "player": "jev",
+      "label": "Jev (TypeSafe)",
+      "opponent": "random",
+      "opponentLabel": "Random (uniform)",
+      "matches": 10,
+      "wins": 10,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7224598312333834,
+        "high": 1
+      }
+    },
+    {
+      "game": "clues",
+      "player": "openai",
+      "label": "OpenAI Decisions (gpt-6-luna)",
+      "opponent": "random",
+      "opponentLabel": "Random (uniform)",
+      "matches": 11,
+      "wins": 11,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7411599827511859,
+        "high": 1
+      }
+    }
+  ],
+  "baselines": [
+    {
+      "game": "fighter",
+      "player": "random",
+      "label": "Random (uniform)",
+      "matches": 23,
+      "decisions": 5392,
+      "accuracy": null,
+      "latencyMs": {
+        "p50": 199.7,
+        "p95": 200.5,
+        "n": 5392
+      }
+    },
+    {
+      "game": "fighter",
+      "player": "scripted",
+      "label": "Scripted bot",
+      "matches": 27,
+      "decisions": 5512,
+      "accuracy": null,
+      "latencyMs": {
+        "p50": 199.7,
+        "p95": 200.5,
+        "n": 5512
+      }
+    },
+    {
+      "game": "inbox",
+      "player": "random",
+      "label": "Random (uniform)",
+      "matches": 23,
+      "decisions": 2433,
+      "accuracy": 0.33086724208795726,
+      "latencyMs": {
+        "p50": 199.8,
+        "p95": 200.9,
+        "n": 2433
+      }
+    },
+    {
+      "game": "inbox",
+      "player": "scripted",
+      "label": "Always legit",
+      "matches": 22,
+      "decisions": 2162,
+      "accuracy": 0.48936170212765956,
+      "latencyMs": {
+        "p50": 199.8,
+        "p95": 201,
+        "n": 2162
+      }
+    },
+    {
+      "game": "clues",
+      "player": "random",
+      "label": "Random (uniform)",
+      "matches": 24,
+      "decisions": 1296,
+      "accuracy": 0.07175925925925926,
+      "latencyMs": {
+        "p50": 200.8,
+        "p95": 201.7,
+        "n": 1296
+      }
+    }
+  ]
+}

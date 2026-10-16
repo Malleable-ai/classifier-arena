@@ -1,0 +1,57 @@
+{
+  "model": "gpt-6-luna",
+  "input": "{\"you\":{\"health\":72,\"x\":410,\"airborne\":false,\"action\":\"block_high\",\"phase\":\"active\",\"busy_ticks\":0,\"fireball_ready\":true,\"last_moves\":[\"jab\",\"walk_forward\",\"block_high\"]},\"opponent\":{\"health\":65,\"x\":590,\"airborne\":false,\"action\":\"walk_forward\",\"phase\":\"active\",\"busy_ticks\":0,\"fireball_ready\":false,\"last_moves\":[\"fireball\",\"walk_back\",\"walk_forward\"]},\"distance\":180,\"range\":\"mid\",\"opponent_fireball\":{\"distance\":240,\"ticks_to_hit\":40},\"your_fireball_on_screen\":false,\"round\":2,\"round_clock_s\":41,\"rounds_won\":{\"you\":1,\"opponent\":0}}",
+  "questions": [
+    {
+      "type": "choice",
+      "name": "next_move",
+      "instructions": "You control a fighter in a one-on-one 2D fighting game. The state is from your point of view (\"you\" and \"opponent\"). Pick the move that gives you the best outcome right now. Rules: health starts at 100 and the round goes to whoever has more health when the clock runs out. Ranges: close is under 120 units, mid is 120-350, far is over 350. The right block stops strikes; a throw beats a block; an uppercut beats a jump-in; a sweep beats block_high; a jump-in beats block_low; jumping over a fireball beats it. Every whiffed move leaves a gap the opponent can punish. busy_ticks above 0 means that fighter cannot act yet. opponent_fireball is null when there is none; ticks_to_hit says how soon it arrives.",
+      "choices": [
+        {
+          "value": "walk_forward",
+          "description": "Walk toward the opponent to close distance. Beats nothing directly; loses to any strike or fireball that reaches you."
+        },
+        {
+          "value": "walk_back",
+          "description": "Walk away to make space; does not block. Beats short-range moves by staying out of reach; loses to fireball and jump_in."
+        },
+        {
+          "value": "block_high",
+          "description": "Hold a high block: stops jab, heavy_punch, jump_in and fireball. Loses to sweep and throw."
+        },
+        {
+          "value": "block_low",
+          "description": "Hold a low block: stops jab, heavy_punch, sweep and fireball. Loses to jump_in and throw."
+        },
+        {
+          "value": "jab",
+          "description": "Fast short-range punch, 4 damage, little recovery. Beats a slower move at close range; loses to blocks and longer-range moves."
+        },
+        {
+          "value": "heavy_punch",
+          "description": "Slower punch with longer reach, 9 damage, pushes back on hit. Beats walk_forward at mid range; loses to blocks and faster jabs."
+        },
+        {
+          "value": "sweep",
+          "description": "Low kick that knocks down, 7 damage. Beats block_high and standing opponents; loses to block_low and jump_in."
+        },
+        {
+          "value": "fireball",
+          "description": "Projectile, 6 damage, 1 chip on block, needs fireball_ready. Beats walking and far-range waiting; loses to jump_in over it and blocks; cancels the opponent fireball."
+        },
+        {
+          "value": "uppercut",
+          "description": "Anti-air, 10 damage, briefly invincible, long recovery. Beats jump_in; loses badly if it misses."
+        },
+        {
+          "value": "throw",
+          "description": "Very short-range grab, 10 damage, cannot be blocked. Beats block_high and block_low at close range; loses to airborne opponents and active strikes."
+        },
+        {
+          "value": "jump_in",
+          "description": "Forward jump with an overhead kick, 8 damage; jumps over fireballs. Beats block_low and fireball; loses to uppercut and block_high."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+#!/bin/sh
+# Typecheck + Vitest before anything leaves the machine.
+set -e
+pnpm typecheck
+pnpm test

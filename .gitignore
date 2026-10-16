@@ -1,0 +1,24 @@
+.scratchpad/
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+.vercel/
+.DS_Store
+playwright-report/
+test-results/
+# Full request/response snapshots per match (large; the committed match logs replay without them)
+results/states/
+# Rendered video
+renders/
+# Agent skills stay local (Malleable-internal); the symlinks point at skills/
+skills/
+.claude/skills
+.agents/skills
+.codex/skills
+# Agent worktrees
+.claude/worktrees/
+# Local provider registry entries (may name private endpoints)
+providers.local.json

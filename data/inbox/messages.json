@@ -1,0 +1,2554 @@
+{
+  "source": {
+    "title": "SMS Phishing Dataset for Machine Learning and Pattern Recognition",
+    "authors": ["Sandhya Mishra", "Devpriya Soni"],
+    "publisher": "Mendeley Data, V1, 2022",
+    "doi": "10.17632/f45bkkt8pr.1",
+    "url": "https://doi.org/10.17632/f45bkkt8pr.1",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "alsoCredits": [
+    {
+      "title": "SMS Spam Collection",
+      "authors": ["Tiago A. Almeida", "José M. Gómez Hidalgo"],
+      "publisher": "UCI Machine Learning Repository, 2011",
+      "doi": "10.24432/C5CC84",
+      "url": "https://doi.org/10.24432/C5CC84",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Included in the SMS Phishing Dataset; most legit and some spam texts come from it."
+    }
+  ],
+  "build": {
+    "seed": 20261007,
+    "maxChars": 240,
+    "counts": { "legit": 300, "spam": 150, "smishing": 150 },
+    "excludedCount": 198,
+    "sha256": "72553834d3a61c3712ffa45ce58b3cc6eb6a3bded2bf6905c9cb06b0412a3e8b",
+    "sha256Of": "canonical JSON (sorted keys, no whitespace) of `messages`",
+    "sourceFile": "Dataset_5971.csv",
+    "sourceSha256": "649844f1c62a6b27e145eaf17a65f7010c56c390e11a794ea8329993a05ba71e",
+    "ids": "sms-<n>: n is the 1-based data row of the source CSV (header excluded)",
+    "nameList": {
+      "source": "Hand-built list of common first names in src/cli/build-inbox-data.ts",
+      "license": "MIT (original work)",
+      "builtInNames": 380,
+      "commonWordsNeverMasked": 45,
+      "extraLocalLists": [
+        {
+          "file": "review-names.txt",
+          "names": 15,
+          "sha256": "af6c636063005c0dd30b971a2cb4854fd6ae3dd46b30282d222a43f44a2bc8f1"
+        }
+      ],
+      "extraNote": "Uncommitted lists in .scratchpad/data-raw/names/ of names found by hand in the sample"
+    },
+    "masked": {
+      "names": 23,
+      "phones": 211,
+      "emails": 4,
+      "urlsDefanged": 69,
+      "mentionsDefanged": 9,
+      "trimmed": 6
+    }
+  },
+  "messages": [
+    {
+      "id": "sms-778",
+      "label": "spam",
+      "text": "Sunshine Quiz Wkly Q! Win a top Sony DVD player if u know which country Liverpool played in mid week? Txt ansr to 82277. £1.50 SP:<name>"
+    },
+    { "id": "sms-1729", "label": "legit", "text": "Dont talk to him ever ok its my word." },
+    {
+      "id": "sms-1488",
+      "label": "legit",
+      "text": "Sday only joined.so training we started today:)"
+    },
+    {
+      "id": "sms-3636",
+      "label": "spam",
+      "text": "18 days to Euro2004 kickoff! U will be kept informed of all the latest news and results daily. Unsubscribe send GET EURO STOP to 83222."
+    },
+    {
+      "id": "sms-5896",
+      "label": "smishing",
+      "text": "Your SAM registration has been received! Click here to complete the process hxxp:/rghst[.]us/xRI2284 Reply STOP 2 opt out of future texts"
+    },
+    {
+      "id": "sms-2053",
+      "label": "legit",
+      "text": "I would but I'm still cozy. And exhausted from last night.nobody went to school or work. Everything is closed."
+    },
+    {
+      "id": "sms-5629",
+      "label": "legit",
+      "text": "Yup i thk they r e teacher said that will make my face look longer. <name> ask me not 2 cut too short."
+    },
+    {
+      "id": "sms-820",
+      "label": "smishing",
+      "text": "You have won ?2,000 cash or a ?5,000 prize! To claim, call<phone>"
+    },
+    {
+      "id": "sms-3199",
+      "label": "spam",
+      "text": "FREE for 1st week! No1 Nokia tone 4 ur mob every week just txt NOKIA to 8007 Get txting and tell ur mates www[.]getzed[.]co[.]uk"
+    },
+    {
+      "id": "sms-2577",
+      "label": "legit",
+      "text": "Hello boytoy ! Geeee ... I'm missing you today. I like to send you a tm and remind you I'm thinking of you ... And you are loved ... *loving kiss*"
+    },
+    {
+      "id": "sms-2737",
+      "label": "smishing",
+      "text": "XMAS REWARD IS WAITING FOR YOU! Our computer has randomly picked you from our loyal mobile customers to receive a £400 reward. Just call <phone>"
+    },
+    { "id": "sms-1182", "label": "legit", "text": "Goodmorning sleeping ga." },
+    {
+      "id": "sms-5694",
+      "label": "spam",
+      "text": "1st wk FREE! Gr8 tones str8 2 u each wk. Txt NOKIA ON to 8007 for Classic Nokia tones or HIT ON to 8007 for Polys. Nokia/150p Poly/200p 16+"
+    },
+    {
+      "id": "sms-146",
+      "label": "legit",
+      "text": "Really... I tot ur paper ended long ago... But wat u copied jus now got use? U happy lar... I still haf 2 study :-("
+    },
+    { "id": "sms-4007", "label": "legit", "text": "Yup i've finished c ü there..." },
+    {
+      "id": "sms-1436",
+      "label": "smishing",
+      "text": "It's urgent please Contact me for an UNCLAIMED BEQUEST PAYMENT as the Assigned BENEFICIARY VIA EMAIL <email> Regards <name>"
+    },
+    { "id": "sms-2482", "label": "legit", "text": "I love working from home :)" },
+    {
+      "id": "sms-5412",
+      "label": "legit",
+      "text": "The whole car appreciated the last two! Dad and are having a map reading semi argument but apart from that things are going ok. P."
+    },
+    {
+      "id": "sms-5486",
+      "label": "spam",
+      "text": "Marvel Mobile Play the official Ultimate Spider-man game (£4.50) on ur mobile right now. Text SPIDER to 83338 for the game & we ll send u a FREE 8Ball wallpaper"
+    },
+    {
+      "id": "sms-2617",
+      "label": "legit",
+      "text": "I'm expressing my gratitude brother. I promise i wont take your help for granted. You have been helping at all times."
+    },
+    { "id": "sms-1657", "label": "legit", "text": "Aaooooright are you at work?" },
+    {
+      "id": "sms-2907",
+      "label": "smishing",
+      "text": "You are a winner you have been specially selected to receive £1000 cash or a £2000 award. Speak to a live operator to claim call <phone>am-7pm. Cost 10p"
+    },
+    {
+      "id": "sms-1393",
+      "label": "spam",
+      "text": "YES! The only place in town to meet exciting adult singles is now in the UK. Txt CHAT to 86688 now! 150p/Msg."
+    },
+    {
+      "id": "sms-2778",
+      "label": "legit",
+      "text": "No dice, art class 6 thru 9 :( thanks though. Any idea what time I should come tomorrow?"
+    },
+    {
+      "id": "sms-4618",
+      "label": "spam",
+      "text": "WOW! The Boys R Back. TAKE THAT 2007 UK Tour. Win VIP Tickets & pre-book with VIP Club. Txt CLUB to 81303. Trackmarque Ltd info@ vipclub4u."
+    },
+    {
+      "id": "sms-2101",
+      "label": "legit",
+      "text": "Great. I was getting worried about you. Just know that a wonderful and caring person like you will have only the best in life. Know that u r wonderful and God's love is yours."
+    },
+    {
+      "id": "sms-497",
+      "label": "legit",
+      "text": "Also north carolina and texas atm, you would just go to the gre site and pay for the test results to be sent."
+    },
+    {
+      "id": "sms-5421",
+      "label": "smishing",
+      "text": "Congratulations ur awarded 500 of CD vouchers or 125gift guaranteed & Free entry 2 100 wkly draw txt MUSIC to 87066"
+    },
+    {
+      "id": "sms-4467",
+      "label": "smishing",
+      "text": "PRIVATE! Your 2003 Account Statement for shows 800 un-redeemed S.I.M. points. Call <phone> Identifier Code: 49557 Expires 26/11/04"
+    },
+    {
+      "id": "sms-3627",
+      "label": "spam",
+      "text": "Now GET RID OFF-Cockroach-Termite-Bedbug-Rats-Any Pest4Best DEALS inPestControlServices/Chemical/Herbal/OdorlessDIAL-N-ASK<phone>"
+    },
+    {
+      "id": "sms-1877",
+      "label": "smishing",
+      "text": "You have 1 new voicemail. Please call <phone>"
+    },
+    {
+      "id": "sms-1223",
+      "label": "legit",
+      "text": "Yun buying... But school got offer 2000 plus only..."
+    },
+    { "id": "sms-2219", "label": "legit", "text": "Oh k:)after that placement there ah?" },
+    {
+      "id": "sms-2021",
+      "label": "legit",
+      "text": "Very strange. and are watching the 2nd one now but i'm in bed. Sweet dreams, miss u"
+    },
+    { "id": "sms-519", "label": "legit", "text": "Dear where you. Call me" },
+    {
+      "id": "sms-400",
+      "label": "smishing",
+      "text": "URGENT This is our 2nd attempt to contact U. Your £900 prize from YESTERDAY is still awaiting collection. To claim CALL NOW <phone>"
+    },
+    {
+      "id": "sms-5547",
+      "label": "legit",
+      "text": "Lol ... Oh no babe, I wont be sliding into your place after midnight, but thanks for the invite"
+    },
+    {
+      "id": "sms-3191",
+      "label": "smishing",
+      "text": "Shop till u Drop, IS IT YOU, either 10K, 5K, £500 Cash or £100 Travel voucher, Call now, <phone>. NTT PO Box CR01327BT fixedline Cost 150ppm mobile vary"
+    },
+    {
+      "id": "sms-1258",
+      "label": "spam",
+      "text": "Plot for Sale in Haridwar At The Bank of Ganga (Ready Possession & Registry) Rs-5000/-P.m Installment Call Y.N.BUILDTECH <phone>, OR SMS YND 53030"
+    },
+    {
+      "id": "sms-4367",
+      "label": "legit",
+      "text": "We have sent JD for Customer Service cum Accounts Executive to ur mail id, For details contact us"
+    },
+    {
+      "id": "sms-1543",
+      "label": "spam",
+      "text": "25p 4 <name> Moon's Children in need song on ur mob. Tell ur m8s. Txt Tone charity to 8007 for Nokias or Poly charity for polys: zed <phone> profit 2 charity."
+    },
+    { "id": "sms-2817", "label": "legit", "text": "Its good, we'll find a way" },
+    {
+      "id": "sms-2830",
+      "label": "legit",
+      "text": "Yeah work is fine, started last week, all the same stuff as before, dull but easy and guys are fun!"
+    },
+    { "id": "sms-4167", "label": "legit", "text": "I've been trying to reach him without success" },
+    { "id": "sms-5787", "label": "legit", "text": "S.this will increase the chance of winning." },
+    {
+      "id": "sms-4071",
+      "label": "spam",
+      "text": "FreeMsg: Txt: CALL to No: 86888 & claim your reward of 3 hours talk time to use from your phone now! Subscribe6GBP/mnth inc 3hrs 16 stop?txtStop"
+    },
+    {
+      "id": "sms-1469",
+      "label": "spam",
+      "text": "TheMob>Hit the link to get a premium Pink Panther game, the new no. 1 from Sugababes, a crazy Zebra animation or a badass Hoody wallpaper-all 4 FREE!"
+    },
+    { "id": "sms-70", "label": "legit", "text": "You need to get up. Now." },
+    {
+      "id": "sms-1294",
+      "label": "smishing",
+      "text": "Urgent! Please call <phone> from landline. Your ABTA complimentary 4* Tenerife Holiday or £5000 cash await collection SAE T&Cs Box 326 CW25WX 150ppm"
+    },
+    {
+      "id": "sms-4622",
+      "label": "legit",
+      "text": "I'm going home soon and i don't want to talk to u anymore tonight, k? I've cried enough today."
+    },
+    {
+      "id": "sms-3220",
+      "label": "smishing",
+      "text": "PRIVATE! Your 2003 Account Statement for <phone> shows 800 un-redeemed S.I.M. points. Call <phone> Identifier Code 41782 Expires 18/11/04"
+    },
+    {
+      "id": "sms-540",
+      "label": "legit",
+      "text": "Hello, my love. What are you doing? Did you get to that interview today? Are you you happy? Are you being a good boy? Do you think of me?Are you missing me ?"
+    },
+    {
+      "id": "sms-2282",
+      "label": "legit",
+      "text": "Hi. Wk been ok - on hols now! Yes on for a bit of a run. Forgot that i have hairdressers appointment at four so need to get home n shower beforehand. Does that cause prob for u?\""
+    },
+    {
+      "id": "sms-4106",
+      "label": "spam",
+      "text": "U can WIN £100 of Music Gift Vouchers every week starting NOW Txt the word DRAW to 87066 TsCs www[.]Idew[.]com SkillGame, 1Winaweek, age16. 150ppermessSubscription"
+    },
+    {
+      "id": "sms-1137",
+      "label": "legit",
+      "text": "Hey babe, my friend had to cancel, still up for a visit ?"
+    },
+    {
+      "id": "sms-3664",
+      "label": "smishing",
+      "text": "Urgent! call <phone> from your landline. Your complimentary 4* Ibiza Holiday or 20,000 cash await collection SAE T&Cs PO BOX 434 SK3 8WP 150 ppm 18+"
+    },
+    {
+      "id": "sms-2631",
+      "label": "smishing",
+      "text": "Urgent! Please call <phone> from landline. Your ABTA complimentary 4* Tenerife Holiday or #5000 cash await collection SAE T&Cs Box 326 CW25WX 150 ppm"
+    },
+    {
+      "id": "sms-5255",
+      "label": "spam",
+      "text": "Had your mobile 10 mths? Update to latest Orange camera/video phones for FREE. Save £s with Free texts/weekend calls. Text YES for a callback orno to opt out"
+    },
+    { "id": "sms-3502", "label": "legit", "text": "I dont thnk its a wrong calling between us" },
+    {
+      "id": "sms-2567",
+      "label": "smishing",
+      "text": "YOU ARE CHOSEN TO RECEIVE A £350 AWARD! Pls call claim number <phone> to collect your award which you are selected to receive as a valued mobile customer."
+    },
+    {
+      "id": "sms-1628",
+      "label": "smishing",
+      "text": "URGENT! Your mobile number *************** WON a £2000 Bonus Caller prize on 10/06/03! This is the 2nd attempt to reach you! Call <phone> ASAP! Box 97N7QP, 150ppm"
+    },
+    {
+      "id": "sms-169",
+      "label": "legit",
+      "text": "Actually , just do whatever, do find an excuse to be in tampa at some point before january though"
+    },
+    {
+      "id": "sms-3311",
+      "label": "smishing",
+      "text": "U've been selected to stay in 1 of 250 top British hotels - FOR NOTHING! Holiday valued at £350! Dial <phone> to claim - National Rate Call. Bx526, SW73SS"
+    },
+    {
+      "id": "sms-4844",
+      "label": "smishing",
+      "text": "YOU HAVE WON! As a valued Vodafone customer our computer has picked YOU to win a £550 prize. To collect Just call <phone>"
+    },
+    { "id": "sms-1124", "label": "legit", "text": "say thanks2." },
+    {
+      "id": "sms-3751",
+      "label": "legit",
+      "text": "Good afternoon sunshine! How dawns that day ? Are we refreshed and happy to be alive? Do we breathe in the air and smile ? I think of you, my love ... As always"
+    },
+    {
+      "id": "sms-3995",
+      "label": "spam",
+      "text": "nterested to keep your Nokia secure from theft? You can with F-Secure Mobile Security. Download free trial: hxxp://store[.]ovi[.]com/publisher/F-Secure/?cid=f"
+    },
+    {
+      "id": "sms-3312",
+      "label": "spam",
+      "text": "Minimal documentation, Quick approval, Low rates. Home Loan @ 9.25%.Loan Against Properties@ 11.5%. Call on <phone> visit www[.]mymoneymantra[.]com[.]T$C apply."
+    },
+    { "id": "sms-2792", "label": "legit", "text": "Waaaat?? Lololo ok next time then!" },
+    {
+      "id": "sms-5320",
+      "label": "spam",
+      "text": "NOIDA Hottest Property On Express Way * Today Homes Ridge Residency at Sec 135 with2,3,4 BHK available in 2370p/sq. fts *For Query call@ <phone>"
+    },
+    {
+      "id": "sms-4401",
+      "label": "legit",
+      "text": "MY NEW YEARS EVE WAS OK. I WENT TO A PARTY WITH MY BOYFRIEND. WHO IS THIS SI THEN HEY"
+    },
+    {
+      "id": "sms-3764",
+      "label": "spam",
+      "text": "For ur chance to win £250 cash every wk TXT: PLAY to 83370. T's&C's www[.]music-trivia[.]net custcare <phone>, 1x150p/wk."
+    },
+    {
+      "id": "sms-5538",
+      "label": "legit",
+      "text": "I'm gonna be home soon and i don't want to talk to u anymore tonight.. I've cried enough today."
+    },
+    {
+      "id": "sms-709",
+      "label": "legit",
+      "text": "Cool. So how come you havent been wined and dined before?"
+    },
+    {
+      "id": "sms-3789",
+      "label": "legit",
+      "text": "Take something for pain. If it moves however to any side in the next 6hrs see a doctor."
+    },
+    {
+      "id": "sms-2971",
+      "label": "spam",
+      "text": "Block Breaker now comes in deluxe format with new features and great graphics from T-Mobile. Buy for just £5 by replying GET BBDELUXE and take the challenge"
+    },
+    {
+      "id": "sms-2655",
+      "label": "legit",
+      "text": "Macha dont feel upset.i can assume your mindset.believe me one evening with me and i have some wonderful plans for both of us.LET LIFE BEGIN AGAIN.call me anytime"
+    },
+    {
+      "id": "sms-1130",
+      "label": "spam",
+      "text": "Save money on wedding lingerie at www[.]bridal[.]petticoatdreams[.]co[.]uk Choose from a superb selection with national delivery. Brought to you by WeddingFriend"
+    },
+    {
+      "id": "sms-5087",
+      "label": "spam",
+      "text": "Eerie Nokia tones 4u, rply TONE TITLE to 8007 eg TONE DRACULA to 8007 Titles: GHOST, ADDAMSFA, MUNSTERS, EXORCIST, TWILIGHT www[.]getzed[.]co[.]uk POBox36504W45WQ 150p"
+    },
+    { "id": "sms-4358", "label": "legit", "text": "Goodnight da thangam I really miss u dear." },
+    {
+      "id": "sms-32",
+      "label": "spam",
+      "text": "New Offer! Save upto 40\\% electricity bill with Power Saver(GOVT. LAB TESTED), Rs. 1050/-(free home delivery) 3 Yr. Guarantee Call <phone>,<phone>"
+    },
+    {
+      "id": "sms-71",
+      "label": "smishing",
+      "text": "You have an important customer service announcement. Call FREEPHONE <phone> now!"
+    },
+    {
+      "id": "sms-1050",
+      "label": "legit",
+      "text": "She is our sister.. She belongs 2 our family.. She is d hope of tomorrow.. Pray 4 her,who was fated 4 d Shoranur train incident. Lets hold our hands together & fuelled by love & concern prior 2 her grief & pain. Pls join in dis chain & pass…"
+    },
+    { "id": "sms-5490", "label": "legit", "text": "Nothing. Can..." },
+    {
+      "id": "sms-2280",
+      "label": "legit",
+      "text": "Dear,Me at cherthala.in case u r coming cochin pls call bfore u start.i shall also reach accordingly.or tell me which day u r coming.tmorow i am engaged ans its holiday."
+    },
+    {
+      "id": "sms-2723",
+      "label": "legit",
+      "text": "Have a lovely night and when you wake up to see this message, i hope you smile knowing all is as should be. Have a great morning"
+    },
+    { "id": "sms-4660", "label": "legit", "text": "Me, i dont know again oh" },
+    {
+      "id": "sms-3183",
+      "label": "legit",
+      "text": "I have a sore throat. It's scratches when I talk"
+    },
+    {
+      "id": "sms-588",
+      "label": "smishing",
+      "text": "URGENT: UKGOV has issued a payment of 458 GBP to all residents as part of its promise to battle COVID 19. TAP here hxxps:/uk-covid-19[.]webredirect[.]org/to apply"
+    },
+    {
+      "id": "sms-1350",
+      "label": "smishing",
+      "text": "URGENT! Your Mobile number has been awarded with a INR.2,00,000 prize GUARANTEED. Call <phone> from land line. Claim 3030. Valid 12hrs only"
+    },
+    { "id": "sms-5301", "label": "legit", "text": "Kent vale lor... Ü wait 4 me there ar?" },
+    {
+      "id": "sms-273",
+      "label": "spam",
+      "text": "Get your garden ready for summer with a FREE selection of summer bulbs and seeds worth £33:50 only with The Scotsman this Saturday. To stop go2 notxt[.]co[.]uk"
+    },
+    { "id": "sms-4707", "label": "legit", "text": "IM GONNA MISS U SO MUCH" },
+    { "id": "sms-1825", "label": "legit", "text": "Ü no home work to do meh..." },
+    {
+      "id": "sms-2200",
+      "label": "legit",
+      "text": "Y she dun believe leh? I tot i told her it's true already. I thk she muz c us tog then she believe."
+    },
+    {
+      "id": "sms-1476",
+      "label": "legit",
+      "text": "Friendship poem: Dear O Dear U R Not Near But I Can Hear Dont Get Fear Live With Cheer No More Tear U R Always my Dear. Gud ni8"
+    },
+    {
+      "id": "sms-3504",
+      "label": "legit",
+      "text": "Buzz! Hey, my Love ! I think of you and hope your day goes well. Did you sleep in ? I miss you babe. I long for the moment we are together again*loving smile*"
+    },
+    {
+      "id": "sms-3903",
+      "label": "smishing",
+      "text": "YOU VE WON! Your 4* Costa Del Sol Holiday or £5000 await collection. Call <phone> Now toClaim. SAE, TC s, POBox334, Stockport, SK38xh, Cost£1.50/pm, Max10mins"
+    },
+    {
+      "id": "sms-577",
+      "label": "legit",
+      "text": "I will treasure every moment we spend together..."
+    },
+    {
+      "id": "sms-271",
+      "label": "smishing",
+      "text": "URGENT! Dear FL1PKART Customer, We are trying to contact you. Last weekends draw shows that you w0n a Rs.2,00,000 prize GUARANTEED. Call <phone>. Claim Code FLIP02. Valid 12hrs only."
+    },
+    {
+      "id": "sms-2911",
+      "label": "spam",
+      "text": "Double Mins & Double Txt & 1/2 price Linerental on Latest Orange Bluetooth mobiles. Call MobileUpd8 for the very latest offers. <phone> or call2optout/LF56"
+    },
+    {
+      "id": "sms-4591",
+      "label": "spam",
+      "text": "Nirala launches Aspire - Noida extn 2/3/4 BHK - No EMI for 30 mnths - Corporate rates available - Hurry for best locations Contact <phone>"
+    },
+    {
+      "id": "sms-1948",
+      "label": "spam",
+      "text": "SMS. ac Sptv: The New Jersey Devils and the Detroit Red Wings play Ice Hockey. Correct or Incorrect? End? Reply END SPTV"
+    },
+    { "id": "sms-1668", "label": "legit", "text": "O. Guess they both got screwd" },
+    {
+      "id": "sms-853",
+      "label": "smishing",
+      "text": "URGENT! We are trying to contact U Todays draw shows that you have won a £800 prize GUARANTEED. Call <phone> from land line. Claim J89. po box245c2150pm"
+    },
+    {
+      "id": "sms-411",
+      "label": "legit",
+      "text": "Nice talking to you! please dont forget my pix :) i want to see all of you..."
+    },
+    {
+      "id": "sms-2665",
+      "label": "legit",
+      "text": "Hi frnd, which is best way to avoid missunderstding wit our beloved one's?"
+    },
+    {
+      "id": "sms-2996",
+      "label": "legit",
+      "text": "I am getting threats from your sales executive <name> as i raised complaint against him. Its an official message."
+    },
+    {
+      "id": "sms-2702",
+      "label": "legit",
+      "text": "Take care and sleep well.you need to learn to change in life.you only need to get CONVINCED on that.i will wait but no more conversations between us.GET CONVINCED by that time.Your family is over for you in many senses.respect them but not…"
+    },
+    {
+      "id": "sms-805",
+      "label": "smishing",
+      "text": "Dear Customer,U've been selected to stay in F1VE STAR hotels - FOR T0DAY'S DRAW! Holiday valued at INR 5,00,000.Dial <phone> to claim"
+    },
+    {
+      "id": "sms-3131",
+      "label": "smishing",
+      "text": "URGENT! We are trying to contact you. Last weekends draw shows that you have won a £900 prize GUARANTEED. Call <phone>. Claim code S89. Valid 12hrs only"
+    },
+    {
+      "id": "sms-1327",
+      "label": "spam",
+      "text": "Last Chance! Claim ur £450 worth of discount vouchers today! Text SHOP to 85023 now! SavaMob, offers mobile! M263UZ. £3.00 Sub. 16"
+    },
+    {
+      "id": "sms-581",
+      "label": "smishing",
+      "text": "URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call <phone> from land line. Claim 3030. Valid 12hrs only 150ppm"
+    },
+    {
+      "id": "sms-3535",
+      "label": "spam",
+      "text": "Got what it takes 2 take part in the WRC Rally in Oz? U can with Lucozade Energy! Text RALLY LE to 61200 (25p), login to lucozade[.]co[.]uk/wrc"
+    },
+    {
+      "id": "sms-3592",
+      "label": "smishing",
+      "text": "Congrats 2 mobile 3G Videophones R yours. call <phone> now! videochat wid ur mates, play java games, Dload polypH music, noline rentl."
+    },
+    {
+      "id": "sms-478",
+      "label": "spam",
+      "text": "LookAtMe!: Thanks for your purchase of a video clip from LookAtMe!, you've been charged 35p. Think you can do better? Why not send a video in a MMSto 32323."
+    },
+    { "id": "sms-1480", "label": "legit", "text": "Ü comin to fetch us oredi..." },
+    {
+      "id": "sms-1324",
+      "label": "smishing",
+      "text": "(Help-Center Canada) You received a Transfer from The Government due to the CoronaVirus pandemic, Click:hxxp://23[.]254[.]215[.]52 to fill out your Application."
+    },
+    {
+      "id": "sms-5129",
+      "label": "legit",
+      "text": "You aren't coming home between class, right? I need to work out and shower!"
+    },
+    {
+      "id": "sms-717",
+      "label": "smishing",
+      "text": "YOU ARE CHOSEN TO RECEIVE A £450 AWARD! Pls call claim number <phone> to collect your award which you are selected to receive as a valued mobile customer."
+    },
+    {
+      "id": "sms-1527",
+      "label": "spam",
+      "text": "SIX chances to win CASH! From 100 to 20,000 pounds txt> CSH11 and send to 87575. Cost 150p/day, 6days, 16+ TsandCs apply Reply HL 4 info"
+    },
+    {
+      "id": "sms-3567",
+      "label": "legit",
+      "text": "I'm stuck in da middle of da row on da right hand side of da lt..."
+    },
+    { "id": "sms-1136", "label": "legit", "text": "But pls dont play in others life." },
+    {
+      "id": "sms-1568",
+      "label": "spam",
+      "text": "Tone Club: Your subs has now expired 2 re-sub reply MONOC 4 monos or POLYC 4 polys 1 weekly @ 150p per week Txt STOP 2 stop This msg free Stream <phone>"
+    },
+    {
+      "id": "sms-1867",
+      "label": "spam",
+      "text": "Freemsg: 1-month unlimited free calls! Activate SmartCall Txt: CALL to No: 68866. Subscriptn3gbp/wk unlimited calls Help: <phone> Stop?txt stop landlineonly"
+    },
+    {
+      "id": "sms-2580",
+      "label": "legit",
+      "text": "Sorry, I'll call later..I have some urgent work.."
+    },
+    {
+      "id": "sms-2915",
+      "label": "spam",
+      "text": "PPORTUNITY to Own flat on NOIDA Xprsway *2bhk-19.63 lac(Al Insv) *3bhk-25.46 lac(Al.Insv) *0km frm FNG/Metro statn *Valid for 6 dayz sms IN to 567670"
+    },
+    {
+      "id": "sms-4583",
+      "label": "legit",
+      "text": "Keep yourself safe for me because I need you and I miss you already and I envy everyone that see's you in real life"
+    },
+    {
+      "id": "sms-4086",
+      "label": "spam",
+      "text": "No1 Nokia tone 4 ur mob every week just txt NOKIA to 8007 Get txting and tell ur mates www[.]getzed[.]co[.]uk POBox 36504 W45WQ norm150p/tone 16+"
+    },
+    {
+      "id": "sms-383",
+      "label": "smishing",
+      "text": "Dear V0DAF0NE Customer,You are a 5,00,000 winner of Guaranteed Caller Prize, this is our Final attempt to contact you! To Claim Call <phone> Now!"
+    },
+    {
+      "id": "sms-3242",
+      "label": "spam",
+      "text": "Play CricEx LIVE during India vs. Netherlands match - WIN iPad, Blackberry & Team India Jerseys at the end of the match. Logon to hxxp://m[.]ibibo[.]com/c/10"
+    },
+    {
+      "id": "sms-466",
+      "label": "legit",
+      "text": "Oh ! A half hour is much longer in Syria than Canada, eh ? Wow you must get SO much more work done in a day than us with all that extra time ! *grins*"
+    },
+    {
+      "id": "sms-2541",
+      "label": "legit",
+      "text": "Probably money worries. Things are coming due and i have several outstanding invoices for work i did two and three months ago."
+    },
+    {
+      "id": "sms-2544",
+      "label": "smishing",
+      "text": "Claim a 200 shopping spree, just call <phone> now! Have you won! MobStoreQuiz10ppm"
+    },
+    {
+      "id": "sms-3943",
+      "label": "legit",
+      "text": "They just talking thats it de. They wont any other."
+    },
+    {
+      "id": "sms-2010",
+      "label": "smishing",
+      "text": "u r a winner U ave been specially selected 2 receive £1000 cash or a 4* holiday (flights inc) speak to a live operator 2 claim <phone>p/min (18 )"
+    },
+    {
+      "id": "sms-161",
+      "label": "spam",
+      "text": "87077: Kick off a new season with 2wks FREE goals & news to ur mobile! Txt ur club name to 87077 eg VILLA to 87077"
+    },
+    {
+      "id": "sms-1967",
+      "label": "smishing",
+      "text": "Todays Vodafone numbers ending 3156 are selected to receive a Rs.2,00,000 award. If you have a match please call <phone> quoting claim code 9823 standard rates apply"
+    },
+    {
+      "id": "sms-4429",
+      "label": "legit",
+      "text": "Was playng 9 doors game and gt racing on phone lol"
+    },
+    { "id": "sms-842", "label": "legit", "text": "Smith waste da.i wanna gayle." },
+    {
+      "id": "sms-839",
+      "label": "spam",
+      "text": "Well done ENGLAND! Get the official poly ringtone or colour flag on yer mobile! text TONE or FLAG to 84199 NOW! Opt-out txt ENG STOP. Box39822 W111WX £1.50"
+    },
+    {
+      "id": "sms-4498",
+      "label": "smishing",
+      "text": "You have won a guaranteed £200 award or even £1000 cashto claim UR award call free on <phone> (18+) 2 stop getstop on 88222 PHP. RG21 4JX"
+    },
+    {
+      "id": "sms-5043",
+      "label": "smishing",
+      "text": "You are a winner U have been specially selected 2 receive £1000 or a 4* holiday (flights inc) speak to a live operator 2 claim <phone>p/min (18+)"
+    },
+    { "id": "sms-5574", "label": "legit", "text": "True. Its easier with her here." },
+    {
+      "id": "sms-3105",
+      "label": "spam",
+      "text": "FREE NOKIA Or Motorola with upto 12mths 1/2price linerental, 500 FREE x-net mins&100txt/mth FREE B'tooth*. Call Mobileupd8 on <phone> or call 2optout/D3WV"
+    },
+    {
+      "id": "sms-3759",
+      "label": "smishing",
+      "text": "Camera - You are awarded a SiPix Digital Camera! call <phone> fromm landline. Delivery within 28 days."
+    },
+    {
+      "id": "sms-4778",
+      "label": "legit",
+      "text": "Aiyar u so poor thing... I give u my support k... Jia you! I'll think of u..."
+    },
+    { "id": "sms-4413", "label": "legit", "text": "Yup!! Not good" },
+    {
+      "id": "sms-3659",
+      "label": "legit",
+      "text": "Ok... But they said i've got wisdom teeth hidden inside n mayb need 2 remove."
+    },
+    {
+      "id": "sms-2874",
+      "label": "smishing",
+      "text": "Someone who came in contact with you tested positive or has shown symptoms for COVID-19 & recommends you self-isolate/get tested. More at COVID-19 anon[.]com/alert"
+    },
+    {
+      "id": "sms-5068",
+      "label": "spam",
+      "text": "YES! The only place in town to meet exciting adult singles is now in the UK. Txt CHAT to 86688 now!"
+    },
+    { "id": "sms-584", "label": "legit", "text": "Waiting for your call." },
+    {
+      "id": "sms-4333",
+      "label": "smishing",
+      "text": "Please call our customer service representative on <phone> between 10am-9pm as you have W0N a guaranteed cash prize of Rs.4,00,000. FL1PKART TEAM"
+    },
+    {
+      "id": "sms-3391",
+      "label": "legit",
+      "text": "fyi I'm at usf now, swing by the room whenever"
+    },
+    {
+      "id": "sms-925",
+      "label": "legit",
+      "text": "I tagged MY friends that you seemed to count as YOUR friends."
+    },
+    {
+      "id": "sms-3298",
+      "label": "legit",
+      "text": "Been up to ne thing interesting. Did you have a good birthday? When are u wrking nxt? I started uni today."
+    },
+    {
+      "id": "sms-2351",
+      "label": "smishing",
+      "text": "IMPORTANT INFORMATION 4 ORANGE USER <phone>. TODAY IS UR LUCKY DAY!2 FIND OUT WHY LOG ONTO hxxp://www[.]urawinner[.]com"
+    },
+    {
+      "id": "sms-962",
+      "label": "smishing",
+      "text": "Your Bank of America online account has been suspended, log in to restore hxxp://itdo/bankofamerica-session-user"
+    },
+    {
+      "id": "sms-1740",
+      "label": "legit",
+      "text": "I want to tell you how bad I feel that basically the only times I text you lately are when I need drugs"
+    },
+    {
+      "id": "sms-4214",
+      "label": "legit",
+      "text": "Hey... Why dont we just go watch x men and have lunch... Haha"
+    },
+    { "id": "sms-2993", "label": "legit", "text": "I'm leaving my house now..." },
+    {
+      "id": "sms-1153",
+      "label": "spam",
+      "text": "Double Mins & 1000 txts on Orange tariffs. Latest Motorola, SonyEricsson & Nokia with Bluetooth FREE! Call MobileUpd8 on <phone> or call2optout/HF8"
+    },
+    {
+      "id": "sms-1906",
+      "label": "spam",
+      "text": "We have new local dates in your area - Lots of new people registered in YOUR AREA. Reply DATE to start now! 18 only www[.]flirtparty[.]us REPLYS150"
+    },
+    {
+      "id": "sms-1468",
+      "label": "smishing",
+      "text": "You have an important customer service announcement from PREMIER. Call FREEPHONE <phone> now!"
+    },
+    {
+      "id": "sms-4684",
+      "label": "legit",
+      "text": "Why don't you go tell your friend you're not sure you want to live with him because he smokes too much then spend hours begging him to come smoke"
+    },
+    {
+      "id": "sms-4318",
+      "label": "spam",
+      "text": "Ur balance is now £600. Next question: Complete the landmark, Big, A. Bob, B. Barry or C. Ben ?. Text A, B or C to 83738. Good luck!"
+    },
+    {
+      "id": "sms-2110",
+      "label": "smishing",
+      "text": "Congratulations U can claim 2 VIP row A Tickets 2 C Blu in concert in November or Blu gift guaranteed Call <phone> to claim TS&Cs www[.]smsco[.]net cost£3.75max"
+    },
+    { "id": "sms-4711", "label": "legit", "text": "I dont have i shall buy one dear" },
+    { "id": "sms-3292", "label": "legit", "text": "Ok how you dear. Did you call chechi" },
+    { "id": "sms-618", "label": "legit", "text": "Anything lor. Juz both of us lor." },
+    {
+      "id": "sms-157",
+      "label": "spam",
+      "text": "Text82228>> Get more ringtones, logos and games from www[.]txt82228[.]com. Questions: <email>"
+    },
+    {
+      "id": "sms-2622",
+      "label": "smishing",
+      "text": "IMPORTANT INFORMATION 4 ORANGE USER <phone>. TODAY IS UR LUCKY DAY!2 FIND OUT WHY LOG ONTO hxxp://www[.]urawinner[.]com THERE'S A FANTASTIC PRIZEAWAITING YOU!"
+    },
+    { "id": "sms-3833", "label": "legit", "text": "K.i did't see you.:)k:)where are you now?" },
+    { "id": "sms-293", "label": "legit", "text": "Ok. C u then." },
+    {
+      "id": "sms-5925",
+      "label": "legit",
+      "text": "Yes i think so. I am in office but my lap is in room i think thats on for the last few days. I didnt shut that down"
+    },
+    {
+      "id": "sms-5391",
+      "label": "legit",
+      "text": "Well, I was about to give up cos they all said no they didn't do one nighters. I persevered and found one but it is very cheap so i apologise in advance. It is just somewhere to sleep isnt it?"
+    },
+    {
+      "id": "sms-4101",
+      "label": "spam",
+      "text": "Spook up your mob with a Halloween collection of a logo & pic message plus a free eerie tone, txt CARD SPOOK to 8007"
+    },
+    {
+      "id": "sms-3931",
+      "label": "spam",
+      "text": "Your weekly Cool-Mob tones are ready to download !This weeks new Tones include: 1) Crazy Frog-AXEL F>>> 2) Akon-Lonely>>> 3) Black Eyed-Dont P >>>More info in n"
+    },
+    {
+      "id": "sms-4648",
+      "label": "legit",
+      "text": "Can you plz tell me the ans. BSLVYL sent via fullonsms[.]com"
+    },
+    { "id": "sms-4302", "label": "legit", "text": "Now project pa. After that only i can come." },
+    { "id": "sms-1062", "label": "legit", "text": "You sure your neighbors didnt pick it up" },
+    {
+      "id": "sms-3252",
+      "label": "legit",
+      "text": "Yes:)from last week itself i'm taking live call."
+    },
+    {
+      "id": "sms-3151",
+      "label": "spam",
+      "text": "FREE for 1st week! No1 Nokia tone 4 ur mob every week just txt NOKIA to 8007 www[.]getzed[.]co[.]uk POBox 36504 W45WQ norm150p/tone 16+"
+    },
+    {
+      "id": "sms-445",
+      "label": "spam",
+      "text": "price revising soon for urbtech xaviers fully loaded tallest tower in noida few units left for more details call <phone>"
+    },
+    {
+      "id": "sms-3152",
+      "label": "legit",
+      "text": "No go. No openings for that room 'til after thanksgiving without an upcharge."
+    },
+    {
+      "id": "sms-3386",
+      "label": "spam",
+      "text": "* FREE* POLYPHONIC RINGTONE Text SUPER to 87131 to get your FREE POLY TONE of the week now! 16 SN PoBox202 NR31 7ZS subscription 450pw"
+    },
+    { "id": "sms-3728", "label": "legit", "text": "Goodmorning, today i am late for 1hr." },
+    {
+      "id": "sms-5841",
+      "label": "smishing",
+      "text": "Congrats! Nokia 3650 video camera phone is your Call <phone> Calls cost 150ppm Ave call 3mins vary from mobiles"
+    },
+    { "id": "sms-5781", "label": "legit", "text": "No way I'm going back there!" },
+    {
+      "id": "sms-680",
+      "label": "spam",
+      "text": "Now Get*SAUNA SLIM BELT(Rs650)&VIBRATION+SAUNA BELT(Rs999)NCR(Rs50 Extra)LoseFAT(5 inch)+FreeSLIM.TEA PH:<phone>/<phone>"
+    },
+    {
+      "id": "sms-5488",
+      "label": "legit",
+      "text": "tap & spile at seven. * Is that pub on gas st off broad st by canal. Ok?"
+    },
+    { "id": "sms-2380", "label": "legit", "text": "Think + da. You wil do." },
+    {
+      "id": "sms-5027",
+      "label": "spam",
+      "text": "SIX chances to win CASH! From 100 to 20,000 pounds txt> CSH11 and send to 87575."
+    },
+    {
+      "id": "sms-4009",
+      "label": "spam",
+      "text": "HMV BONUS SPECIAL 500 pounds of genuine HMV vouchers to be won. Just answer 4 easy questions. Play Now! Send HMV to 86688 More info:www[.]100percent-real[.]com"
+    },
+    { "id": "sms-806", "label": "legit", "text": "Oh god..taken the teeth?is it paining" },
+    {
+      "id": "sms-3168",
+      "label": "smishing",
+      "text": "Camera - You are awarded a SiPix Digital Camera! call <phone> fromm landline. Delivery within 8 days"
+    },
+    {
+      "id": "sms-1482",
+      "label": "legit",
+      "text": "Ever green quote ever told by <name> in cartoon \"A Person Who Irritates u Always Is the one Who Loves u Vry Much But Fails to Express It...!..!! :-) :-) gud nyt"
+    },
+    { "id": "sms-5346", "label": "legit", "text": "I know that my friend already told that." },
+    { "id": "sms-5299", "label": "legit", "text": "Okie..good news!!" },
+    {
+      "id": "sms-3041",
+      "label": "smishing",
+      "text": "+123 Congratulations - in this week's competition draw u have won the £1450 prize to claim just call <phone> b<phone>. T&Cs/stop SMS <phone>. Over 18 only 150ppm"
+    },
+    {
+      "id": "sms-810",
+      "label": "smishing",
+      "text": "WELL DONE! Your 4* Costa Del Sol Holiday or £5000 await collection. Call <phone> Now toClaim. SAE, TCs, POBox334, Stockport, SK38xh, Cost£1.50/pm, Max10mins"
+    },
+    {
+      "id": "sms-2432",
+      "label": "spam",
+      "text": "MAAC(leader in 3d animation, vfx, multimedia, gaming)announces free seminar NEXT IN BOLLYWOOD, on 28MAY by industry professionals.Call now <phone> for passes."
+    },
+    { "id": "sms-3778", "label": "legit", "text": "I love you both too :-)" },
+    {
+      "id": "sms-1475",
+      "label": "legit",
+      "text": "Friendship poem: Dear O Dear U R Not Near But I Can Hear Dont Get Fear Live With Cheer No More Tear U R Always my Dear. GOOD MORNING"
+    },
+    {
+      "id": "sms-599",
+      "label": "smishing",
+      "text": "money!!! you r a lucky winner ! 2 claim your prize text money 2 88600 over £1million to give away ! ppt150x3+normal text rate box403 w1t1jy"
+    },
+    {
+      "id": "sms-1930",
+      "label": "smishing",
+      "text": "Congratulations YOU'VE Won. You're a Winner in our August £1000 Prize Draw. Call <phone> NOW. Prize Code 2309."
+    },
+    { "id": "sms-3225", "label": "legit", "text": "Ya very nice. . .be ready on thursday" },
+    {
+      "id": "sms-1362",
+      "label": "smishing",
+      "text": "Please call our customer service representative on FREEPHONE <phone> between 9am-11pm as you have WON a guaranteed £2000 cash or £6000 prize!"
+    },
+    {
+      "id": "sms-3196",
+      "label": "smishing",
+      "text": "Please call our customer service representative on <phone> between 10am-9pm as you have WON a guaranteed £2000 cash or £6000 prize!"
+    },
+    { "id": "sms-3525", "label": "legit", "text": "Babe, I need your advice" },
+    {
+      "id": "sms-973",
+      "label": "spam",
+      "text": "Double mins and txts 4 6monthsAvailable on Sony, Nokia Motorola phones. Call MobileUpd8 on <phone> or call2optout/N9DX"
+    },
+    {
+      "id": "sms-3256",
+      "label": "legit",
+      "text": "Ummmmmaah Many many happy returns of d day my dear sweet heart.."
+    },
+    {
+      "id": "sms-2488",
+      "label": "legit",
+      "text": "Many many happy returns of d day my dear sweet heart.. HAPPY BIRTHDAY dear"
+    },
+    {
+      "id": "sms-5201",
+      "label": "smishing",
+      "text": "okmail: Dear <name> this is your final notice to collect your 4* Tenerife Holiday or #5000 CASH award! Call <phone> from landline. TCs SAE Box326 CW25WX 150ppm"
+    },
+    {
+      "id": "sms-4405",
+      "label": "spam",
+      "text": "500 New Mobiles from 2004, MUST GO! Txt: NOKIA to No: 89545 & collect yours today!From ONLY £1 www[.]4-tc[.]biz 2optout <phone>.50gbp/mtmsg18 TXTAUCTION"
+    },
+    {
+      "id": "sms-1650",
+      "label": "legit",
+      "text": "Yup... I havent been there before... You want to go for the yoga? I can call up to book"
+    },
+    {
+      "id": "sms-1713",
+      "label": "legit",
+      "text": "Save yourself the stress. If the person has a dorm account, just send your account details and the money will be sent to you."
+    },
+    {
+      "id": "sms-1191",
+      "label": "spam",
+      "text": "With airtel 3G watch over 90 TV channels across Entertainment, Sports, Music, News on your phone- hxxp://apalyaps15[.]com/tv/TV.jsp .To activate 3G, SMS 3G to 121"
+    },
+    {
+      "id": "sms-2164",
+      "label": "smishing",
+      "text": "Urgent! Please call <phone>. Your ABTA complimentary 4* Spanish Holiday or £10,000 cash await collection SAE T&Cs BOX 47 PO19 2EZ 150ppm 18+"
+    },
+    {
+      "id": "sms-983",
+      "label": "spam",
+      "text": "Navratra Special Launching 9th oct. CHD presnts Phase-3 of Avenue71, Shona Road, Gurgaon *@ Rs.4150/- Lease Rs.400/- as Inaugural discount Sms ICD to 54999"
+    },
+    {
+      "id": "sms-5286",
+      "label": "legit",
+      "text": "Don't forget though that I love you .... And I walk beside you. Watching over you and keeping your heart warm."
+    },
+    {
+      "id": "sms-2618",
+      "label": "smishing",
+      "text": "you'hv completed a transaction for AUD 788.93 on 06/02/17 03-27-31 pm. Please follow the link if it is not done by you hxxp://commbank[.]netban"
+    },
+    {
+      "id": "sms-5740",
+      "label": "spam",
+      "text": "Free-message: Jamster!Get the crazy frog sound now! For poly text MAD1, for real text MAD2 to 88888. 6 crazy sounds for just 3 GBP/week! 16+only! T&C's apply"
+    },
+    {
+      "id": "sms-816",
+      "label": "legit",
+      "text": "Rose for red,red for blood,blood for heart,heart for u. But u for me...."
+    },
+    {
+      "id": "sms-3837",
+      "label": "smishing",
+      "text": "URGENT! This is the 2nd attempt to contact U!U have WON £1000CALL <phone> b4 300603t&csBCM4235WC1N3XX.callcost150ppmmobilesvary. max£7. 50"
+    },
+    {
+      "id": "sms-586",
+      "label": "smishing",
+      "text": "URGENT This is our 2nd attempt to contact U. Your £900 prize from YESTERDAY is still awaiting collection. To claim CALL NOW <phone>. ACL<phone>PM"
+    },
+    {
+      "id": "sms-1209",
+      "label": "legit",
+      "text": "sorry brah, just finished the last of my exams, what up"
+    },
+    {
+      "id": "sms-3709",
+      "label": "legit",
+      "text": "He's just gonna worry for nothing. And he won't give you money its no use."
+    },
+    { "id": "sms-1329", "label": "legit", "text": "Pls come quick cant bare this." },
+    {
+      "id": "sms-547",
+      "label": "spam",
+      "text": "Call Germany for only 1 pence per minute! Call from a fixed line via access number <phone> 85 86."
+    },
+    {
+      "id": "sms-2061",
+      "label": "legit",
+      "text": "Uncle boye. I need movies oh. Guide me. Plus you know torrents are not particularly legal here. And the system is slowing down. What should i do. Have a gr8 day. Plus have you started cos i dont meet you online. How was the honey moon."
+    },
+    {
+      "id": "sms-3685",
+      "label": "spam",
+      "text": "Do you want a New Nokia 3510i colour phone DeliveredTomorrow? With 300 free minutes to any mobile + 100 free texts + Free Camcorder reply or call <phone>."
+    },
+    { "id": "sms-3085", "label": "legit", "text": "We got a divorce. Lol. She.s here" },
+    {
+      "id": "sms-1822",
+      "label": "spam",
+      "text": "SMS. ac sun0819 posts HELLO:\"You seem cool, wanted to say hi. HI!!!\" Stop? Send STOP to 62468"
+    },
+    {
+      "id": "sms-5532",
+      "label": "smishing",
+      "text": "Todays Vodafone numbers ending with 4882 are selected to a receive a £350 award. If your number matches call <phone> to receive your £350 award."
+    },
+    {
+      "id": "sms-903",
+      "label": "spam",
+      "text": "Free Top ringtone -sub to weekly ringtone-get 1st week free-send SUBPOLY to 81618-?3 per week-stop sms-<phone>"
+    },
+    {
+      "id": "sms-2568",
+      "label": "spam",
+      "text": "Well done ENGLAND! Get the official poly ringtone or colour flag on yer mobile! text TONE or FLAG to 84199 NOW!"
+    },
+    {
+      "id": "sms-2609",
+      "label": "smishing",
+      "text": "IMPORTANT MESSAGE. This is a final contact attempt. You have important messages waiting out our customer claims dept. Expires 13/4/04. Call <phone> NOW!"
+    },
+    {
+      "id": "sms-1953",
+      "label": "smishing",
+      "text": "URGENT We are trying to contact you Last weekends draw shows u have won a £1000 prize GUARANTEED Call <phone> Claim code K52 Valid 12hrs 150p pm"
+    },
+    {
+      "id": "sms-320",
+      "label": "legit",
+      "text": "Realy sorry-i don't recognise this number and am now confused :) who r u please?!"
+    },
+    { "id": "sms-2128", "label": "legit", "text": "Have you always been saying welp?" },
+    {
+      "id": "sms-224",
+      "label": "spam",
+      "text": "Gr8 Poly tones 4 ALL mobs direct 2u rply with POLY TITLE to 8007 eg POLY BREATHE1 Titles: CRAZYIN, SLEEPINGWITH, FINEST, YMCA :getzed[.]co[.]uk POBox365O4W45WQ 300p"
+    },
+    {
+      "id": "sms-5769",
+      "label": "spam",
+      "text": "FREE GAME. Get Rayman Golf 4 FREE from the O2 Games Arcade. 1st get UR games settings. Reply POST, then save & activ8. Press 0 key for Arcade. Termsapply"
+    },
+    {
+      "id": "sms-2561",
+      "label": "legit",
+      "text": "Where's my boytoy? I miss you ... What happened?"
+    },
+    {
+      "id": "sms-2982",
+      "label": "legit",
+      "text": "Oh dang! I didn't mean o send that to you! Lol!"
+    },
+    {
+      "id": "sms-3918",
+      "label": "smishing",
+      "text": "Your free gift is waiting to be collected. Simply call <phone>"
+    },
+    {
+      "id": "sms-2360",
+      "label": "legit",
+      "text": "Gosh that , what a pain. Spose I better come then."
+    },
+    {
+      "id": "sms-4646",
+      "label": "spam",
+      "text": "For your chance to WIN a FREE Bluetooth Headset then simply reply back with \"ADP\""
+    },
+    { "id": "sms-5219", "label": "legit", "text": "No..jst change tat only.." },
+    {
+      "id": "sms-5564",
+      "label": "legit",
+      "text": "At WHAT TIME should i come tomorrow. Please confirm"
+    },
+    {
+      "id": "sms-1396",
+      "label": "legit",
+      "text": "You only hate me. You can call any but you didnt accept even a single call of mine. Or even you messaged"
+    },
+    {
+      "id": "sms-4211",
+      "label": "legit",
+      "text": "Huh? 6 also cannot? Then only how many mistakes?"
+    },
+    {
+      "id": "sms-2581",
+      "label": "legit",
+      "text": "Great. So should i send you my account number."
+    },
+    {
+      "id": "sms-5109",
+      "label": "legit",
+      "text": "She.s fine. I have had difficulties with her phone. It works with mine. Can you pls send her another friend request."
+    },
+    {
+      "id": "sms-4696",
+      "label": "spam",
+      "text": "Over 3,0,000 songs on the www, music. nokia[.]com. Download 5 free tracks from the Nokia Music Store. Download now at hxxp://music[.]nokia[.]co[.]in/myn5free"
+    },
+    {
+      "id": "sms-3114",
+      "label": "legit",
+      "text": "If she takes enough to replace her loss her temp will reduce. And if you give her malaria meds now she will just vomit. Its a self limiting illness she has which means in a few days it will completely stop"
+    },
+    {
+      "id": "sms-1992",
+      "label": "legit",
+      "text": "I've reached home n i bathe liao... U can call me now..."
+    },
+    {
+      "id": "sms-4243",
+      "label": "legit",
+      "text": "Yalru lyfu astne chikku.. Bt innu mundhe lyf <name> halla ke bilo (marriage)program edhae, so lyf is nt yet ovr chikku..<name> vargu lyfu meow meow:-D"
+    },
+    {
+      "id": "sms-4063",
+      "label": "legit",
+      "text": "K fyi x has a ride early tomorrow morning but he's crashing at our place tonight"
+    },
+    {
+      "id": "sms-3431",
+      "label": "smishing",
+      "text": "Promotion Number: <phone> - UR awarded a City Break and a £200 Summer Shopping spree. <phone>"
+    },
+    {
+      "id": "sms-407",
+      "label": "legit",
+      "text": "Eat at old airport road... But now 630 oredi... Got a lot of pple..."
+    },
+    {
+      "id": "sms-453",
+      "label": "legit",
+      "text": "Can you just come in for a sec? There's somebody here I want you to see"
+    },
+    {
+      "id": "sms-1115",
+      "label": "legit",
+      "text": "Tell them no need to investigate about me anywhere."
+    },
+    {
+      "id": "sms-5526",
+      "label": "spam",
+      "text": "Now GET RID OF -Cockroach -Termite -Bedbug -Rats -Any Pest 4Best DEALS in PestControlServices/ Chemical/Herbal/Odorless DIAL-N-ASK <phone>"
+    },
+    { "id": "sms-2885", "label": "legit", "text": "Just got outta class gonna go gym." },
+    {
+      "id": "sms-1828",
+      "label": "legit",
+      "text": "I'm coming back on Thursday. Yay. Is it gonna be ok to get the money. Cheers. Oh yeah and how are you. Everything alright. Hows school. Or do you call it work now"
+    },
+    {
+      "id": "sms-3911",
+      "label": "smishing",
+      "text": "In the Open Lucky Draw Contest And You Are The Winner 0f Tata Saafari (12,60000). Contact-<phone> -<phone>. More Information hxxps://bit[.]ly/32ZwcQ5"
+    },
+    {
+      "id": "sms-2027",
+      "label": "smishing",
+      "text": "Reply with your name and address and YOU WILL RECEIVE BY POST a weeks completely free accommodation at various global locations www[.]phb1[.]com ph:<phone>p"
+    },
+    {
+      "id": "sms-4814",
+      "label": "legit",
+      "text": "I think just yourself …Thanks and see you tomo"
+    },
+    {
+      "id": "sms-1721",
+      "label": "smishing",
+      "text": "DUETO THE CENTRAL BANK DIRECTIVE WITH REGARDS TO BVN UPDATE,YOUR ATM CARD HAS BEEN DE-ACTIVATED,TO RE-ACTIVATE CALL CUSTOMER CARE ON <phone>"
+    },
+    { "id": "sms-811", "label": "legit", "text": "Will be out of class in a few hours. Sorry" },
+    {
+      "id": "sms-4239",
+      "label": "legit",
+      "text": "Okie but i scared u say i fat... Then u dun wan me already..."
+    },
+    { "id": "sms-3396", "label": "legit", "text": "Aight what time you want me to come up?" },
+    { "id": "sms-623", "label": "legit", "text": "At home by the way" },
+    {
+      "id": "sms-5060",
+      "label": "legit",
+      "text": "I am great princess! What are you thinking about me? :)"
+    },
+    {
+      "id": "sms-2734",
+      "label": "spam",
+      "text": "Sunshine Quiz Wkly Q! Win a top Sony DVD player if u know which country the Algarve is in? Txt ansr to 82277. £1.50 SP:<name>"
+    },
+    {
+      "id": "sms-2305",
+      "label": "legit",
+      "text": "Dude im no longer a pisces. Im an aquarius now."
+    },
+    {
+      "id": "sms-1098",
+      "label": "legit",
+      "text": "Yoyyooo u know how to change permissions for a drive in mac. My usb flash drive"
+    },
+    {
+      "id": "sms-4030",
+      "label": "smishing",
+      "text": "You are awarded a SiPix Digital Camera! call <phone> fromm landline. Delivery within 10 days."
+    },
+    {
+      "id": "sms-2341",
+      "label": "smishing",
+      "text": "PRIVATE! Your 2003 Account Statement for shows 1000 un-redeemed S.I.M. points. Call <phone> Identifier Code:4xx26 Expires 13/10/04"
+    },
+    {
+      "id": "sms-4664",
+      "label": "spam",
+      "text": "Text PASS to 69669 to collect your polyphonic ringtones. Normal gprs charges apply only. Enjoy your tones"
+    },
+    {
+      "id": "sms-789",
+      "label": "smishing",
+      "text": "IMPORTANT MESSAGE FROM WESTPAC For the safety of our customers due to the recent COVID-19 virus, all customers are required to review and update their personal details. You will be unable to use Westpac services until you have done so.…"
+    },
+    {
+      "id": "sms-4976",
+      "label": "legit",
+      "text": "The world suffers a lot... Not because of the violence of bad people. But because of the silence of good people!, Gud night...."
+    },
+    {
+      "id": "sms-2623",
+      "label": "smishing",
+      "text": "Urgent! call <phone> from your landline. Your complimentary 4* Ibiza Holiday or 10,000 cash await collection SAE T&Cs PO BOX 434 SK3 8WP 150 ppm 18+"
+    },
+    {
+      "id": "sms-4420",
+      "label": "spam",
+      "text": "Fantasy Football is back on your TV. Go to Sky Gamestar on Sky Active and play £250k Dream Team. register now!SKY OPT OUT to 88088"
+    },
+    {
+      "id": "sms-3796",
+      "label": "smishing",
+      "text": "Urgent! call <phone> from Landline. Your complimentary 4* Tenerife Holiday or £10,000 cash await collection SAE T&Cs BOX 528 HP20 1YF 150ppm 18+"
+    },
+    { "id": "sms-2766", "label": "legit", "text": "Coffee cake, i guess..." },
+    {
+      "id": "sms-4307",
+      "label": "legit",
+      "text": "I knew it... U slept v late yest? Wake up so late..."
+    },
+    { "id": "sms-1975", "label": "legit", "text": "Ok enjoy . R u there in home." },
+    {
+      "id": "sms-1095",
+      "label": "smishing",
+      "text": "You are guaranteed the latest Nokia Phone, a 40GB iPod MP3 player or a £1000 prize! Txt word: COLLECT to No: 83355!"
+    },
+    { "id": "sms-1590", "label": "legit", "text": "Nice.nice.how is it working?" },
+    { "id": "sms-2397", "label": "legit", "text": "Oh yeah clearly it's my fault" },
+    { "id": "sms-5445", "label": "legit", "text": "LOL ... Have you made plans for new years?" },
+    {
+      "id": "sms-5606",
+      "label": "spam",
+      "text": "SMS AUCTION - A BRAND NEW Nokia 7250 is up 4 auction today! Auction is FREE 2 join & take part! Txt NOKIA to 86021 now! HG/Suite342/2Lands Row/W1J6HL"
+    },
+    {
+      "id": "sms-90",
+      "label": "spam",
+      "text": "Welcome to UK-mobile-date this msg is FREE giving you free calling to <phone>. Future mgs billed at 150p daily. To cancel send \"go stop\" to 89123"
+    },
+    {
+      "id": "sms-2377",
+      "label": "smishing",
+      "text": "Your iPhone ID is due to expire today, Please tap hxxps://is[.]gd/AppVerify to update and prevent loss of services and Apps."
+    },
+    {
+      "id": "sms-2176",
+      "label": "spam",
+      "text": "Dear Subscriber ur draw 4 £100 gift voucher will b entered on receipt of a correct ans. When was Elvis Presleys Birthday? TXT answer to 80062"
+    },
+    { "id": "sms-1843", "label": "legit", "text": "You're right I have now that I think about it" },
+    { "id": "sms-3862", "label": "legit", "text": "Yes. It's all innocent fun. O:-)" },
+    {
+      "id": "sms-1496",
+      "label": "legit",
+      "text": "Can you do a mag meeting this avo at some point?"
+    },
+    {
+      "id": "sms-5133",
+      "label": "legit",
+      "text": "Yo, the game almost over? Want to go to walmart soon"
+    },
+    {
+      "id": "sms-1974",
+      "label": "spam",
+      "text": "Summers finally here! Fancy a chat or flirt with sexy singles in yr area? To get MATCHED up just reply SUMMER now. Free 2 Join. OptOut txt STOP Help<phone>"
+    },
+    {
+      "id": "sms-1587",
+      "label": "legit",
+      "text": "You know, wot people wear. T shirts, jumpers, hat, belt, is all we know. We r at Cribbs"
+    },
+    {
+      "id": "sms-2074",
+      "label": "smishing",
+      "text": "Update Message to User,Log on to Verity your login and choose your Existing Questions and Answers correctly Click hxxp://tdbankmobile[.]cleanbeautytalk[.]c om/tdmobile Internet support team."
+    },
+    { "id": "sms-2658", "label": "legit", "text": "Ok. How many should i buy." },
+    {
+      "id": "sms-4038",
+      "label": "legit",
+      "text": "What time should I tell my friend to be around?"
+    },
+    {
+      "id": "sms-4901",
+      "label": "smishing",
+      "text": "URGENT! Dear FL1PKART Customer, We are trying to contact you. Last weekends draw shows that you w0n a Rs.7,00,000 prize GUARANTEED. Call <phone>. Claim Code L92 Valid 12hrs only."
+    },
+    {
+      "id": "sms-868",
+      "label": "legit",
+      "text": "They said ü dun haf passport or smth like dat.. Or ü juz send to my email account.."
+    },
+    {
+      "id": "sms-4949",
+      "label": "legit",
+      "text": "Still at west coast... Haiz... Ü'll take forever to come back..."
+    },
+    {
+      "id": "sms-1245",
+      "label": "legit",
+      "text": "I only work from mon to thurs but Sat i cant leh... Booked liao... Which other day u free?"
+    },
+    {
+      "id": "sms-504",
+      "label": "smishing",
+      "text": "U've Bin Awarded £50 to Play 4 Instant Cash. Call <phone> To Claim. EVERY 9th Player Wins Min £50-£500. OptOut <phone>"
+    },
+    {
+      "id": "sms-2624",
+      "label": "smishing",
+      "text": "Todays Vodafone numbers ending 8023 are selected to receive a Rs.2,00,000 award. If you have a match please call <phone> quoting claim code 6001 standard rates apply"
+    },
+    {
+      "id": "sms-247",
+      "label": "smishing",
+      "text": "URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call <phone> from land line. Claim 3030. Valid 12hrs only"
+    },
+    { "id": "sms-1094", "label": "legit", "text": "Please ask mummy to call father" },
+    { "id": "sms-3870", "label": "legit", "text": "Is that what time you want me to come?" },
+    {
+      "id": "sms-4265",
+      "label": "legit",
+      "text": "K ill drink.pa then what doing. I need srs model pls send it to my mail id pa."
+    },
+    {
+      "id": "sms-372",
+      "label": "smishing",
+      "text": "BMO have noticed unusual activites on your online account. You are required to verify your account details[.]www[.]97bmo[.]tk"
+    },
+    {
+      "id": "sms-2603",
+      "label": "spam",
+      "text": "Need to clear doubts before exams? Experienced tutors help is just a click away- Free helpdesk round the clock. Just logon to eAgetutor[.]com or call <phone>"
+    },
+    {
+      "id": "sms-4714",
+      "label": "legit",
+      "text": "Me too watching surya movie only. . .after 6 pm <name> movie POKKIRI"
+    },
+    {
+      "id": "sms-1985",
+      "label": "smishing",
+      "text": "Congrats! 2 mobile 3G Videophones R yours. call <phone> now! videochat wid your mates, play java games, Dload polyPH music, noline rentl."
+    },
+    {
+      "id": "sms-5341",
+      "label": "spam",
+      "text": "As a Registered Subscriber yr draw 4 a £100 gift voucher will b entered on receipt of a correct ans. When are the next olympics. Txt ans to 80062"
+    },
+    {
+      "id": "sms-2627",
+      "label": "spam",
+      "text": "You will be receiving this week's Triple Echo ringtone shortly. Enjoy it!"
+    },
+    {
+      "id": "sms-1065",
+      "label": "legit",
+      "text": "Wen ur lovable bcums angry wid u, dnt take it seriously.. Coz being angry is d most childish n true way of showing deep affection, care n luv!.."
+    },
+    {
+      "id": "sms-4651",
+      "label": "legit",
+      "text": "Am on the uworld site. Am i buying the qbank only or am i buying it with the self assessment also?"
+    },
+    {
+      "id": "sms-74",
+      "label": "smishing",
+      "text": "<Forwarded from <phone>>Please CALL <phone> immediately as there is an urgent message waiting for you."
+    },
+    {
+      "id": "sms-639",
+      "label": "legit",
+      "text": "Text me when you get off, don't call, my phones having problems"
+    },
+    {
+      "id": "sms-4355",
+      "label": "legit",
+      "text": "Hey i've booked the pilates and yoga lesson already... Haha"
+    },
+    {
+      "id": "sms-4275",
+      "label": "legit",
+      "text": "Okey dokey, i'll be over in a bit just sorting some stuff out."
+    },
+    {
+      "id": "sms-5891",
+      "label": "spam",
+      "text": "Double Mins & Double Txt & 1/2 price Call MobileUpd8 for the very latest offers. <phone> or call2optout/LF56"
+    },
+    {
+      "id": "sms-5236",
+      "label": "legit",
+      "text": "Dunno lei... I thk mum lazy to go out... I neva ask her yet..."
+    },
+    {
+      "id": "sms-5509",
+      "label": "smishing",
+      "text": "You have an important customer service announcement. Calnumber <phone> now!"
+    },
+    {
+      "id": "sms-5635",
+      "label": "smishing",
+      "text": "Our records indicate u maybe entitled to 5000 pounds in compensation for the Accident you had. To claim 4 free reply with CLAIM to this msg. 2 stop txt STOP"
+    },
+    {
+      "id": "sms-765",
+      "label": "legit",
+      "text": "I think i've fixed it can you send a test message?"
+    },
+    {
+      "id": "sms-5079",
+      "label": "legit",
+      "text": "Sorry i now then c ur msg... Yar lor so poor thing... But only 4 one night... Tmr u'll have a brand new room 2 sleep in..."
+    },
+    { "id": "sms-5680", "label": "legit", "text": "Its too late:)but its k.wish you the same." },
+    {
+      "id": "sms-4808",
+      "label": "smishing",
+      "text": "<phone> URGENT! This is the 2nd attempt to contact U!U have WON £1250 CALL <phone> b4 050703 T&CsBCM4235WC1N3XX. callcost 150ppm mobilesvary. max£7. 50"
+    },
+    { "id": "sms-749", "label": "legit", "text": "Ok. There may be a free gym about." },
+    { "id": "sms-2064", "label": "legit", "text": "Ok lor. Msg me b4 u call." },
+    { "id": "sms-1922", "label": "legit", "text": "Did you see that film:)" },
+    {
+      "id": "sms-2758",
+      "label": "spam",
+      "text": "Bored of speed dating? Try SPEEDCHAT, txt SPEEDCHAT to 80155, if you don't like em txt SWAP and get a new chatter! Chat80155 POBox36504W45WQ 150p/msg rcd 16"
+    },
+    {
+      "id": "sms-5813",
+      "label": "spam",
+      "text": "Meet Top 35 US universities in Delhi at India Habitat Centre Lodhi Road on Nov 8th, 2 to 6 pm for student admission.Entry Free, details contact <phone>"
+    },
+    {
+      "id": "sms-858",
+      "label": "spam",
+      "text": "Call Germany for only 1 pence per minute! Call from a fixed line via access number <phone> 85 85. No prepayment. Direct access! www[.]telediscount[.]co[.]uk"
+    },
+    {
+      "id": "sms-5708",
+      "label": "smishing",
+      "text": "GENT! We are trying to contact you. Last weekends draw shows that you won a £1000 prize GUARANTEED. Call <phone>. Claim Code K52. Valid 12hrs only. 150ppm"
+    },
+    { "id": "sms-1332", "label": "legit", "text": "Sorry, I'll call later in night" },
+    {
+      "id": "sms-2215",
+      "label": "smishing",
+      "text": "You have been specially selected to receive a \"3000 award! Call <phone> BEFORE the lines close. Cost 10ppm. 16+. T&Cs apply. AG Promo"
+    },
+    {
+      "id": "sms-922",
+      "label": "smishing",
+      "text": "UR GOING 2 BAHAMAS! CallFREEFONE <phone> and speak to a live operator to claim either Bahamas cruise of£2000 CASH 18+only. To opt out txt X to <phone>"
+    },
+    {
+      "id": "sms-1786",
+      "label": "legit",
+      "text": "Dont worry, 1 day very big lambu ji vl come..til then enjoy batchlor party:-)"
+    },
+    {
+      "id": "sms-2788",
+      "label": "spam",
+      "text": "No. 1 Nokia Tone 4 ur mob every week! Just txt NOK to 87021. 1st Tone FREE ! so get txtin now and tell ur friends."
+    },
+    {
+      "id": "sms-2336",
+      "label": "legit",
+      "text": "Well am officially in a philosophical hole, so if u wanna call am at home ready to be saved!"
+    },
+    { "id": "sms-312", "label": "legit", "text": "How much she payed. <name>." },
+    { "id": "sms-80", "label": "legit", "text": "How are you. Its been ages. How's abj" },
+    {
+      "id": "sms-2646",
+      "label": "smishing",
+      "text": "PRIVATE! Your 2003 Account Statement for shows 800 un-redeemed S. I. M. points. Call <phone> Identifier Code: 40533 Expires 31/10/04"
+    },
+    {
+      "id": "sms-5624",
+      "label": "legit",
+      "text": "Yeah. I got a list with only u and <name> if I'm feeling really anti social"
+    },
+    {
+      "id": "sms-3583",
+      "label": "spam",
+      "text": "Reply to win £100 weekly! What professional sport does Tiger Woods play? Send STOP to 87239 to end service"
+    },
+    {
+      "id": "sms-3671",
+      "label": "spam",
+      "text": "Jamster! To get your free wallpaper text HEART to 88888 now! T&C apply. 16 only. Need Help? Call <phone>."
+    },
+    {
+      "id": "sms-5091",
+      "label": "legit",
+      "text": "Hmmm...k...but i want to change the field quickly da:-)i wanna get system administrator or network administrator.."
+    },
+    {
+      "id": "sms-2136",
+      "label": "legit",
+      "text": "C movie is juz last minute decision mah. Juz watch 2 lar but i tot ü not interested."
+    },
+    { "id": "sms-5666", "label": "legit", "text": "Y so late but i need to go n get da laptop..." },
+    {
+      "id": "sms-1699",
+      "label": "legit",
+      "text": "I miss you so much I'm so desparate I have recorded the message you left for me the other day and listen to it just to hear the sound of your voice. I love you"
+    },
+    {
+      "id": "sms-4091",
+      "label": "legit",
+      "text": "Yeah no probs - last night is obviously catching up with you... Speak soon"
+    },
+    {
+      "id": "sms-4737",
+      "label": "spam",
+      "text": "from www[.]Applausestore[.]com MonthlySubscription@ 50p/msg max6/month T&CsC web age16 2stop txt stop"
+    },
+    { "id": "sms-420", "label": "legit", "text": "Wat r u doing? Call me" },
+    { "id": "sms-477", "label": "legit", "text": "I havent add ü yet right.." },
+    {
+      "id": "sms-2556",
+      "label": "legit",
+      "text": "Still in the area of the restaurant. Ill try to come back soon"
+    },
+    { "id": "sms-4918", "label": "legit", "text": "Ok... Let u noe when i leave my house." },
+    {
+      "id": "sms-259",
+      "label": "smishing",
+      "text": "WINNER!! As a valued network customer you have been selected to receivea £900 prize reward! To claim call <phone>. Claim code KL345."
+    },
+    {
+      "id": "sms-5034",
+      "label": "smishing",
+      "text": "complimentary 4 STAR Ibiza Holiday or £10,000 cash needs your URGENT collection. <phone> NOW from Landline not to lose out! Box434SK38WP150PPM18+"
+    },
+    {
+      "id": "sms-5085",
+      "label": "legit",
+      "text": "K.:)you are the only girl waiting in reception ah?"
+    },
+    {
+      "id": "sms-4055",
+      "label": "legit",
+      "text": "Hi did u decide wot 2 get 4 his bday if not ill prob jus get him a voucher frm virgin or sumfing"
+    },
+    {
+      "id": "sms-3450",
+      "label": "smishing",
+      "text": "This is the 2nd time we have tried 2 contact u. U have won the 750 Pound prize. 2 claim is easy, call <phone> NOW! Only 10p per min."
+    },
+    { "id": "sms-3216", "label": "legit", "text": "Hey company elama po mudyadhu." },
+    { "id": "sms-607", "label": "legit", "text": "I will see in half an hour" },
+    {
+      "id": "sms-797",
+      "label": "smishing",
+      "text": "URGENT! Your Mobile No was awarded a £2,000 Bonus Caller Prize on 1/08/03! This is our 2nd attempt to contact YOU! Call <phone> BOX95QU BT National Rate"
+    },
+    {
+      "id": "sms-5919",
+      "label": "spam",
+      "text": "4mths half price Orange line rental & latest camera phones 4 FREE. Had your phone 11mths ? Call MobilesDirect free on <phone> to update now! or2stoptxt"
+    },
+    {
+      "id": "sms-413",
+      "label": "spam",
+      "text": "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question call <phone>"
+    },
+    {
+      "id": "sms-762",
+      "label": "legit",
+      "text": "Sometimes we put walls around our hearts,not just to be safe from getting hurt.. But to find out who cares enough to break the walls & get closer.. GOODNOON:)"
+    },
+    {
+      "id": "sms-747",
+      "label": "legit",
+      "text": "I cant pick the phone right now. Pls send a message"
+    },
+    { "id": "sms-5613", "label": "legit", "text": "Are u awake? Is there snow there?" },
+    {
+      "id": "sms-5784",
+      "label": "legit",
+      "text": "Pick you up bout 7.30ish? What time are and that going?"
+    },
+    {
+      "id": "sms-4534",
+      "label": "legit",
+      "text": "Hey what how about your project. Started aha da."
+    },
+    {
+      "id": "sms-534",
+      "label": "smishing",
+      "text": "Customer service annoncement. You have a New Years delivery waiting for you. Please call <phone> now to arrange delivery"
+    },
+    { "id": "sms-1615", "label": "legit", "text": "No let me do the math. Your not good at it." },
+    {
+      "id": "sms-2659",
+      "label": "spam",
+      "text": "Sunshine Quiz Wkly Q! Win a top Sony DVD player if u know which country Liverpool played in mid week? Txt ansr to 82277."
+    },
+    { "id": "sms-4756", "label": "legit", "text": "Ü wait 4 me in sch i finish ard 5.." },
+    {
+      "id": "sms-3954",
+      "label": "smishing",
+      "text": "If you don't, your prize will go to another customer. T&C at www[.]t-c[.]biz 18+ 150p/min Polo Ltd Suite 373 London W1J 6HL Please call back if busy"
+    },
+    {
+      "id": "sms-1175",
+      "label": "legit",
+      "text": "Solve d Case : A Man Was Found Murdered On 16 April, AfterNoon. 1,His wife called Police. 2,Police questioned everyone. 3,Wife: Sir,I was sleeping, when the murder took place. 4.Cook: I was cooking. 5.Gardener: I was picking vegetables.…"
+    },
+    { "id": "sms-3691", "label": "legit", "text": "First answer my question." },
+    {
+      "id": "sms-931",
+      "label": "smishing",
+      "text": "You have 1 new message. Please call <phone>."
+    },
+    {
+      "id": "sms-1497",
+      "label": "spam",
+      "text": "EASTENDERS TV Quiz. What FLOWER does DOT compare herself to? D= VIOLET E= TULIP F= LILY txt D E or F to 84025 NOW 4 chance 2 WIN £100 Cash WKENT/150P16+"
+    },
+    {
+      "id": "sms-2772",
+      "label": "smishing",
+      "text": "Your account has been credited with 500 FREE Text Messages. To activate call <phone>"
+    },
+    {
+      "id": "sms-2420",
+      "label": "spam",
+      "text": "Hey I am really want to chat text hot to 69698 text charged at 150pm to unsubscribe text stop 69698"
+    },
+    {
+      "id": "sms-2881",
+      "label": "smishing",
+      "text": "You have been specially selected to receive a 2000 pound award! Call <phone> BEFORE the lines close. Cost 10ppm. 16+. T&Cs apply. AG Promo"
+    },
+    {
+      "id": "sms-3654",
+      "label": "smishing",
+      "text": "Urgent Message for CIBC Account Holder, Kindly login to confirm your login information Login to our secure server to check your information hxxp://cibc[.]mobileupdate[.]granpianostudio[.]com/cibcfullz/Internet Support"
+    },
+    {
+      "id": "sms-2515",
+      "label": "legit",
+      "text": "Had the money issue weigh me down but thanks to you, I can breathe easier now. I.ll make sure you dont regret it. Thanks."
+    },
+    {
+      "id": "sms-427",
+      "label": "smishing",
+      "text": "<phone> You have won a £2,000 price! To claim, call <phone>."
+    },
+    {
+      "id": "sms-5454",
+      "label": "smishing",
+      "text": "Message Important information for O2 user. Today is your lucky day! 2 find out why log onto hxxp://www[.]urawinner[.]com there is a fantastic surprise awaiting you"
+    },
+    {
+      "id": "sms-3736",
+      "label": "smishing",
+      "text": "Congrats! 1 year special cinema pass for 2 is yours. call <phone> now! C Suprman V, Matrix3, StarWars3, etc all 4 FREE! bx420-ip4-5we. 150pm."
+    },
+    {
+      "id": "sms-3198",
+      "label": "spam",
+      "text": "Thanks for the Vote. Now sing along with the stars with Karaoke on your mobile. For a FREE link just reply with SING now."
+    },
+    {
+      "id": "sms-1344",
+      "label": "spam",
+      "text": "u r subscribed 2 TEXTCOMP 250 wkly comp. 1st wk?s free question follows, subsequent wks charged@ 150p/msg.2 unsubscribe txt STOP 2 84128,custcare <phone>"
+    },
+    { "id": "sms-4171", "label": "legit", "text": "PLEASSSSSSSEEEEEE TEL ME V AVENT DONE SPORTSx" },
+    {
+      "id": "sms-3359",
+      "label": "smishing",
+      "text": "Todays Vodafone numbers ending 7148 are selected to receive a Rs.2,00,000 award. If you have a match please call <phone> quoting claim code 7834 standard rates apply"
+    },
+    {
+      "id": "sms-891",
+      "label": "spam",
+      "text": "Your free ringtone is waiting to be collected. Simply text the password \"MIX\" to 85069 to verify. Get Usher and Britney."
+    },
+    {
+      "id": "sms-914",
+      "label": "legit",
+      "text": "Olol i printed out a forum post by a guy with the exact same prob which was fixed with a gpu replacement. Hopefully they dont ignore that."
+    },
+    {
+      "id": "sms-2870",
+      "label": "spam",
+      "text": "FREE for 1st week! No1 Nokia tone 4 ur mobile every week just txt NOKIA to 8077 www[.]getzed[.]co[.]uk"
+    },
+    {
+      "id": "sms-4134",
+      "label": "spam",
+      "text": "Hi <phone> IBH Customer Loyalty Offer: The NEW NOKIA6600 Mobile from ONLY £10 at TXTAUCTION!Txt word:START to No:81151"
+    },
+    {
+      "id": "sms-863",
+      "label": "smishing",
+      "text": "You have WON a guaranteed £1000 cash or a £2000 prize. To claim yr prize call our customer service representative on <phone> between 10am-7pm Cost 10p"
+    },
+    { "id": "sms-2791", "label": "legit", "text": "Am i that much bad to avoid like this?" },
+    {
+      "id": "sms-4813",
+      "label": "legit",
+      "text": "What you doing?how are you? Hope everything is fine.."
+    },
+    {
+      "id": "sms-1769",
+      "label": "spam",
+      "text": "reat Investment with assured return *Commercial space by AIMS <name> *0km frm Delhi *Nr Metro Station *Sec-15 Noida @ 9500/sqft Call <phone>"
+    },
+    {
+      "id": "sms-5243",
+      "label": "legit",
+      "text": "Good afternoon, my love! How goes that day ? I hope maybe you got some leads on a job. I think of you, boytoy and send you a passionate kiss from across the sea"
+    },
+    {
+      "id": "sms-5227",
+      "label": "spam",
+      "text": "Santa calling! Would your little ones like a call from Santa Xmas Eve? Call <phone> to book you time. Calls1.50ppm last 3mins 30s T&C www[.]santacalling[.]com"
+    },
+    { "id": "sms-4475", "label": "legit", "text": "How much you got for cleaning" },
+    {
+      "id": "sms-5720",
+      "label": "legit",
+      "text": "Hmmm... Guess we can go 4 kb n power yoga... Haha, dunno we can tahan power yoga anot... Thk got lo oso, forgot liao..."
+    },
+    {
+      "id": "sms-3725",
+      "label": "smishing",
+      "text": "This is the 2nd attempt to contract U, you have won this weeks top prize of either £1000 cash or £200 prize. Just call <phone>"
+    },
+    { "id": "sms-3689", "label": "legit", "text": "Where can download clear movies. Dvd copies." },
+    { "id": "sms-1066", "label": "legit", "text": "Nope i'll come online now.." },
+    { "id": "sms-5465", "label": "legit", "text": "Aight, call me once you're close" },
+    {
+      "id": "sms-2149",
+      "label": "legit",
+      "text": "Where did u go? My phone is gonna die you have to stay in here"
+    },
+    {
+      "id": "sms-380",
+      "label": "smishing",
+      "text": "You have WON a guaranteed £1000 cash or a £2000 prize. To claim yr prize call our customer service representative on <phone> between 10am-7pm"
+    },
+    {
+      "id": "sms-3968",
+      "label": "smishing",
+      "text": "Congrats! 1 year special cinema pass for 2 is yours. call <phone> now! C Suprman V, Matrix3, StarWars3, etc all 4 FREE!"
+    },
+    {
+      "id": "sms-3956",
+      "label": "legit",
+      "text": "I always chat with you. In fact i need money can you raise me?"
+    },
+    {
+      "id": "sms-1275",
+      "label": "legit",
+      "text": "wow. You're right! I didn't mean to do that. I guess once i gave up on boston men and changed my search location to nyc, something changed. Cuz on my signin page it still says boston."
+    },
+    {
+      "id": "sms-5429",
+      "label": "smishing",
+      "text": "URGENT! Dear FL1PKART Customer, We are trying to contact you. Last weekends draw shows that you w0n a Rs.8,00,000 prize GUARANTEED. Call <phone>. Claim Code N32. Valid 12hrs only."
+    },
+    {
+      "id": "sms-3150",
+      "label": "smishing",
+      "text": "Congrats! Nokia 3650 video camera phone is your Call <phone> Calls cost 150ppm Ave call 3mins vary from mobiles 16+ Close 300603 post BCM4284 Ldn WC1N3XX"
+    },
+    {
+      "id": "sms-1271",
+      "label": "legit",
+      "text": "When I was born, GOD said, \"Oh No! Another IDIOT\". When you were born, GOD said, \"OH No! COMPETITION\". Who knew, one day these two will become FREINDS FOREVER!"
+    },
+    {
+      "id": "sms-2594",
+      "label": "spam",
+      "text": "No. 1 Nokia Tone 4 ur mob every week! Just txt NOK to 87021. 1st Tone FREE ! so get txtin now and tell ur friends. 150p/tone. 16 reply HL 4info"
+    },
+    {
+      "id": "sms-1288",
+      "label": "spam",
+      "text": "Moby Pub Quiz.Win a £200 High Street prize if u know who the new Duchess of Cornwall will be? Txt her first name to 82277."
+    },
+    {
+      "id": "sms-994",
+      "label": "smishing",
+      "text": "URGENT! We are trying to contact U. Todays draw shows that you have won a £800 prize GUARANTEED. Call <phone> from land line. Claim C52. Valid12hrs only"
+    },
+    {
+      "id": "sms-2780",
+      "label": "legit",
+      "text": "Best line said in Love: . \"I will wait till the day I can forget u Or The day u realize that u cannot forget me.\"... Gn"
+    },
+    {
+      "id": "sms-1293",
+      "label": "smishing",
+      "text": "Your 2004 account for <phone> shows 786 unredeemed points. To claim call <phone> Identifier code: XXXXX Expires 26.03.05"
+    },
+    {
+      "id": "sms-1794",
+      "label": "spam",
+      "text": "No 1 POLYPHONIC tone 4 ur mob every week! Just txt PT2 to 87575. 1st Tone FREE ! so get txtin now and tell ur friends. 150p/tone. 16 reply HL 4info"
+    },
+    {
+      "id": "sms-1243",
+      "label": "smishing",
+      "text": "ATM BLOCK:Dear customer, Due to our system upgrade your ATM card has just been BL0CKED. To Re-Activate call customer care for help <phone> now."
+    },
+    { "id": "sms-1334", "label": "legit", "text": "When you guys planning on coming over?" },
+    {
+      "id": "sms-834",
+      "label": "spam",
+      "text": "Get 3 Lions England tone, reply lionm 4 mono or lionp 4 poly. 4 more go 2 www[.]ringtones[.]co[.]uk, the original n best. Tones 3GBP network operator rates apply."
+    },
+    { "id": "sms-5021", "label": "legit", "text": "Sorry pa, i dont knw who ru pa?" },
+    {
+      "id": "sms-3599",
+      "label": "legit",
+      "text": "I'm gonna be home soon and i don't want to talk about this stuff anymore tonight, k? Ileave this topic for now."
+    },
+    {
+      "id": "sms-813",
+      "label": "legit",
+      "text": "Its a site to simulate the test. It just gives you very tough questions to test your readiness."
+    },
+    {
+      "id": "sms-4815",
+      "label": "legit",
+      "text": "Then ü ask dad to pick ü up lar... Ü wan 2 stay until 6 meh..."
+    },
+    {
+      "id": "sms-2408",
+      "label": "smishing",
+      "text": "Someone has conacted our dating service and entered your phone because they fancy you!To find out who it is call from landline <phone>. PoBox12n146tf15"
+    },
+    {
+      "id": "sms-1040",
+      "label": "spam",
+      "text": "Will u meet ur dream partner soon? Is ur career off 2 a flyng start? 2 find out free, txt HORO followed by ur star sign, e. g. HORO ARIES"
+    },
+    { "id": "sms-4456", "label": "legit", "text": "Probably, want to pick up more?" },
+    { "id": "sms-5300", "label": "legit", "text": "Wat u doing there?" },
+    { "id": "sms-1072", "label": "legit", "text": "No messages on her phone. I'm holding it now" },
+    {
+      "id": "sms-5520",
+      "label": "legit",
+      "text": "Dont think so. It turns off like randomlly within 5min of opening"
+    },
+    {
+      "id": "sms-1053",
+      "label": "spam",
+      "text": "Free 1st week entry 2 TEXTPOD 4 a chance 2 win 40GB iPod or £250 cash every wk. Txt POD to 84128 Ts&Cs www[.]textpod[.]net"
+    },
+    {
+      "id": "sms-4797",
+      "label": "smishing",
+      "text": "URGENT! Your Mobile No <phone> was awarded a £2,000 Bonus Caller Prize on 02/09/03! This is our 2nd attempt to contact YOU! Call <phone> BOX95QU"
+    },
+    { "id": "sms-5387", "label": "legit", "text": "After the drug she will be able to eat." },
+    {
+      "id": "sms-2467",
+      "label": "spam",
+      "text": "Residential plot allotment in New Moradabad Nearby Holiday Regency 5* Hotal, plots size 90,112,162,200,300,351,400sq.mtr, rate <email> call on <phone>"
+    },
+    {
+      "id": "sms-3615",
+      "label": "smishing",
+      "text": "ATM BLOCK:Dear customer, Due to our system upgrade your ATM card has just been De-Activated. To Re-Activate call customer care for help <phone> now."
+    },
+    {
+      "id": "sms-1203",
+      "label": "smishing",
+      "text": "PRIVATE! Your 2004 Account Statement for <phone> shows 786 unredeemed Bonus Points. To claim call <phone> Identifier Code: 45239 Expires"
+    },
+    {
+      "id": "sms-2414",
+      "label": "legit",
+      "text": "Yes ammae....life takes lot of turns you can only sit and try to hold the steering..."
+    },
+    { "id": "sms-2570", "label": "legit", "text": "Merry christmas to u too <name>!" },
+    { "id": "sms-2349", "label": "legit", "text": "What happen to her tell the truth" },
+    {
+      "id": "sms-3795",
+      "label": "spam",
+      "text": "How about getting in touch with folks waiting for company? Just txt back your NAME and AGE to opt in! Enjoy the community (150p/SMS)"
+    },
+    {
+      "id": "sms-5239",
+      "label": "smishing",
+      "text": "This is the 2nd time we have tried 2 contact u. U have won the £750 Pound prize. 2 claim is easy, call <phone> NOW1! Only 10p per minute. BT-national-rate."
+    },
+    {
+      "id": "sms-1600",
+      "label": "spam",
+      "text": "Reduce Upto 6 Kgs in 30 Days with *ORIGINAL SAUNA SLIM BELT* MRP 1499 Com Direct Price 750 Book today & Get Acupressure Mat Free! For Booking Sms: SLIM to 57333"
+    },
+    {
+      "id": "sms-2583",
+      "label": "spam",
+      "text": "ONLY FOR GIRLS BBA/MBA/EXECUTIVE MBA/B[.]SC[.]IT/BIO TECH/B.TECH FLEXIBLE TIMINGS GOVT.RECOGNIZED(www[.]bsaitm[.]in) JOIN BSAITM VIKASPURI <phone>/<phone>"
+    },
+    { "id": "sms-666", "label": "legit", "text": "Watching tv lor. Nice one then i like lor." },
+    { "id": "sms-5770", "label": "legit", "text": "Just getting back home" },
+    {
+      "id": "sms-1639",
+      "label": "legit",
+      "text": "Will it help if we propose going back again tomorrow"
+    },
+    {
+      "id": "sms-3826",
+      "label": "legit",
+      "text": "Thanks for your message. I really appreciate your sacrifice. I'm not sure of the process of direct pay but will find out on my way back from the test tomorrow. I'm in class now. Do have a wonderful day."
+    },
+    {
+      "id": "sms-2849",
+      "label": "spam",
+      "text": "Want to funk up ur fone with a weekly new tone reply TONES2U 2 this text. www[.]ringtones[.]co[.]uk, the original n best."
+    },
+    {
+      "id": "sms-2209",
+      "label": "spam",
+      "text": "Santa Calling! Would your little ones like a call from Santa Xmas eve? Call <phone> to book your time."
+    },
+    {
+      "id": "sms-5064",
+      "label": "legit",
+      "text": "Squeeeeeze!! This is christmas hug.. If u lik my frndshp den hug me back.. If u get 3 u r cute:) 6 u r luvd:* 9 u r so lucky;) None? People hate u:"
+    },
+    {
+      "id": "sms-5058",
+      "label": "smishing",
+      "text": "You are a £1000 winner or Guaranteed Caller Prize, this is our Final attempt to contact you! To Claim Call <phone> Now! 150ppmPOBox10183BhamB64XE"
+    },
+    {
+      "id": "sms-87",
+      "label": "spam",
+      "text": "HMV BONUS SPECIAL 500 pounds of genuine HMV vouchers to be won. Just answer 4 easy questions. Send HMV to 86688 More info:www[.]100percent-real[.]com"
+    },
+    {
+      "id": "sms-4801",
+      "label": "smishing",
+      "text": "important information 4 orange user <phone>. today is your lucky day!2find out why log onto hxxp://www[.]urawinner[.]com THERE'S A FANTASTIC SURPRISE AWAITING YOU!"
+    },
+    {
+      "id": "sms-4004",
+      "label": "smishing",
+      "text": "URGENT! We are trying to contact U. Todays draw shows that you have won a £800 prize GUARANTEED. Call <phone> from land line. Claim C52. Valid 12hrs only"
+    },
+    {
+      "id": "sms-1669",
+      "label": "spam",
+      "text": "n 45days Reduce Fat(8 Inch)use*SAUNA SLIM BELT*(650) VIBRATION BELT(999) NCR(50Rs Extra)+Free YOKO Call Now:<phone>/<phone>"
+    },
+    {
+      "id": "sms-4831",
+      "label": "smishing",
+      "text": "Congratulations ur awarded 500 of CD vouchers or 125gift guaranteed & Free entry 2 100 wkly draw txt MUSIC to 87066 TnCs www[.]Ldew[.]com"
+    },
+    {
+      "id": "sms-3520",
+      "label": "spam",
+      "text": "Great NEW Offer - DOUBLE Mins & DOUBLE Txt on best Orange tariffs AND get latest camera phones 4 FREE! Call MobileUpd8 free on <phone> NOW! or 2stoptxt T&Cs"
+    },
+    { "id": "sms-4022", "label": "legit", "text": "Thanx a lot 4 ur help!" },
+    {
+      "id": "sms-3508",
+      "label": "spam",
+      "text": "Romantic Paris. 2 nights, 2 flights from £79 Book now 4 next year. Call <phone>Ts&Cs apply."
+    },
+    {
+      "id": "sms-5576",
+      "label": "legit",
+      "text": "That one week leave i put know that time. Why."
+    },
+    {
+      "id": "sms-3459",
+      "label": "legit",
+      "text": "Not thought bout it... || Drink in tap & spile at seven. || Is that pub on gas st off broad st by canal. || Ok?"
+    },
+    {
+      "id": "sms-1680",
+      "label": "smishing",
+      "text": "You are awarded a SiPix Digital Camera! call <phone> from landline. Delivery within 28days. T Cs Box177. M221BP. 2yr warranty. 150ppm. 16 . p p£3.99"
+    },
+    {
+      "id": "sms-5610",
+      "label": "spam",
+      "text": "SMS SERVICES. for your inclusive text credits, pls goto www[.]comuk[.]net login= ***** unsubscribe with STOP. no extra charge. help:<phone>. PO BOX420. IP4 5WE"
+    },
+    {
+      "id": "sms-1716",
+      "label": "spam",
+      "text": "New TEXTBUDDY Chat 2 guys in ur area 4 just 25p Free 2 receive Search postcode or at gaytextbuddy[.]com. TXT ONE name to 89693. <phone> rpl Stop 2 cnl"
+    },
+    { "id": "sms-3960", "label": "legit", "text": "Yo! Howz u? girls never rang after india. L" },
+    { "id": "sms-4929", "label": "legit", "text": "Happy new year to u too!" },
+    {
+      "id": "sms-2457",
+      "label": "smishing",
+      "text": "WINNER!<phone> is chosen for $2500 CASH prize, call<phone> now"
+    },
+    {
+      "id": "sms-5799",
+      "label": "spam",
+      "text": "Now Get*SAUNA SLIM BELT(Rs650)&*VIBRATION+SAUNA BELT(Rs999)NCR(Rs50 Extra)*Reduce FAT(5 inch)+Free SLIM.TEA PH:<phone>/<phone>"
+    },
+    {
+      "id": "sms-1427",
+      "label": "spam",
+      "text": "Spook up your mob with a Halloween collection of a logo & pic message plus a free eerie tone, txt CARD SPOOK to 8007 zed <phone>p per logo/pic"
+    },
+    {
+      "id": "sms-2050",
+      "label": "spam",
+      "text": "Valentines Day Special! Win over £1000 in our quiz and take your partner on the trip of a lifetime! Send GO to 83600 now. CustCare:<phone>"
+    },
+    {
+      "id": "sms-572",
+      "label": "spam",
+      "text": "Free Msg: get Gnarls Barkleys \"Crazy\" ringtone TOTALLY FREE just reply GO to this message right now!"
+    },
+    {
+      "id": "sms-792",
+      "label": "spam",
+      "text": "Free video camera phones with Half Price line rental for 12 mths and 500 cross ntwk mins 100 txts. Call MobileUpd8 <phone>"
+    },
+    {
+      "id": "sms-2001",
+      "label": "spam",
+      "text": "LIFE has never been this much fun and great until you came in. You made it truly special for me. I won't forget you! enjoy @ one gbp/sms"
+    },
+    {
+      "id": "sms-3078",
+      "label": "legit",
+      "text": "Me not waking up until 4 in the afternoon, sup"
+    },
+    {
+      "id": "sms-2400",
+      "label": "spam",
+      "text": "WIN a year supply of CDs 4 a store of ur choice worth £500 & enter our £100 Weekly draw txt MUSIC to 87066 Ts&Cs www[.]Ldew[.]com"
+    },
+    {
+      "id": "sms-1148",
+      "label": "spam",
+      "text": "Get 3 Lions England tone, reply lionm 4 mono or lionp 4 poly. 4 more go 2 www[.]ringtones[.]co[.]uk, the original n best."
+    },
+    {
+      "id": "sms-3430",
+      "label": "spam",
+      "text": "For 4 a chance 2 win 40GB iPod or £250 cash every wk. Txt POD to 84128 Ts&Cs www[.]textpod[.]net custcare <phone>."
+    },
+    {
+      "id": "sms-5257",
+      "label": "smishing",
+      "text": "PRIVATE! Your 2003 Account Statement for <phone> shows 800 un-redeemed S. I. M. points. Call <phone> Identifier Code: 40533 Expires 31/10/04"
+    },
+    {
+      "id": "sms-118",
+      "label": "spam",
+      "text": "Enjoy the jamster videosound gold club with your credits for 2 new videosounds+2 logos+musicnews! get more fun from jamster[.]co[.]uk! 16+only Help? call: <phone>"
+    },
+    {
+      "id": "sms-4735",
+      "label": "spam",
+      "text": "Chat n date now! <phone>.77.11! BT-national rate 5p/min only from landlines!"
+    },
+    {
+      "id": "sms-3660",
+      "label": "legit",
+      "text": "Nothing just getting msgs by dis name wit different no's.."
+    },
+    {
+      "id": "sms-3970",
+      "label": "smishing",
+      "text": "Congrats, Your Product Order at Paytm Mall Pvt. Ltd. Is accepted. Message Your Name Company and account number to PH <phone>"
+    },
+    { "id": "sms-185", "label": "legit", "text": "Just do what ever is easier for you" },
+    {
+      "id": "sms-5076",
+      "label": "legit",
+      "text": "How many licks does it take to get to the center of a tootsie pop?"
+    },
+    {
+      "id": "sms-5410",
+      "label": "smishing",
+      "text": "Someonone you know is trying to contact you via our dating service! To find out who it could be call from your mobile or landline <phone> BOX334SK38ch"
+    },
+    { "id": "sms-465", "label": "legit", "text": "Have you laid your airtel line to rest?" },
+    { "id": "sms-5326", "label": "legit", "text": "Anything lor if they all go then i go lor..." },
+    {
+      "id": "sms-4434",
+      "label": "spam",
+      "text": "Price revising soon!! Agni Property Recommends Spaze Privy The Address in Sec-93, Gurgaon@ 28 Lac onwards. 2/3/4 BHK Apts available.To Book Call <phone> Now!"
+    },
+    {
+      "id": "sms-1755",
+      "label": "smishing",
+      "text": "As a valued customer, I am pleased to advise you that following recent review of your Mobile No. you are awarded with a Rs.7,00,000 Bonus Prize, call <phone>"
+    },
+    {
+      "id": "sms-554",
+      "label": "smishing",
+      "text": "Urgent! Please call <phone> from landline. £5000 cash or a luxury 4* Canary Islands Holiday await collection. T&Cs SAE PO Box 177. M227XY. 150ppm. 16+"
+    },
+    {
+      "id": "sms-5458",
+      "label": "legit",
+      "text": "I hope you arnt pissed off but id would really like to see you tomorrow. Love me xxxxxxxxxxxxxX"
+    },
+    { "id": "sms-2677", "label": "legit", "text": "Good evening! How are you?" },
+    { "id": "sms-5188", "label": "legit", "text": "Aight will do, thanks again for comin out" },
+    {
+      "id": "sms-3124",
+      "label": "smishing",
+      "text": "URGENT! We are trying to contact you. Last weekends draw shows that you won a £1000 prize GUARANTEED. Call <phone>. Claim Code K52. Valid 12hrs only. 150ppm"
+    },
+    {
+      "id": "sms-895",
+      "label": "legit",
+      "text": "Tick, tick, tick .... Where are you ? I could die of loneliness you know ! *pouts* *stomps feet* I need you ..."
+    },
+    {
+      "id": "sms-2855",
+      "label": "smishing",
+      "text": "Collect your VALENTINE'S weekend to PARIS inc Flight & Hotel + £200 Prize guaranteed! Text: PARIS to No: 69101. www[.]rtf[.]sphosting[.]com"
+    },
+    { "id": "sms-180", "label": "legit", "text": "Wot u up 2 u weirdo?" },
+    {
+      "id": "sms-2221",
+      "label": "legit",
+      "text": "Yes obviously, but you are the eggs-pert and the potato head… Speak soon!"
+    },
+    {
+      "id": "sms-5266",
+      "label": "legit",
+      "text": "My brother in Atlanta. Wish you guys a great semester."
+    },
+    { "id": "sms-3648", "label": "legit", "text": "I have to take exam with march 3" },
+    {
+      "id": "sms-2660",
+      "label": "legit",
+      "text": "Sad story of a Man - Last week was my b'day. My Wife did'nt wish me. My Parents forgot n so did my Kids . I went to work. Even my Colleagues did not wish. As I entered my cabin my PA said, '' Happy B'day Boss !!''. I felt special."
+    },
+    {
+      "id": "sms-2125",
+      "label": "spam",
+      "text": "2p per min to call Germany <phone> from your BT line. Just 2p per min. Check PlanetTalkInstant[.]com for info & T's & C's. Text stop to opt out"
+    },
+    {
+      "id": "sms-2192",
+      "label": "smishing",
+      "text": "URGENT! We are trying to contact U. Todays draw shows that you have won a £800 prize GUARANTEED. Call <phone> from land line. Claim A21. Valid 12hrs only"
+    },
+    {
+      "id": "sms-5305",
+      "label": "spam",
+      "text": "Our brand new mobile music service is now live. The free music player will arrive shortly. Just install on your phone to browse content from the top artists."
+    },
+    {
+      "id": "sms-98",
+      "label": "smishing",
+      "text": "You are being contacted by our dating service by someone you know! To find out who it is, call from a land line <phone>. PoBox45W2TG150P"
+    },
+    { "id": "sms-1622", "label": "legit", "text": "Nope... Juz off from work..." },
+    {
+      "id": "sms-3281",
+      "label": "legit",
+      "text": "Haven't found a way to get another app for your phone, eh ? Will you go to the net cafe ? Did you take that job? Geeee I need you babe. I crave to see you ..."
+    },
+    { "id": "sms-2742", "label": "legit", "text": "Yeah, we got one lined up for us" },
+    {
+      "id": "sms-3563",
+      "label": "spam",
+      "text": "FREE RINGTONE text FIRST to 87131 for a poly or text GET to 87131 for a true tone! Help? <phone> 16 after 1st free, tones are 3x£150pw to e£nd txt stop"
+    },
+    {
+      "id": "sms-2116",
+      "label": "spam",
+      "text": "You won't believe it but it's true. It's Incredible Txts! Reply G now to learn truly amazing things that will blow your mind."
+    },
+    {
+      "id": "sms-4076",
+      "label": "smishing",
+      "text": "XMAS REWARD IS WAITING FOR YOU! Our computer has randomly picked you from our mobile customers to receive a $ 400 reward. Just call <phone>"
+    },
+    { "id": "sms-5548", "label": "legit", "text": "No problem. Talk to you later" },
+    {
+      "id": "sms-2540",
+      "label": "spam",
+      "text": "FREE>Ringtone! Reply REAL or POLY eg REAL1 1. PushButton 2. DontCha 3. BabyGoodbye 4. GoldDigger 5. WeBeBurnin 1st tone FREE and 6 more when u join for £3/wk"
+    },
+    {
+      "id": "sms-606",
+      "label": "smishing",
+      "text": "Todays Voda numbers ending 1225 are selected to receive a £50award. If you have a match please call <phone> quoting claim code 3100 standard rates app"
+    },
+    {
+      "id": "sms-2090",
+      "label": "smishing",
+      "text": "WINNER!! As a valued network customer you have been selected to receivea £900 prize reward! To claim call <phone>. Claim code KL341. Valid 12 hours only."
+    },
+    {
+      "id": "sms-4867",
+      "label": "legit",
+      "text": "I cant pick the phone right now. Anything urgent?"
+    },
+    {
+      "id": "sms-1599",
+      "label": "spam",
+      "text": "Double your mins & txts on Orange or 1/2 price linerental - Motorola and SonyEricsson with B/Tooth FREE-Nokia FREE Call MobileUpd8 on <phone> or2optout/HV9D"
+    },
+    {
+      "id": "sms-4441",
+      "label": "legit",
+      "text": "Sorry da. I gone mad so many pending works what to do."
+    },
+    {
+      "id": "sms-5370",
+      "label": "smishing",
+      "text": "THIS MOBILE NUMBER HAS GAINED THE SUM US$450,000.00 FROM MML/REF#1001, FOR DETAIL SEND YOUR NAME, ADDRESS AND NUMBER TO EMAIL <email>"
+    },
+    {
+      "id": "sms-5904",
+      "label": "legit",
+      "text": "What makes some people dearer is not just the happiness that u feel when u meet them but the pain u feel when u miss them"
+    },
+    {
+      "id": "sms-3873",
+      "label": "legit",
+      "text": "Can you pls pls send me a mail on all you know about relatives coming to deliver here? All you know about costs, risks, benefits and anything else. Thanks."
+    },
+    { "id": "sms-990", "label": "legit", "text": "Ah, well that confuses things, doesn't it?" },
+    {
+      "id": "sms-4770",
+      "label": "smishing",
+      "text": "You are awarded a SiPix Digital Camera! call <phone> fromm landline. Delivery within 12 days."
+    },
+    { "id": "sms-5590", "label": "legit", "text": "What???? Hello wats talks email address?" },
+    {
+      "id": "sms-1284",
+      "label": "legit",
+      "text": "That means from february to april i'll be getting a place to stay down there so i don't have to hustle back and forth during audition season as i have since my sister moved away from harlem."
+    },
+    {
+      "id": "sms-5945",
+      "label": "legit",
+      "text": "Tmr timin still da same wat cos i got lesson until 6..."
+    },
+    { "id": "sms-562", "label": "legit", "text": "Oops. 4 got that bit." },
+    {
+      "id": "sms-1779",
+      "label": "spam",
+      "text": "U are subscribed to the best Mobile Content Service in the UK for £3 per 10 days Helpline <phone>"
+    },
+    { "id": "sms-3469", "label": "legit", "text": "I was just callin to say hi. Take care bruv!" },
+    { "id": "sms-1964", "label": "legit", "text": "Also track down any lighters you can find" },
+    {
+      "id": "sms-5088",
+      "label": "smishing",
+      "text": "Dear PAYTM customer your paytm KYC has been suspended, paytm office PH <phone> Account will block within 24 hour. Thank you. PAYTM TEAM"
+    },
+    {
+      "id": "sms-1850",
+      "label": "legit",
+      "text": "Haha good to hear, I'm officially paid and on the market for an 8th"
+    },
+    {
+      "id": "sms-2794",
+      "label": "smishing",
+      "text": "Dear Customer your pyatm wallet Has been booked and hold Your amount please complete your kyc contact customer care <phone>"
+    },
+    {
+      "id": "sms-3217",
+      "label": "spam",
+      "text": "Hi <phone> IBH Customer Loyalty Offer: The NEW NOKIA6600 Mobile from ONLY £10 at TXTAUCTION!Txt word:START to No:81151 & get Yours Now!4T&"
+    },
+    {
+      "id": "sms-5827",
+      "label": "legit",
+      "text": "Please protect yourself from e-threats. YES bank never asks for sensitive information like Passwords,ATM/SMS PIN thru email. Never share your password with anybody."
+    },
+    {
+      "id": "sms-5102",
+      "label": "legit",
+      "text": "My uncles in canada...Wish you guys a great semester."
+    },
+    {
+      "id": "sms-4346",
+      "label": "legit",
+      "text": "Lol you forgot it eh ? Yes, I'll bring it in babe"
+    },
+    { "id": "sms-2690", "label": "legit", "text": "GRAN ONLYFOUND OUT AFEW DAYS AGO.CUSOON HONI" },
+    {
+      "id": "sms-166",
+      "label": "spam",
+      "text": "I don't know u and u don't know me. Send CHAT to 86688 now and let's find each other! Only 150p/Msg rcvd. HG/Suite342/2Lands/Row/W1J6HL LDN. 18 years or over."
+    },
+    {
+      "id": "sms-319",
+      "label": "legit",
+      "text": "Hurt me... Tease me... Make me cry... But in the end of my life when i die plz keep one rose on my grave and say I miss u"
+    },
+    { "id": "sms-2197", "label": "legit", "text": "HI ITS <name> CAN U GIVE ME A RING ASAP XXX" },
+    {
+      "id": "sms-2650",
+      "label": "legit",
+      "text": "Huh so fast... Dat means u havent finished painting?"
+    },
+    {
+      "id": "sms-2838",
+      "label": "spam",
+      "text": "To review and KEEP the fantastic Nokia N-Gage game deck with Club Nokia, go 2 www[.]cnupdates[.]com/newsletter. unsubscribe from alerts reply with the word OUT"
+    },
+    {
+      "id": "sms-1105",
+      "label": "spam",
+      "text": "Eerie Nokia tones 4u, rply TONE TITLE to 8007 eg TONE DRACULA to 8007 www[.]getzed[.]co[.]uk POBox36504W45WQ 150p"
+    },
+    {
+      "id": "sms-2784",
+      "label": "smishing",
+      "text": "Nationwide has noticed your debit card was recently used on 22-10-2016 15:04:43, at APPLE ONLINE STORE FOR 1500.00 GBP. If not you please urgently call fraud prevention on <phone> or intl <phone>. Do not reply by sms…"
+    },
+    {
+      "id": "sms-43",
+      "label": "smishing",
+      "text": "Phony £350 award - Todays Voda numbers ending XXXX are selected to receive a £350 award. If you have a match please call <phone> quoting claim code 3100 standard rates app"
+    },
+    {
+      "id": "sms-4426",
+      "label": "smishing",
+      "text": "Congratulations, your cv was reviewed and you have been shortlisted. Please complete the job application by dialling 120 *22446#"
+    },
+    { "id": "sms-113", "label": "legit", "text": "Yo theres no class tmrw right?" },
+    {
+      "id": "sms-4893",
+      "label": "smishing",
+      "text": "Congratulations ur awarded either a yrs supply of CDs from Virgin Records or a Mystery Gift GUARANTEED Call <phone> Ts&Cs www[.]smsco[.]net £1.50pm approx 3mins"
+    },
+    {
+      "id": "sms-256",
+      "label": "smishing",
+      "text": "Todays Voda numbers ending 5226 are selected to receive a ?350 award. If you hava a match please call <phone> quoting claim code 1131 standard rates app"
+    },
+    {
+      "id": "sms-4440",
+      "label": "spam",
+      "text": "Nova Medical Centers, conducts a shoulder Pain clinic on Mar 5th.Consult our renowned shoulder specialists Dr.<name> <name> & Dr.<name> Call-<phone>,<phone>"
+    },
+    {
+      "id": "sms-4469",
+      "label": "spam",
+      "text": "WIN a year supply of CDs 4 a store of ur choice worth £500 & enter our £100 Weekly draw txt MUSIC to 87066 Ts&Cs www[.]Ldew[.]com[.]subs16+1win150ppmx3"
+    },
+    {
+      "id": "sms-1526",
+      "label": "smishing",
+      "text": "FREE MSG:We billed your mobile number by mistake from shortcode 83332.Please call <phone> to have charges refunded.This call will be free from a BT landline"
+    },
+    { "id": "sms-1972", "label": "legit", "text": "At what time are you coming." },
+    { "id": "sms-1876", "label": "legit", "text": "Aiyar sorry lor forgot 2 tell u..." },
+    { "id": "sms-329", "label": "legit", "text": "Its a part of checking IQ" },
+    {
+      "id": "sms-59",
+      "label": "spam",
+      "text": "Overcome programming challenges for multicore and learn the techniques to scale reliability. Attend Intel session at 3.45 PM at Microsoft Community TechDays"
+    },
+    {
+      "id": "sms-4809",
+      "label": "legit",
+      "text": "Wa, ur openin sentence very formal... Anyway, i'm fine too, juz tt i'm eatin too much n puttin on weight...Haha... So anythin special happened?"
+    },
+    {
+      "id": "sms-1666",
+      "label": "spam",
+      "text": "Property Bhi Aapki Rent Bhi Aapka, Invest Rs 17k Lacs in Fully Furnished Office Spaces & Earn Rs 17k per Month Wid Bank Guarantee, Noida Cont.<phone>"
+    },
+    {
+      "id": "sms-4811",
+      "label": "legit",
+      "text": "thanks for the temales it was wonderful. Thank. Have a great week."
+    },
+    {
+      "id": "sms-1156",
+      "label": "spam",
+      "text": "December only! You are entitled to update to the latest colour camera mobile for Free! Call The Mobile Update Co FREE on <phone>"
+    },
+    {
+      "id": "sms-3848",
+      "label": "spam",
+      "text": "Get the official ENGLAND poly ringtone or colour flag on yer mobile for tonights game! Text TONE or FLAG to 84199."
+    },
+    {
+      "id": "sms-4980",
+      "label": "legit",
+      "text": "I dont know why she.s not getting your messages"
+    },
+    {
+      "id": "sms-3121",
+      "label": "smishing",
+      "text": "As a valued customer, I am pleased to advise you that following recent review of your Mob No. you are awarded with a £1500 Bonus Prize, call <phone>"
+    },
+    { "id": "sms-200", "label": "legit", "text": "Greetings me, ! Consider yourself excused." },
+    {
+      "id": "sms-4882",
+      "label": "smishing",
+      "text": "Dear Sir Your Bank card has been blocked because you did not updated yet, If you want to update your ATM card please contact <phone> <phone>"
+    },
+    {
+      "id": "sms-1340",
+      "label": "legit",
+      "text": "I wish that I was with you. Holding you tightly. Making you see how important you are. How much you mean to me ... How much I need you ... In my life ..."
+    },
+    {
+      "id": "sms-4427",
+      "label": "spam",
+      "text": "Make your career recession proof with 1 year Executive Master program in Information Security, Get qualified for 1,88,000* Jobs. SMS or Call MS @ <phone>"
+    },
+    {
+      "id": "sms-122",
+      "label": "smishing",
+      "text": "Dear PAYTM customer your Paytm KYC has expired. Contact customer care No-<phone> immediately. your account will Block within 24 hr. Thank you PAYTM TEAM."
+    },
+    {
+      "id": "sms-3533",
+      "label": "spam",
+      "text": "U can WIN £100 of Music Gift Vouchers every week starting NOW Txt the word DRAW to 87066 TsCs www[.]ldew[.]com .150ppermessSubscription"
+    },
+    {
+      "id": "sms-1100",
+      "label": "spam",
+      "text": "Sppok up ur mob with a Halloween collection of nokia logo&pic message plus a FREE eerie tone, txt CARD SPOOK to 8007"
+    },
+    {
+      "id": "sms-665",
+      "label": "smishing",
+      "text": "As a valued customer, I am pleased to advise you that following recent draw of your Mobile No. you are awarded with a Rs.2,00,000 Bonus Prize, call <phone>"
+    },
+    {
+      "id": "sms-1605",
+      "label": "smishing",
+      "text": "U have a secret admirer. REVEAL who thinks U R So special. Call <phone>. To opt out Cust care <phone>"
+    },
+    { "id": "sms-385", "label": "spam", "text": "FreeMsg>FAV XMAS TONES!Reply REAL" },
+    {
+      "id": "sms-3032",
+      "label": "smishing",
+      "text": "Dear Voucher Holder, To claim this weeks offer, at you PC please go to hxxp://www[.]e-tlp[.]co[.]uk/reward. Ts&Cs apply."
+    },
+    { "id": "sms-3017", "label": "legit", "text": "Went to <name> dress shop" },
+    {
+      "id": "sms-2454",
+      "label": "smishing",
+      "text": "You have exited the specified 1 mile radius on three separate occasions today. A penalty notice has been issued to your address held on the electoral roll. More info & appeals can be filed at gov[.]uk/cvpenalty Stay at home. Protect the…"
+    },
+    { "id": "sms-3777", "label": "legit", "text": "I just got home babe, are you still awake ?" },
+    {
+      "id": "sms-1965",
+      "label": "spam",
+      "text": "Guess who am I?This is the first time I created a web page WWW[.]ASJESUS[.]COM read all I wrote. I'm waiting for your opinions. I want to be your friend 1/1"
+    },
+    {
+      "id": "sms-3427",
+      "label": "legit",
+      "text": "You might want to pull out more just in case and just plan on not spending it if you can, I don't have much confidence in <name> and <name>'s money management"
+    },
+    {
+      "id": "sms-1872",
+      "label": "legit",
+      "text": "alright. Thanks for the advice. Enjoy your night out. I'ma try to get some sleep..."
+    },
+    { "id": "sms-732", "label": "legit", "text": "Where to get those?" },
+    {
+      "id": "sms-3254",
+      "label": "legit",
+      "text": "Yo <name>, a few friends are already asking me about you, you working at all this weekend?"
+    },
+    {
+      "id": "sms-28",
+      "label": "spam",
+      "text": "Hello from Orange. For 1 month's free access to games, news and sport, plus 10 free texts and 20 photo messages, reply YES. Terms apply: www[.]orange[.]co[.]uk/ow"
+    },
+    { "id": "sms-5491", "label": "legit", "text": "Yo we are watching a movie on netflix" },
+    { "id": "sms-4527", "label": "legit", "text": "I just cooked a rather nice salmon a la you" }
+  ]
+}

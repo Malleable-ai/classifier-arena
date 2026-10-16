@@ -1,0 +1,7546 @@
+{
+  "schemaVersion": 2,
+  "matches": [
+    {
+      "id": "20261012-154623-fighter-random-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-154623-fighter-random-vs-scripted-1.jsonl",
+      "players": [
+        "random",
+        "scripted"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Scripted bot"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 7,
+      "startTime": "2026-10-12T20:46:23.538Z",
+      "totalTicks": 2155,
+      "finalStateHash": "5a09549f756e0e21",
+      "costUsd": 0
+    },
+    {
+      "id": "20261012-154623-fighter-random-vs-scripted-2",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-154623-fighter-random-vs-scripted-2.jsonl",
+      "players": [
+        "random",
+        "scripted"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Scripted bot"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 42,
+      "startTime": "2026-10-12T20:46:23.912Z",
+      "totalTicks": 2118,
+      "finalStateHash": "92ebfd667416e86f",
+      "costUsd": 0
+    },
+    {
+      "id": "20261012-154624-fighter-scripted-vs-random-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-154624-fighter-scripted-vs-random-1.jsonl",
+      "players": [
+        "scripted",
+        "random"
+      ],
+      "labels": [
+        "Scripted bot",
+        "Random (uniform)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 2026,
+      "startTime": "2026-10-12T20:46:24.277Z",
+      "totalTicks": 2082,
+      "finalStateHash": "8d113d89f4ba550f",
+      "costUsd": 0
+    },
+    {
+      "id": "20261012-201451-inbox-random-vs-scripted-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201451-inbox-random-vs-scripted-1.jsonl",
+      "players": [
+        "random",
+        "scripted"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Always legit"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        8
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 4,
+      "startTime": "2026-10-13T01:14:51.582Z",
+      "totalTicks": 2031,
+      "finalStateHash": "84f287a6686c2cb3",
+      "costUsd": 0
+    },
+    {
+      "id": "20261012-201452-inbox-random-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201452-inbox-random-vs-random-1.jsonl",
+      "players": [
+        "random",
+        "random"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Random (uniform)"
+      ],
+      "winner": "random",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 4,
+      "startTime": "2026-10-13T01:14:52.086Z",
+      "totalTicks": 2031,
+      "finalStateHash": "c997bcfe8e372150",
+      "costUsd": 0
+    },
+    {
+      "id": "20261012-201452-inbox-scripted-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201452-inbox-scripted-vs-random-1.jsonl",
+      "players": [
+        "scripted",
+        "random"
+      ],
+      "labels": [
+        "Always legit",
+        "Random (uniform)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        4,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 2,
+      "startTime": "2026-10-13T01:14:52.590Z",
+      "totalTicks": 2139,
+      "finalStateHash": "64638c8125f3f23a",
+      "costUsd": 0
+    },
+    {
+      "id": "20261012-201453-clues-random-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-201453-clues-random-vs-random-1.jsonl",
+      "players": [
+        "random",
+        "random"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Random (uniform)"
+      ],
+      "winner": "random",
+      "winnerSeat": 0,
+      "scores": [
+        4,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 1,
+      "startTime": "2026-10-13T01:14:53.090Z",
+      "totalTicks": 48,
+      "finalStateHash": "5b8a307baebdf83a",
+      "costUsd": 0
+    },
+    {
+      "id": "20261012-201453-clues-random-vs-random-2",
+      "game": "clues",
+      "file": "clues/matches/20261012-201453-clues-random-vs-random-2.jsonl",
+      "players": [
+        "random",
+        "random"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Random (uniform)"
+      ],
+      "winner": "random",
+      "winnerSeat": 0,
+      "scores": [
+        5,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 2,
+      "startTime": "2026-10-13T01:14:53.579Z",
+      "totalTicks": 48,
+      "finalStateHash": "3d227325de74df3c",
+      "costUsd": 0
+    },
+    {
+      "id": "20261012-201454-clues-random-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-201454-clues-random-vs-random-1.jsonl",
+      "players": [
+        "random",
+        "random"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Random (uniform)"
+      ],
+      "winner": "draw",
+      "winnerSeat": null,
+      "scores": [
+        3,
+        3
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 3,
+      "startTime": "2026-10-13T01:14:54.068Z",
+      "totalTicks": 48,
+      "finalStateHash": "e044a40b3f0cde94",
+      "costUsd": 0
+    },
+    {
+      "id": "20261012-201540-inbox-jev-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201540-inbox-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        98,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 11000,
+      "startTime": "2026-10-13T01:15:41.146Z",
+      "totalTicks": 1834,
+      "finalStateHash": "f9131fcbe2b5c3ed",
+      "costUsd": 0.0022649340000000006
+    },
+    {
+      "id": "20261012-201611-inbox-random-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201611-inbox-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        98
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 11001,
+      "startTime": "2026-10-13T01:16:11.843Z",
+      "totalTicks": 1613,
+      "finalStateHash": "322a3a1f33c4d7a4",
+      "costUsd": 0.0019755120000000004
+    },
+    {
+      "id": "20261012-201638-inbox-jev-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201638-inbox-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        97,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 11002,
+      "startTime": "2026-10-13T01:16:39.168Z",
+      "totalTicks": 1923,
+      "finalStateHash": "e1a130160bba563a",
+      "costUsd": 0.0023777880000000013
+    },
+    {
+      "id": "20261012-201711-inbox-random-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201711-inbox-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        96
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 11003,
+      "startTime": "2026-10-13T01:17:11.446Z",
+      "totalTicks": 1959,
+      "finalStateHash": "5b311ba09f7d1cf3",
+      "costUsd": 0.0024155460000000015
+    },
+    {
+      "id": "20261012-201744-inbox-jev-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201744-inbox-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        90,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 11004,
+      "startTime": "2026-10-13T01:17:44.357Z",
+      "totalTicks": 2320,
+      "finalStateHash": "e9148b877bd7c10e",
+      "costUsd": 0.0029006040000000006
+    },
+    {
+      "id": "20261012-201823-inbox-random-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201823-inbox-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        95
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 11005,
+      "startTime": "2026-10-13T01:18:23.240Z",
+      "totalTicks": 1725,
+      "finalStateHash": "b4981357954abd23",
+      "costUsd": 0.0021186900000000008
+    },
+    {
+      "id": "20261012-201851-inbox-jev-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201851-inbox-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        96,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 11006,
+      "startTime": "2026-10-13T01:18:52.154Z",
+      "totalTicks": 2031,
+      "finalStateHash": "337b8af525bfad7b",
+      "costUsd": 0.0025287360000000015
+    },
+    {
+      "id": "20261012-201925-inbox-random-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201925-inbox-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        95
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 11007,
+      "startTime": "2026-10-13T01:19:26.265Z",
+      "totalTicks": 1833,
+      "finalStateHash": "2cfa84928ee380c8",
+      "costUsd": 0.002261658000000001
+    },
+    {
+      "id": "20261012-201956-inbox-jev-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-201956-inbox-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        93,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 11008,
+      "startTime": "2026-10-13T01:19:56.952Z",
+      "totalTicks": 2032,
+      "finalStateHash": "82d5d8c031e94734",
+      "costUsd": 0.0024683820000000025
+    },
+    {
+      "id": "20261012-202030-inbox-random-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202030-inbox-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        93
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 11009,
+      "startTime": "2026-10-13T01:20:31.205Z",
+      "totalTicks": 1941,
+      "finalStateHash": "40be769d2109da75",
+      "costUsd": 0.0024044159999999995
+    },
+    {
+      "id": "20261012-202104-inbox-openai-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202104-inbox-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        90,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 12000,
+      "startTime": "2026-10-13T01:21:05.381Z",
+      "totalTicks": 1905,
+      "finalStateHash": "b2b3e3afe3e8c384",
+      "costUsd": 0.0034339000000000006
+    },
+    {
+      "id": "20261012-202137-inbox-random-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202137-inbox-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        91
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 12001,
+      "startTime": "2026-10-13T01:21:37.297Z",
+      "totalTicks": 1780,
+      "finalStateHash": "ab7b5a7a813d925e",
+      "costUsd": 0.0031920999999999994
+    },
+    {
+      "id": "20261012-202206-inbox-openai-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202206-inbox-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        94,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 12002,
+      "startTime": "2026-10-13T01:22:07.314Z",
+      "totalTicks": 1690,
+      "finalStateHash": "2df085374d44ea5a",
+      "costUsd": 0.003014999999999999
+    },
+    {
+      "id": "20261012-202235-inbox-random-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202235-inbox-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        92
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 12003,
+      "startTime": "2026-10-13T01:22:35.647Z",
+      "totalTicks": 1959,
+      "finalStateHash": "84116414da0372e8",
+      "costUsd": 0.0035145000000000003
+    },
+    {
+      "id": "20261012-202308-inbox-openai-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202308-inbox-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        95,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 12004,
+      "startTime": "2026-10-13T01:23:08.480Z",
+      "totalTicks": 2157,
+      "finalStateHash": "c6c7dd945f2c085b",
+      "costUsd": 0.003879100000000001
+    },
+    {
+      "id": "20261012-202344-inbox-random-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202344-inbox-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        94
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 12005,
+      "startTime": "2026-10-13T01:23:44.752Z",
+      "totalTicks": 1978,
+      "finalStateHash": "d8f7fb6cd1c528b8",
+      "costUsd": 0.003547900000000001
+    },
+    {
+      "id": "20261012-202417-inbox-openai-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202417-inbox-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        94,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 12006,
+      "startTime": "2026-10-13T01:24:17.944Z",
+      "totalTicks": 1924,
+      "finalStateHash": "34980a5cdb4b0c16",
+      "costUsd": 0.0034394
+    },
+    {
+      "id": "20261012-202449-inbox-random-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202449-inbox-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        96
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 12007,
+      "startTime": "2026-10-13T01:24:50.198Z",
+      "totalTicks": 2139,
+      "finalStateHash": "183eaa26b5de0559",
+      "costUsd": 0.0038562000000000006
+    },
+    {
+      "id": "20261012-202525-inbox-openai-vs-random-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202525-inbox-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        92,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 12008,
+      "startTime": "2026-10-13T01:25:26.013Z",
+      "totalTicks": 2085,
+      "finalStateHash": "f25705a692754dc1",
+      "costUsd": 0.003744000000000001
+    },
+    {
+      "id": "20261012-202600-inbox-random-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202600-inbox-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        98
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 12009,
+      "startTime": "2026-10-13T01:26:00.949Z",
+      "totalTicks": 1689,
+      "finalStateHash": "ed4cbd2bb64b7ac2",
+      "costUsd": 0.0030015000000000003
+    },
+    {
+      "id": "20261012-202629-inbox-jev-vs-scripted-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202629-inbox-jev-vs-scripted-1.jsonl",
+      "players": [
+        "jev",
+        "scripted"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Always legit"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        97,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 13000,
+      "startTime": "2026-10-13T01:26:30.167Z",
+      "totalTicks": 2104,
+      "finalStateHash": "967401092b9e3514",
+      "costUsd": 0.0026105940000000004
+    },
+    {
+      "id": "20261012-202705-inbox-scripted-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202705-inbox-scripted-vs-jev-1.jsonl",
+      "players": [
+        "scripted",
+        "jev"
+      ],
+      "labels": [
+        "Always legit",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        99
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 13001,
+      "startTime": "2026-10-13T01:27:05.373Z",
+      "totalTicks": 2085,
+      "finalStateHash": "d5ab27b1cdbefdbc",
+      "costUsd": 0.002511642000000001
+    },
+    {
+      "id": "20261012-202740-inbox-jev-vs-scripted-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202740-inbox-jev-vs-scripted-1.jsonl",
+      "players": [
+        "jev",
+        "scripted"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Always legit"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        91,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 13002,
+      "startTime": "2026-10-13T01:27:40.933Z",
+      "totalTicks": 2104,
+      "finalStateHash": "57fbf7f770e808da",
+      "costUsd": 0.002624622000000002
+    },
+    {
+      "id": "20261012-202815-inbox-scripted-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202815-inbox-scripted-vs-jev-1.jsonl",
+      "players": [
+        "scripted",
+        "jev"
+      ],
+      "labels": [
+        "Always legit",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        99
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 13003,
+      "startTime": "2026-10-13T01:28:16.185Z",
+      "totalTicks": 1744,
+      "finalStateHash": "a956d318d0788517",
+      "costUsd": 0.002142923999999999
+    },
+    {
+      "id": "20261012-202845-inbox-jev-vs-scripted-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202845-inbox-jev-vs-scripted-1.jsonl",
+      "players": [
+        "jev",
+        "scripted"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Always legit"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        94,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 13004,
+      "startTime": "2026-10-13T01:28:45.528Z",
+      "totalTicks": 1978,
+      "finalStateHash": "71455bdf1d9e8593",
+      "costUsd": 0.0024469200000000026
+    },
+    {
+      "id": "20261012-202918-inbox-scripted-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202918-inbox-scripted-vs-jev-1.jsonl",
+      "players": [
+        "scripted",
+        "jev"
+      ],
+      "labels": [
+        "Always legit",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        98
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 13005,
+      "startTime": "2026-10-13T01:29:18.791Z",
+      "totalTicks": 1725,
+      "finalStateHash": "76361a39fb646152",
+      "costUsd": 0.0021216300000000002
+    },
+    {
+      "id": "20261012-202947-inbox-jev-vs-scripted-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-202947-inbox-jev-vs-scripted-1.jsonl",
+      "players": [
+        "jev",
+        "scripted"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Always legit"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        96,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 13006,
+      "startTime": "2026-10-13T01:29:47.679Z",
+      "totalTicks": 1870,
+      "finalStateHash": "a62f918a267a0a8d",
+      "costUsd": 0.0023178120000000007
+    },
+    {
+      "id": "20261012-203018-inbox-scripted-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203018-inbox-scripted-vs-jev-1.jsonl",
+      "players": [
+        "scripted",
+        "jev"
+      ],
+      "labels": [
+        "Always legit",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        92
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 13007,
+      "startTime": "2026-10-13T01:30:18.973Z",
+      "totalTicks": 1707,
+      "finalStateHash": "5ea0855939333a10",
+      "costUsd": 0.0020766060000000004
+    },
+    {
+      "id": "20261012-203047-inbox-jev-vs-scripted-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203047-inbox-jev-vs-scripted-1.jsonl",
+      "players": [
+        "jev",
+        "scripted"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Always legit"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        93,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 13008,
+      "startTime": "2026-10-13T01:30:47.718Z",
+      "totalTicks": 1762,
+      "finalStateHash": "1306f6d04d5e61d3",
+      "costUsd": 0.0021718200000000014
+    },
+    {
+      "id": "20261012-203117-inbox-scripted-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203117-inbox-scripted-vs-jev-1.jsonl",
+      "players": [
+        "scripted",
+        "jev"
+      ],
+      "labels": [
+        "Always legit",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        97
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 13009,
+      "startTime": "2026-10-13T01:31:17.366Z",
+      "totalTicks": 1888,
+      "finalStateHash": "32950e6d024752ab",
+      "costUsd": 0.002330202
+    },
+    {
+      "id": "20261012-203149-inbox-openai-vs-scripted-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203149-inbox-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Always legit"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        92,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 14000,
+      "startTime": "2026-10-13T01:31:50.259Z",
+      "totalTicks": 1924,
+      "finalStateHash": "0fd20814d41efd0c",
+      "costUsd": 0.003457600000000003
+    },
+    {
+      "id": "20261012-203222-inbox-scripted-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203222-inbox-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Always legit",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        94
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 14001,
+      "startTime": "2026-10-13T01:32:22.476Z",
+      "totalTicks": 1761,
+      "finalStateHash": "58d79527f3f3eef4",
+      "costUsd": 0.0031666
+    },
+    {
+      "id": "20261012-203251-inbox-openai-vs-scripted-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203251-inbox-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Always legit"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        89,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 14002,
+      "startTime": "2026-10-13T01:32:51.962Z",
+      "totalTicks": 1870,
+      "finalStateHash": "0086ac1e5328eb72",
+      "costUsd": 0.0033581000000000006
+    },
+    {
+      "id": "20261012-203323-inbox-scripted-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203323-inbox-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Always legit",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        95
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 14003,
+      "startTime": "2026-10-13T01:33:23.334Z",
+      "totalTicks": 1633,
+      "finalStateHash": "e1e76e49d9b32b8e",
+      "costUsd": 0.0029306000000000007
+    },
+    {
+      "id": "20261012-203350-inbox-openai-vs-scripted-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203350-inbox-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Always legit"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        93,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 14004,
+      "startTime": "2026-10-13T01:33:50.684Z",
+      "totalTicks": 2121,
+      "finalStateHash": "a01c675bbd4fcdce",
+      "costUsd": 0.0038044000000000007
+    },
+    {
+      "id": "20261012-203426-inbox-scripted-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203426-inbox-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Always legit",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        92
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 14005,
+      "startTime": "2026-10-13T01:34:27.436Z",
+      "totalTicks": 1652,
+      "finalStateHash": "4a2ab6dafe2d1c69",
+      "costUsd": 0.0029997999999999995
+    },
+    {
+      "id": "20261012-203454-inbox-openai-vs-scripted-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203454-inbox-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Always legit"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        93,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 14006,
+      "startTime": "2026-10-13T01:34:55.107Z",
+      "totalTicks": 1780,
+      "finalStateHash": "5bc2410d45114fee",
+      "costUsd": 0.0031902999999999996
+    },
+    {
+      "id": "20261012-203524-inbox-scripted-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203524-inbox-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Always legit",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        98
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 14007,
+      "startTime": "2026-10-13T01:35:24.926Z",
+      "totalTicks": 1815,
+      "finalStateHash": "5c6bc16e7406b25f",
+      "costUsd": 0.0032514000000000015
+    },
+    {
+      "id": "20261012-203555-inbox-openai-vs-scripted-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203555-inbox-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Always legit"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        90,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 14008,
+      "startTime": "2026-10-13T01:35:55.493Z",
+      "totalTicks": 2067,
+      "finalStateHash": "a1e0cf0301cf4992",
+      "costUsd": 0.0036489999999999995
+    },
+    {
+      "id": "20261012-203629-inbox-scripted-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-203629-inbox-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Always legit",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        94
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 14009,
+      "startTime": "2026-10-13T01:36:30.302Z",
+      "totalTicks": 1870,
+      "finalStateHash": "9c2a522b9e5e4b9a",
+      "costUsd": 0.0033569999999999997
+    },
+    {
+      "id": "20261012-203702-fighter-jev-vs-random-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-203702-fighter-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 21000,
+      "startTime": "2026-10-13T01:37:02.513Z",
+      "totalTicks": 3899,
+      "finalStateHash": "684a4bef7f133a17",
+      "costUsd": 0.014371392000000009
+    },
+    {
+      "id": "20261012-203807-fighter-random-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-203807-fighter-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 21001,
+      "startTime": "2026-10-13T01:38:07.809Z",
+      "totalTicks": 3542,
+      "finalStateHash": "ffafe97a3dfff897",
+      "costUsd": 0.012037158000000008
+    },
+    {
+      "id": "20261012-203906-fighter-jev-vs-random-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-203906-fighter-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 21002,
+      "startTime": "2026-10-13T01:39:07.070Z",
+      "totalTicks": 2338,
+      "finalStateHash": "7466aa3b71232d64",
+      "costUsd": 0.009002826000000004
+    },
+    {
+      "id": "20261012-203946-fighter-random-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-203946-fighter-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 21003,
+      "startTime": "2026-10-13T01:39:46.321Z",
+      "totalTicks": 2339,
+      "finalStateHash": "27b697f13ba25000",
+      "costUsd": 0.008962926000000005
+    },
+    {
+      "id": "20261012-204025-fighter-jev-vs-random-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-204025-fighter-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 21004,
+      "startTime": "2026-10-13T01:40:25.513Z",
+      "totalTicks": 2678,
+      "finalStateHash": "83bd19064022b899",
+      "costUsd": 0.009727452
+    },
+    {
+      "id": "20261012-204110-fighter-random-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-204110-fighter-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 21005,
+      "startTime": "2026-10-13T01:41:10.427Z",
+      "totalTicks": 4157,
+      "finalStateHash": "6556510b979e8b16",
+      "costUsd": 0.014527758000000003
+    },
+    {
+      "id": "20261012-204219-fighter-jev-vs-random-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-204219-fighter-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 21006,
+      "startTime": "2026-10-13T01:42:20.012Z",
+      "totalTicks": 2919,
+      "finalStateHash": "414a5b43bdc3680c",
+      "costUsd": 0.011243231999999997
+    },
+    {
+      "id": "20261012-204308-fighter-random-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-204308-fighter-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 21007,
+      "startTime": "2026-10-13T01:43:09.048Z",
+      "totalTicks": 3342,
+      "finalStateHash": "bafc94621b817cb2",
+      "costUsd": 0.013507788000000015
+    },
+    {
+      "id": "20261012-204404-fighter-jev-vs-random-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-204404-fighter-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 21008,
+      "startTime": "2026-10-13T01:44:05.027Z",
+      "totalTicks": 2135,
+      "finalStateHash": "6dd0d57314790986",
+      "costUsd": 0.008112845999999998
+    },
+    {
+      "id": "20261012-204440-fighter-random-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-204440-fighter-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 21009,
+      "startTime": "2026-10-13T01:44:40.888Z",
+      "totalTicks": 3911,
+      "finalStateHash": "afeddcd1f05b1bf1",
+      "costUsd": 0.014955696000000011
+    },
+    {
+      "id": "20261012-204546-fighter-openai-vs-random-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-204546-fighter-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 22000,
+      "startTime": "2026-10-13T01:45:47.565Z",
+      "totalTicks": 2675,
+      "finalStateHash": "8472564600336621",
+      "costUsd": 0.015719400000000012
+    },
+    {
+      "id": "20261012-204632-fighter-random-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-204632-fighter-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 22001,
+      "startTime": "2026-10-13T01:46:32.481Z",
+      "totalTicks": 2713,
+      "finalStateHash": "ff8f8e82a6af3678",
+      "costUsd": 0.015170000000000006
+    },
+    {
+      "id": "20261012-204717-fighter-openai-vs-random-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-204717-fighter-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 22002,
+      "startTime": "2026-10-13T01:47:17.968Z",
+      "totalTicks": 1977,
+      "finalStateHash": "092c6d63d2232882",
+      "costUsd": 0.012931700000000006
+    },
+    {
+      "id": "20261012-204750-fighter-random-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-204750-fighter-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 22003,
+      "startTime": "2026-10-13T01:47:51.200Z",
+      "totalTicks": 7507,
+      "finalStateHash": "0c200496da3c3431",
+      "costUsd": 0.04101359999999995
+    },
+    {
+      "id": "20261012-204956-fighter-openai-vs-random-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-204956-fighter-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 22004,
+      "startTime": "2026-10-13T01:49:56.774Z",
+      "totalTicks": 2337,
+      "finalStateHash": "2a7cb26cffa8face",
+      "costUsd": 0.013493400000000004
+    },
+    {
+      "id": "20261012-205035-fighter-random-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205035-fighter-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 22005,
+      "startTime": "2026-10-13T01:50:35.976Z",
+      "totalTicks": 2928,
+      "finalStateHash": "e45d5df3b05f3013",
+      "costUsd": 0.018523600000000008
+    },
+    {
+      "id": "20261012-205124-fighter-openai-vs-random-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205124-fighter-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 22006,
+      "startTime": "2026-10-13T01:51:25.286Z",
+      "totalTicks": 2146,
+      "finalStateHash": "cb49edee40cd7613",
+      "costUsd": 0.012932900000000006
+    },
+    {
+      "id": "20261012-205201-fighter-random-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205201-fighter-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 22007,
+      "startTime": "2026-10-13T01:52:01.224Z",
+      "totalTicks": 3004,
+      "finalStateHash": "291700b2d9e2c1b4",
+      "costUsd": 0.01791760000000002
+    },
+    {
+      "id": "20261012-205251-fighter-openai-vs-random-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205251-fighter-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 22008,
+      "startTime": "2026-10-13T01:52:51.536Z",
+      "totalTicks": 2253,
+      "finalStateHash": "9d33e09e50c3381a",
+      "costUsd": 0.0141005
+    },
+    {
+      "id": "20261012-205329-fighter-random-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205329-fighter-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 22009,
+      "startTime": "2026-10-13T01:53:29.338Z",
+      "totalTicks": 2789,
+      "finalStateHash": "73ba78b25d7c42b7",
+      "costUsd": 0.017449700000000005
+    },
+    {
+      "id": "20261012-205416-fighter-jev-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205416-fighter-jev-vs-scripted-1.jsonl",
+      "players": [
+        "jev",
+        "scripted"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Scripted bot"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 23000,
+      "startTime": "2026-10-13T01:54:17.147Z",
+      "totalTicks": 2201,
+      "finalStateHash": "832c6dcae5888857",
+      "costUsd": 0.008732556
+    },
+    {
+      "id": "20261012-205453-fighter-scripted-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205453-fighter-scripted-vs-jev-1.jsonl",
+      "players": [
+        "scripted",
+        "jev"
+      ],
+      "labels": [
+        "Scripted bot",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 23001,
+      "startTime": "2026-10-13T01:54:54.104Z",
+      "totalTicks": 2308,
+      "finalStateHash": "13b5cbeb21ddf866",
+      "costUsd": 0.009490908000000008
+    },
+    {
+      "id": "20261012-205532-fighter-jev-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205532-fighter-jev-vs-scripted-1.jsonl",
+      "players": [
+        "jev",
+        "scripted"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Scripted bot"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 23002,
+      "startTime": "2026-10-13T01:55:32.842Z",
+      "totalTicks": 2537,
+      "finalStateHash": "834b7ba6967913eb",
+      "costUsd": 0.009176453999999994
+    },
+    {
+      "id": "20261012-205615-fighter-scripted-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205615-fighter-scripted-vs-jev-1.jsonl",
+      "players": [
+        "scripted",
+        "jev"
+      ],
+      "labels": [
+        "Scripted bot",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 23003,
+      "startTime": "2026-10-13T01:56:15.340Z",
+      "totalTicks": 2024,
+      "finalStateHash": "9bbf90b858d2e224",
+      "costUsd": 0.007181621999999997
+    },
+    {
+      "id": "20261012-205649-fighter-jev-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205649-fighter-jev-vs-scripted-1.jsonl",
+      "players": [
+        "jev",
+        "scripted"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Scripted bot"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 23004,
+      "startTime": "2026-10-13T01:56:49.390Z",
+      "totalTicks": 2076,
+      "finalStateHash": "ac5f4474204d53a7",
+      "costUsd": 0.0074692380000000004
+    },
+    {
+      "id": "20261012-205723-fighter-scripted-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205723-fighter-scripted-vs-jev-1.jsonl",
+      "players": [
+        "scripted",
+        "jev"
+      ],
+      "labels": [
+        "Scripted bot",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 23005,
+      "startTime": "2026-10-13T01:57:24.237Z",
+      "totalTicks": 2247,
+      "finalStateHash": "01b820dfd0b400cc",
+      "costUsd": 0.008932728000000003
+    },
+    {
+      "id": "20261012-205801-fighter-jev-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205801-fighter-jev-vs-scripted-1.jsonl",
+      "players": [
+        "jev",
+        "scripted"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Scripted bot"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 23006,
+      "startTime": "2026-10-13T01:58:01.941Z",
+      "totalTicks": 3561,
+      "finalStateHash": "b14506459b0996f2",
+      "costUsd": 0.013703886000000016
+    },
+    {
+      "id": "20261012-205901-fighter-scripted-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205901-fighter-scripted-vs-jev-1.jsonl",
+      "players": [
+        "scripted",
+        "jev"
+      ],
+      "labels": [
+        "Scripted bot",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 23007,
+      "startTime": "2026-10-13T01:59:01.519Z",
+      "totalTicks": 2185,
+      "finalStateHash": "96697d95bc367274",
+      "costUsd": 0.008262449999999996
+    },
+    {
+      "id": "20261012-205937-fighter-jev-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-205937-fighter-jev-vs-scripted-1.jsonl",
+      "players": [
+        "jev",
+        "scripted"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Scripted bot"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 23008,
+      "startTime": "2026-10-13T01:59:38.103Z",
+      "totalTicks": 2250,
+      "finalStateHash": "d775cf75efa48c8f",
+      "costUsd": 0.008732724000000002
+    },
+    {
+      "id": "20261012-210015-fighter-scripted-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-210015-fighter-scripted-vs-jev-1.jsonl",
+      "players": [
+        "scripted",
+        "jev"
+      ],
+      "labels": [
+        "Scripted bot",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 23009,
+      "startTime": "2026-10-13T02:00:15.855Z",
+      "totalTicks": 2238,
+      "finalStateHash": "14ebeaba705b3bab",
+      "costUsd": 0.008543723999999992
+    },
+    {
+      "id": "20261012-210054-fighter-openai-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-210054-fighter-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Scripted bot"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24000,
+      "startTime": "2026-10-13T02:00:54.502Z",
+      "totalTicks": 2234,
+      "finalStateHash": "3e022957da694712",
+      "costUsd": 0.007968600000000006
+    },
+    {
+      "id": "20261012-210131-fighter-scripted-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-210131-fighter-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Scripted bot",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24001,
+      "startTime": "2026-10-13T02:01:32.060Z",
+      "totalTicks": 3645,
+      "finalStateHash": "dd3f88a0f222dc69",
+      "costUsd": 0.018514600000000003
+    },
+    {
+      "id": "20261012-210232-fighter-openai-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-210232-fighter-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Scripted bot"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24002,
+      "startTime": "2026-10-13T02:02:33.045Z",
+      "totalTicks": 2385,
+      "finalStateHash": "40cc2d37030c34c3",
+      "costUsd": 0.013292800000000007
+    },
+    {
+      "id": "20261012-210312-fighter-scripted-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-210312-fighter-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Scripted bot",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24003,
+      "startTime": "2026-10-13T02:03:13.028Z",
+      "totalTicks": 3451,
+      "finalStateHash": "43dfc5cd6d29d000",
+      "costUsd": 0.020584699999999997
+    },
+    {
+      "id": "20261012-210410-fighter-openai-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-210410-fighter-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Scripted bot"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24004,
+      "startTime": "2026-10-13T02:04:10.846Z",
+      "totalTicks": 3473,
+      "finalStateHash": "bd03e35e78205e20",
+      "costUsd": 0.017601700000000005
+    },
+    {
+      "id": "20261012-210508-fighter-scripted-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-210508-fighter-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Scripted bot",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24005,
+      "startTime": "2026-10-13T02:05:08.954Z",
+      "totalTicks": 3472,
+      "finalStateHash": "5e79c3df4f02f3c4",
+      "costUsd": 0.019086700000000005
+    },
+    {
+      "id": "20261012-210606-fighter-openai-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-210606-fighter-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Scripted bot"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": false,
+      "featured": false,
+      "seed": 24006,
+      "startTime": "2026-10-13T02:06:07.101Z",
+      "totalTicks": 2074,
+      "finalStateHash": "79e6ee1d96c5852c",
+      "costUsd": 0.009593600000000004
+    },
+    {
+      "id": "20261012-210641-fighter-scripted-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-210641-fighter-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Scripted bot",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": false,
+      "featured": false,
+      "seed": 24007,
+      "startTime": "2026-10-13T02:06:42.621Z",
+      "totalTicks": 1954,
+      "finalStateHash": "bce3b612b270148f",
+      "costUsd": 0.006319000000000001
+    },
+    {
+      "id": "20261012-210715-fighter-openai-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-210715-fighter-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Scripted bot"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": false,
+      "featured": false,
+      "seed": 24008,
+      "startTime": "2026-10-13T02:07:17.339Z",
+      "totalTicks": 1413,
+      "finalStateHash": "cc174d5f5b83bace",
+      "costUsd": 0.0023912000000000004
+    },
+    {
+      "id": "20261012-210939-fighter-openai-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-210939-fighter-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Scripted bot"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24009,
+      "startTime": "2026-10-13T02:09:39.350Z",
+      "totalTicks": 3002,
+      "finalStateHash": "4333a0b9f1d46fa9",
+      "costUsd": 0.016890900000000007
+    },
+    {
+      "id": "20261012-211029-fighter-scripted-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-211029-fighter-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Scripted bot",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24010,
+      "startTime": "2026-10-13T02:10:29.747Z",
+      "totalTicks": 3024,
+      "finalStateHash": "20ac97ec24bf55e6",
+      "costUsd": 0.013110200000000015
+    },
+    {
+      "id": "20261012-211120-fighter-openai-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-211120-fighter-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Scripted bot"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24011,
+      "startTime": "2026-10-13T02:11:20.567Z",
+      "totalTicks": 1917,
+      "finalStateHash": "be197f66433fc2fd",
+      "costUsd": 0.010110100000000002
+    },
+    {
+      "id": "20261012-211152-fighter-scripted-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-211152-fighter-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Scripted bot",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24012,
+      "startTime": "2026-10-13T02:11:52.818Z",
+      "totalTicks": 2113,
+      "finalStateHash": "cb215aa059506851",
+      "costUsd": 0.011096000000000007
+    },
+    {
+      "id": "20261012-211228-fighter-openai-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-211228-fighter-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Scripted bot"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24013,
+      "startTime": "2026-10-13T02:12:28.333Z",
+      "totalTicks": 3173,
+      "finalStateHash": "1631af5778b6252c",
+      "costUsd": 0.016517100000000007
+    },
+    {
+      "id": "20261012-211321-fighter-openai-vs-scripted-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-211321-fighter-openai-vs-scripted-1.jsonl",
+      "players": [
+        "openai",
+        "scripted"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Scripted bot"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24014,
+      "startTime": "2026-10-13T02:13:21.529Z",
+      "totalTicks": 2216,
+      "finalStateHash": "ee9be2ad71b56058",
+      "costUsd": 0.01199170000000001
+    },
+    {
+      "id": "20261012-211358-fighter-scripted-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-211358-fighter-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Scripted bot",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "scripted",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24015,
+      "startTime": "2026-10-13T02:13:58.747Z",
+      "totalTicks": 3558,
+      "finalStateHash": "df0e7794765af575",
+      "costUsd": 0.019616300000000017
+    },
+    {
+      "id": "20261012-211458-fighter-scripted-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261012-211458-fighter-scripted-vs-openai-1.jsonl",
+      "players": [
+        "scripted",
+        "openai"
+      ],
+      "labels": [
+        "Scripted bot",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 24016,
+      "startTime": "2026-10-13T02:14:58.590Z",
+      "totalTicks": 2348,
+      "finalStateHash": "434e6438473f3501",
+      "costUsd": 0.012158400000000012
+    },
+    {
+      "id": "20261012-211538-clues-jev-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211538-clues-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        42,
+        4
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 31000,
+      "startTime": "2026-10-13T02:15:39.041Z",
+      "totalTicks": 48,
+      "finalStateHash": "ab9898c01bd84c4f",
+      "costUsd": 0.0013425720000000002
+    },
+    {
+      "id": "20261012-211553-clues-random-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211553-clues-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        5,
+        29
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 31001,
+      "startTime": "2026-10-13T02:15:53.873Z",
+      "totalTicks": 48,
+      "finalStateHash": "15202903c5dcb208",
+      "costUsd": 0.001410906
+    },
+    {
+      "id": "20261012-211608-clues-jev-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211608-clues-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        37,
+        7
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 31002,
+      "startTime": "2026-10-13T02:16:08.493Z",
+      "totalTicks": 48,
+      "finalStateHash": "75c5068429c11679",
+      "costUsd": 0.0013384980000000002
+    },
+    {
+      "id": "20261012-211622-clues-random-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211622-clues-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        2,
+        46
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 31003,
+      "startTime": "2026-10-13T02:16:23.097Z",
+      "totalTicks": 48,
+      "finalStateHash": "af545271d264bbac",
+      "costUsd": 0.0013810439999999999
+    },
+    {
+      "id": "20261012-211637-clues-jev-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211637-clues-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        34,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 31004,
+      "startTime": "2026-10-13T02:16:37.703Z",
+      "totalTicks": 48,
+      "finalStateHash": "b7b02062e8af2a82",
+      "costUsd": 0.0013497539999999997
+    },
+    {
+      "id": "20261012-211652-clues-random-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211652-clues-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        5,
+        35
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 31005,
+      "startTime": "2026-10-13T02:16:52.471Z",
+      "totalTicks": 48,
+      "finalStateHash": "5c05513dbf235dd7",
+      "costUsd": 0.0013839000000000006
+    },
+    {
+      "id": "20261012-211707-clues-jev-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211707-clues-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        42,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 31006,
+      "startTime": "2026-10-13T02:17:07.272Z",
+      "totalTicks": 48,
+      "finalStateHash": "3f953380604b69c3",
+      "costUsd": 0.0013565999999999997
+    },
+    {
+      "id": "20261012-211721-clues-random-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211721-clues-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        2,
+        40
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 31007,
+      "startTime": "2026-10-13T02:17:21.897Z",
+      "totalTicks": 48,
+      "finalStateHash": "b8272bf35648c1bc",
+      "costUsd": 0.0013662600000000002
+    },
+    {
+      "id": "20261012-211736-clues-jev-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211736-clues-jev-vs-random-1.jsonl",
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        43,
+        6
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 31008,
+      "startTime": "2026-10-13T02:17:36.498Z",
+      "totalTicks": 48,
+      "finalStateHash": "fc7113b80a11bfdd",
+      "costUsd": 0.0013451340000000002
+    },
+    {
+      "id": "20261012-211750-clues-random-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211750-clues-random-vs-jev-1.jsonl",
+      "players": [
+        "random",
+        "jev"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        6,
+        34
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 31009,
+      "startTime": "2026-10-13T02:17:51.142Z",
+      "totalTicks": 48,
+      "finalStateHash": "ea915af6406d3978",
+      "costUsd": 0.00134505
+    },
+    {
+      "id": "20261012-211807-clues-openai-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211807-clues-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        32,
+        3
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 32000,
+      "startTime": "2026-10-13T02:18:08.272Z",
+      "totalTicks": 48,
+      "finalStateHash": "6bb29b24878084ef",
+      "costUsd": 0.0017417000000000003
+    },
+    {
+      "id": "20261012-211825-clues-random-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211825-clues-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        2,
+        40
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 32001,
+      "startTime": "2026-10-13T02:18:25.309Z",
+      "totalTicks": 48,
+      "finalStateHash": "a1bff093d153a83d",
+      "costUsd": 0.0016564000000000001
+    },
+    {
+      "id": "20261012-211841-clues-openai-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211841-clues-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        44,
+        3
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 32002,
+      "startTime": "2026-10-13T02:18:41.443Z",
+      "totalTicks": 48,
+      "finalStateHash": "59267e8a167a3ded",
+      "costUsd": 0.0017232000000000007
+    },
+    {
+      "id": "20261012-211859-clues-random-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211859-clues-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        6,
+        41
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 32003,
+      "startTime": "2026-10-13T02:18:59.353Z",
+      "totalTicks": 48,
+      "finalStateHash": "2eb24e01280ce68f",
+      "costUsd": 0.0016811
+    },
+    {
+      "id": "20261012-211915-clues-openai-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211915-clues-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        43,
+        4
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 32004,
+      "startTime": "2026-10-13T02:19:15.525Z",
+      "totalTicks": 48,
+      "finalStateHash": "7f07a4da6472dd6c",
+      "costUsd": 0.0017069999999999998
+    },
+    {
+      "id": "20261012-211930-clues-random-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211930-clues-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        43
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 32005,
+      "startTime": "2026-10-13T02:19:30.858Z",
+      "totalTicks": 48,
+      "finalStateHash": "269622a5985592dd",
+      "costUsd": 0.0017175000000000003
+    },
+    {
+      "id": "20261012-211946-clues-openai-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-211946-clues-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        32,
+        3
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 32006,
+      "startTime": "2026-10-13T02:19:47.130Z",
+      "totalTicks": 48,
+      "finalStateHash": "7ce58977226b4a9f",
+      "costUsd": 0.0017105000000000004
+    },
+    {
+      "id": "20261012-212002-clues-random-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212002-clues-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        2,
+        43
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 32007,
+      "startTime": "2026-10-13T02:20:02.250Z",
+      "totalTicks": 48,
+      "finalStateHash": "987b994985b5807e",
+      "costUsd": 0.0016237000000000007
+    },
+    {
+      "id": "20261012-212018-clues-openai-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212018-clues-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        29,
+        3
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 32008,
+      "startTime": "2026-10-13T02:20:18.211Z",
+      "totalTicks": 48,
+      "finalStateHash": "c89833a61154a06a",
+      "costUsd": 0.0016346000000000002
+    },
+    {
+      "id": "20261012-212034-clues-random-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212034-clues-random-vs-openai-1.jsonl",
+      "players": [
+        "random",
+        "openai"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        3,
+        36
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 32009,
+      "startTime": "2026-10-13T02:20:34.540Z",
+      "totalTicks": 48,
+      "finalStateHash": "8e114c93f48476a7",
+      "costUsd": 0.0017055999999999998
+    },
+    {
+      "id": "20261012-212049-clues-openai-vs-random-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212049-clues-openai-vs-random-1.jsonl",
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        35,
+        5
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 32010,
+      "startTime": "2026-10-13T02:20:49.985Z",
+      "totalTicks": 48,
+      "finalStateHash": "4cb1df591e68e7d8",
+      "costUsd": 0.0017090000000000004
+    },
+    {
+      "id": "20261012-212106-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212106-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        42,
+        38
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33000,
+      "startTime": "2026-10-13T02:21:06.960Z",
+      "totalTicks": 48,
+      "finalStateHash": "f79eadfce237eb7e",
+      "costUsd": 0.0029689940000000013
+    },
+    {
+      "id": "20261012-212122-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212122-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        35,
+        40
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33001,
+      "startTime": "2026-10-13T02:21:22.227Z",
+      "totalTicks": 48,
+      "finalStateHash": "9f2e457351306dc7",
+      "costUsd": 0.0029464960000000007
+    },
+    {
+      "id": "20261012-212137-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212137-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        38,
+        36
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33002,
+      "startTime": "2026-10-13T02:21:37.821Z",
+      "totalTicks": 48,
+      "finalStateHash": "cd9eb856921602bd",
+      "costUsd": 0.0029369840000000014
+    },
+    {
+      "id": "20261012-212153-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212153-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        44,
+        43
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33003,
+      "startTime": "2026-10-13T02:21:53.686Z",
+      "totalTicks": 48,
+      "finalStateHash": "01638b7938a6ce52",
+      "costUsd": 0.002968550000000002
+    },
+    {
+      "id": "20261012-212209-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212209-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        44,
+        38
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33004,
+      "startTime": "2026-10-13T02:22:10.180Z",
+      "totalTicks": 48,
+      "finalStateHash": "38e403b4477416c4",
+      "costUsd": 0.003069286
+    },
+    {
+      "id": "20261012-212227-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212227-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        37,
+        40
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33005,
+      "startTime": "2026-10-13T02:22:27.355Z",
+      "totalTicks": 48,
+      "finalStateHash": "04de3975cdc7be2c",
+      "costUsd": 0.0030893619999999996
+    },
+    {
+      "id": "20261012-212246-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212246-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        33,
+        32
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33006,
+      "startTime": "2026-10-13T02:22:47.106Z",
+      "totalTicks": 48,
+      "finalStateHash": "629e7a473d85e43f",
+      "costUsd": 0.0031054480000000002
+    },
+    {
+      "id": "20261012-212303-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212303-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        33,
+        33
+      ],
+      "valid": true,
+      "featured": true,
+      "seed": 33007,
+      "startTime": "2026-10-13T02:23:03.452Z",
+      "totalTicks": 48,
+      "finalStateHash": "01c78197e2d258c7",
+      "costUsd": 0.0029403100000000015
+    },
+    {
+      "id": "20261012-212318-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212318-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        37,
+        34
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33008,
+      "startTime": "2026-10-13T02:23:18.906Z",
+      "totalTicks": 48,
+      "finalStateHash": "bc7ff58ee2802fdd",
+      "costUsd": 0.0029893579999999997
+    },
+    {
+      "id": "20261012-212335-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212335-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        37,
+        38
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33009,
+      "startTime": "2026-10-13T02:23:35.694Z",
+      "totalTicks": 48,
+      "finalStateHash": "30ee253db13e06f4",
+      "costUsd": 0.002917840000000002
+    },
+    {
+      "id": "20261012-212352-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212352-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        41,
+        41
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33010,
+      "startTime": "2026-10-13T02:23:52.717Z",
+      "totalTicks": 48,
+      "finalStateHash": "bbb62c87da68a588",
+      "costUsd": 0.0030469139999999987
+    },
+    {
+      "id": "20261012-212412-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212412-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        38,
+        40
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33011,
+      "startTime": "2026-10-13T02:24:12.734Z",
+      "totalTicks": 48,
+      "finalStateHash": "99dbf762f37a26ac",
+      "costUsd": 0.002979240000000001
+    },
+    {
+      "id": "20261012-212432-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212432-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        43,
+        42
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33012,
+      "startTime": "2026-10-13T02:24:32.924Z",
+      "totalTicks": 48,
+      "finalStateHash": "12883efaa9108496",
+      "costUsd": 0.003046488000000001
+    },
+    {
+      "id": "20261012-212450-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212450-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        38,
+        40
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33013,
+      "startTime": "2026-10-13T02:24:50.680Z",
+      "totalTicks": 48,
+      "finalStateHash": "097fa5cc264533fb",
+      "costUsd": 0.002985804000000001
+    },
+    {
+      "id": "20261012-212508-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212508-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        42,
+        35
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33014,
+      "startTime": "2026-10-13T02:25:08.689Z",
+      "totalTicks": 48,
+      "finalStateHash": "b5507dc1a9f63e28",
+      "costUsd": 0.002949404000000001
+    },
+    {
+      "id": "20261012-212529-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212529-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        34,
+        40
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33015,
+      "startTime": "2026-10-13T02:25:30.158Z",
+      "totalTicks": 48,
+      "finalStateHash": "ce8202a1d444eccb",
+      "costUsd": 0.002946354000000001
+    },
+    {
+      "id": "20261012-212547-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212547-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        38,
+        36
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33016,
+      "startTime": "2026-10-13T02:25:47.897Z",
+      "totalTicks": 48,
+      "finalStateHash": "c92d2c3c648b7344",
+      "costUsd": 0.0029369840000000023
+    },
+    {
+      "id": "20261012-212605-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212605-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        39,
+        40
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33017,
+      "startTime": "2026-10-13T02:26:05.245Z",
+      "totalTicks": 48,
+      "finalStateHash": "650c4a2251ce977f",
+      "costUsd": 0.003040760000000002
+    },
+    {
+      "id": "20261012-212621-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212621-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        37,
+        36
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33018,
+      "startTime": "2026-10-13T02:26:21.850Z",
+      "totalTicks": 48,
+      "finalStateHash": "272b7fc544f0e5ba",
+      "costUsd": 0.0029675160000000016
+    },
+    {
+      "id": "20261012-212641-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212641-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        42,
+        41
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33019,
+      "startTime": "2026-10-13T02:26:41.346Z",
+      "totalTicks": 48,
+      "finalStateHash": "0491ee3d99739b5c",
+      "costUsd": 0.002979440000000002
+    },
+    {
+      "id": "20261012-212657-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212657-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        34,
+        34
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33020,
+      "startTime": "2026-10-13T02:26:57.585Z",
+      "totalTicks": 48,
+      "finalStateHash": "5e7330d2435310d7",
+      "costUsd": 0.0029689540000000024
+    },
+    {
+      "id": "20261012-212716-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212716-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        42,
+        40
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33021,
+      "startTime": "2026-10-13T02:27:16.260Z",
+      "totalTicks": 48,
+      "finalStateHash": "2c1a354e274a3208",
+      "costUsd": 0.0029897980000000027
+    },
+    {
+      "id": "20261012-212733-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212733-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        37,
+        30
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33022,
+      "startTime": "2026-10-13T02:27:33.806Z",
+      "totalTicks": 48,
+      "finalStateHash": "4b18a8c1227a3e55",
+      "costUsd": 0.0030173039999999993
+    },
+    {
+      "id": "20261012-212749-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212749-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        36,
+        39
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33023,
+      "startTime": "2026-10-13T02:27:49.269Z",
+      "totalTicks": 48,
+      "finalStateHash": "f83e5a791a7bfd3d",
+      "costUsd": 0.002945724000000002
+    },
+    {
+      "id": "20261012-212804-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212804-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        42,
+        41
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33024,
+      "startTime": "2026-10-13T02:28:04.638Z",
+      "totalTicks": 48,
+      "finalStateHash": "b09e5473eaea1fc0",
+      "costUsd": 0.003046772000000001
+    },
+    {
+      "id": "20261012-212821-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212821-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        32,
+        38
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33025,
+      "startTime": "2026-10-13T02:28:21.442Z",
+      "totalTicks": 48,
+      "finalStateHash": "5514252988b7773c",
+      "costUsd": 0.003017304000000001
+    },
+    {
+      "id": "20261012-212836-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212836-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        29,
+        33
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33026,
+      "startTime": "2026-10-13T02:28:37.168Z",
+      "totalTicks": 48,
+      "finalStateHash": "2dda48de46294382",
+      "costUsd": 0.003177053999999998
+    },
+    {
+      "id": "20261012-212852-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212852-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        44,
+        44
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33027,
+      "startTime": "2026-10-13T02:28:52.335Z",
+      "totalTicks": 48,
+      "finalStateHash": "733e8adef0688a84",
+      "costUsd": 0.003071673999999998
+    },
+    {
+      "id": "20261012-212907-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212907-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        34,
+        37
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33028,
+      "startTime": "2026-10-13T02:29:07.896Z",
+      "totalTicks": 48,
+      "finalStateHash": "d9b1c9ee9cdab676",
+      "costUsd": 0.0030023500000000013
+    },
+    {
+      "id": "20261012-212923-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212923-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        43,
+        44
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33029,
+      "startTime": "2026-10-13T02:29:23.461Z",
+      "totalTicks": 48,
+      "finalStateHash": "6fd231fda09b22bd",
+      "costUsd": 0.003038311999999999
+    },
+    {
+      "id": "20261012-212940-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212940-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        37,
+        37
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33030,
+      "startTime": "2026-10-13T02:29:40.552Z",
+      "totalTicks": 48,
+      "finalStateHash": "c14af0b95357869d",
+      "costUsd": 0.0030806099999999993
+    },
+    {
+      "id": "20261012-212956-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-212956-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        35,
+        37
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33031,
+      "startTime": "2026-10-13T02:29:56.464Z",
+      "totalTicks": 48,
+      "finalStateHash": "08edc701fcfab813",
+      "costUsd": 0.0029369840000000023
+    },
+    {
+      "id": "20261012-213011-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213011-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        37,
+        33
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33032,
+      "startTime": "2026-10-13T02:30:12.100Z",
+      "totalTicks": 48,
+      "finalStateHash": "68bfdd698df57007",
+      "costUsd": 0.0031265
+    },
+    {
+      "id": "20261012-213027-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213027-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        34,
+        35
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33033,
+      "startTime": "2026-10-13T02:30:28.255Z",
+      "totalTicks": 48,
+      "finalStateHash": "426caef7bba3d1b8",
+      "costUsd": 0.002969938000000002
+    },
+    {
+      "id": "20261012-213043-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213043-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        44,
+        40
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33034,
+      "startTime": "2026-10-13T02:30:43.919Z",
+      "totalTicks": 48,
+      "finalStateHash": "70d12ff1ce27f7c3",
+      "costUsd": 0.003069611999999999
+    },
+    {
+      "id": "20261012-213059-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213059-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        36,
+        41
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33035,
+      "startTime": "2026-10-13T02:30:59.851Z",
+      "totalTicks": 48,
+      "finalStateHash": "a9f4b183517ff36d",
+      "costUsd": 0.00304076
+    },
+    {
+      "id": "20261012-213116-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213116-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        27,
+        29
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33036,
+      "startTime": "2026-10-13T02:31:16.914Z",
+      "totalTicks": 48,
+      "finalStateHash": "f776aaf3daf91f54",
+      "costUsd": 0.0030688779999999993
+    },
+    {
+      "id": "20261012-213132-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213132-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        44,
+        42
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33037,
+      "startTime": "2026-10-13T02:31:33.428Z",
+      "totalTicks": 48,
+      "finalStateHash": "4ce0cb9bb9470a79",
+      "costUsd": 0.0029688340000000027
+    },
+    {
+      "id": "20261012-213149-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213149-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        42,
+        45
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33038,
+      "startTime": "2026-10-13T02:31:50.290Z",
+      "totalTicks": 48,
+      "finalStateHash": "a9c21d212dedbf46",
+      "costUsd": 0.0029691180000000032
+    },
+    {
+      "id": "20261012-213206-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213206-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        42,
+        43
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33039,
+      "startTime": "2026-10-13T02:32:06.393Z",
+      "totalTicks": 48,
+      "finalStateHash": "8aa44de64b8a43ce",
+      "costUsd": 0.0030469139999999995
+    },
+    {
+      "id": "20261012-213221-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213221-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        36,
+        33
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33040,
+      "startTime": "2026-10-13T02:32:22.106Z",
+      "totalTicks": 48,
+      "finalStateHash": "2c3030a7df338b29",
+      "costUsd": 0.003016594000000001
+    },
+    {
+      "id": "20261012-213237-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213237-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        41,
+        45
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33041,
+      "startTime": "2026-10-13T02:32:37.263Z",
+      "totalTicks": 48,
+      "finalStateHash": "0d8d4649a77231de",
+      "costUsd": 0.003071447999999999
+    },
+    {
+      "id": "20261012-213252-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213252-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        38,
+        38
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33042,
+      "startTime": "2026-10-13T02:32:52.899Z",
+      "totalTicks": 48,
+      "finalStateHash": "8a299d4d72678eb7",
+      "costUsd": 0.0029179820000000013
+    },
+    {
+      "id": "20261012-213308-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213308-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        41,
+        46
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33043,
+      "startTime": "2026-10-13T02:33:08.879Z",
+      "totalTicks": 48,
+      "finalStateHash": "066664a401e4f325",
+      "costUsd": 0.003142643999999999
+    },
+    {
+      "id": "20261012-213323-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213323-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        31,
+        32
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33044,
+      "startTime": "2026-10-13T02:33:24.192Z",
+      "totalTicks": 48,
+      "finalStateHash": "6de055601366dc1e",
+      "costUsd": 0.0031781899999999996
+    },
+    {
+      "id": "20261012-213339-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213339-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        41,
+        43
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33045,
+      "startTime": "2026-10-13T02:33:39.302Z",
+      "totalTicks": 48,
+      "finalStateHash": "ac1d12c0ec96810b",
+      "costUsd": 0.0030376020000000004
+    },
+    {
+      "id": "20261012-213354-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213354-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        43,
+        36
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33046,
+      "startTime": "2026-10-13T02:33:54.737Z",
+      "totalTicks": 48,
+      "finalStateHash": "d297a3343ca156cb",
+      "costUsd": 0.002968794000000001
+    },
+    {
+      "id": "20261012-213410-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213410-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        44,
+        45
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33047,
+      "startTime": "2026-10-13T02:34:10.907Z",
+      "totalTicks": 48,
+      "finalStateHash": "f2ca1fd01b739f7f",
+      "costUsd": 0.003104541999999999
+    },
+    {
+      "id": "20261012-213429-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213429-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        39,
+        36
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33048,
+      "startTime": "2026-10-13T02:34:29.258Z",
+      "totalTicks": 48,
+      "finalStateHash": "1b6145420ed6e936",
+      "costUsd": 0.002945014000000001
+    },
+    {
+      "id": "20261012-213445-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213445-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        36,
+        38
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33049,
+      "startTime": "2026-10-13T02:34:45.588Z",
+      "totalTicks": 48,
+      "finalStateHash": "8ea88e7b92762da6",
+      "costUsd": 0.0029181240000000015
+    },
+    {
+      "id": "20261012-213501-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213501-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        34,
+        28
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33050,
+      "startTime": "2026-10-13T02:35:02.067Z",
+      "totalTicks": 48,
+      "finalStateHash": "156da8adc91c8b9a",
+      "costUsd": 0.0030739899999999987
+    },
+    {
+      "id": "20261012-213517-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213517-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        35,
+        28
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33051,
+      "startTime": "2026-10-13T02:35:17.596Z",
+      "totalTicks": 48,
+      "finalStateHash": "790686fe9cd92892",
+      "costUsd": 0.003177053999999999
+    },
+    {
+      "id": "20261012-213534-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213534-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        32,
+        39
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33052,
+      "startTime": "2026-10-13T02:35:34.457Z",
+      "totalTicks": 48,
+      "finalStateHash": "b2ef318936a968ab",
+      "costUsd": 0.002953704000000001
+    },
+    {
+      "id": "20261012-213554-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213554-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        37,
+        38
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33053,
+      "startTime": "2026-10-13T02:35:54.942Z",
+      "totalTicks": 48,
+      "finalStateHash": "bee197e7964c0c68",
+      "costUsd": 0.002917840000000001
+    },
+    {
+      "id": "20261012-213610-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213610-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        42,
+        43
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33054,
+      "startTime": "2026-10-13T02:36:11.102Z",
+      "totalTicks": 48,
+      "finalStateHash": "691e83f7ff6e71f3",
+      "costUsd": 0.0029688340000000035
+    },
+    {
+      "id": "20261012-213626-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213626-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        40,
+        41
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33055,
+      "startTime": "2026-10-13T02:36:26.699Z",
+      "totalTicks": 48,
+      "finalStateHash": "233913ce91eb9e06",
+      "costUsd": 0.0029897980000000036
+    },
+    {
+      "id": "20261012-213644-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213644-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        41,
+        47
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33056,
+      "startTime": "2026-10-13T02:36:44.938Z",
+      "totalTicks": 48,
+      "finalStateHash": "3a1b9f532b947008",
+      "costUsd": 0.003143921999999999
+    },
+    {
+      "id": "20261012-213701-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213701-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        32,
+        37
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33057,
+      "startTime": "2026-10-13T02:37:01.328Z",
+      "totalTicks": 48,
+      "finalStateHash": "d83276d26953ca47",
+      "costUsd": 0.0030161680000000022
+    },
+    {
+      "id": "20261012-213716-clues-openai-vs-jev-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213716-clues-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        39,
+        44
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33058,
+      "startTime": "2026-10-13T02:37:17.066Z",
+      "totalTicks": 48,
+      "finalStateHash": "a8b4a27af713fe5a",
+      "costUsd": 0.0031006019999999996
+    },
+    {
+      "id": "20261012-213731-clues-jev-vs-openai-1",
+      "game": "clues",
+      "file": "clues/matches/20261012-213731-clues-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        36,
+        33
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 33059,
+      "startTime": "2026-10-13T02:37:32.183Z",
+      "totalTicks": 48,
+      "finalStateHash": "49cad0a5b708b794",
+      "costUsd": 0.002992626000000002
+    },
+    {
+      "id": "20261012-213751-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-213751-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        73,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15000,
+      "startTime": "2026-10-13T02:37:51.695Z",
+      "totalTicks": 8148,
+      "finalStateHash": "7e8e34b3bdd23daf",
+      "costUsd": 0.03076341599999996
+    },
+    {
+      "id": "20261012-214007-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-214007-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        80
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15001,
+      "startTime": "2026-10-13T02:40:07.917Z",
+      "totalTicks": 7475,
+      "finalStateHash": "0a61465ad34701f4",
+      "costUsd": 0.027158359999999982
+    },
+    {
+      "id": "20261012-214212-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-214212-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": true,
+      "seed": 15002,
+      "startTime": "2026-10-13T02:42:12.838Z",
+      "totalTicks": 8018,
+      "finalStateHash": "af31ee10ef1b44c9",
+      "costUsd": 0.029583215999999975
+    },
+    {
+      "id": "20261012-214426-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-214426-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        88
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15003,
+      "startTime": "2026-10-13T02:44:26.778Z",
+      "totalTicks": 6118,
+      "finalStateHash": "ec510aed24f50c1a",
+      "costUsd": 0.020831452000000007
+    },
+    {
+      "id": "20261012-214608-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-214608-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        18
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15004,
+      "startTime": "2026-10-13T02:46:09.067Z",
+      "totalTicks": 8311,
+      "finalStateHash": "c79cdca2fc23ee7d",
+      "costUsd": 0.031370803999999974
+    },
+    {
+      "id": "20261012-214827-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-214827-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        43
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15005,
+      "startTime": "2026-10-13T02:48:27.834Z",
+      "totalTicks": 7953,
+      "finalStateHash": "7328464dbed56e77",
+      "costUsd": 0.029301307999999974
+    },
+    {
+      "id": "20261012-215040-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-215040-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        42
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15006,
+      "startTime": "2026-10-13T02:50:40.683Z",
+      "totalTicks": 8419,
+      "finalStateHash": "d81655aa050e9a46",
+      "costUsd": 0.031952933999999995
+    },
+    {
+      "id": "20261012-215300-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-215300-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        29,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15007,
+      "startTime": "2026-10-13T02:53:01.311Z",
+      "totalTicks": 8343,
+      "finalStateHash": "49b221d48d4d60bc",
+      "costUsd": 0.03128350799999998
+    },
+    {
+      "id": "20261012-215520-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-215520-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        80,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15008,
+      "startTime": "2026-10-13T02:55:20.668Z",
+      "totalTicks": 7226,
+      "finalStateHash": "5040e5f6b202175e",
+      "costUsd": 0.025950351999999986
+    },
+    {
+      "id": "20261012-215721-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-215721-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        75
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15009,
+      "startTime": "2026-10-13T02:57:21.363Z",
+      "totalTicks": 7226,
+      "finalStateHash": "5653c4a544a81a0b",
+      "costUsd": 0.025717123999999997
+    },
+    {
+      "id": "20261012-215921-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-215921-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        86,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15010,
+      "startTime": "2026-10-13T02:59:22.067Z",
+      "totalTicks": 6659,
+      "finalStateHash": "c92b6cefe1aa09a9",
+      "costUsd": 0.023181409999999958
+    },
+    {
+      "id": "20261012-220113-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-220113-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        90
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15011,
+      "startTime": "2026-10-13T03:01:13.346Z",
+      "totalTicks": 5648,
+      "finalStateHash": "20c889bc5b28867a",
+      "costUsd": 0.01859748800000001
+    },
+    {
+      "id": "20261012-220247-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-220247-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        80,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15012,
+      "startTime": "2026-10-13T03:02:47.769Z",
+      "totalTicks": 6031,
+      "finalStateHash": "522187229577f3bc",
+      "costUsd": 0.020414757999999988
+    },
+    {
+      "id": "20261012-220428-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-220428-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        80
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15013,
+      "startTime": "2026-10-13T03:04:28.499Z",
+      "totalTicks": 6723,
+      "finalStateHash": "3d43e151640dc780",
+      "costUsd": 0.023297240000000004
+    },
+    {
+      "id": "20261012-220620-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-220620-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        86,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15014,
+      "startTime": "2026-10-13T03:06:20.858Z",
+      "totalTicks": 6313,
+      "finalStateHash": "6e3030ff7580d018",
+      "costUsd": 0.021828329999999986
+    },
+    {
+      "id": "20261012-220806-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-220806-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        80
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15015,
+      "startTime": "2026-10-13T03:08:06.338Z",
+      "totalTicks": 7250,
+      "finalStateHash": "7c0c2b0bb7041771",
+      "costUsd": 0.02618186199999999
+    },
+    {
+      "id": "20261012-221007-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-221007-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        87,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15016,
+      "startTime": "2026-10-13T03:10:07.442Z",
+      "totalTicks": 4618,
+      "finalStateHash": "069782706e6922d1",
+      "costUsd": 0.014265904000000005
+    },
+    {
+      "id": "20261012-221124-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-221124-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        75
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15017,
+      "startTime": "2026-10-13T03:11:24.686Z",
+      "totalTicks": 8213,
+      "finalStateHash": "ee37a84277147596",
+      "costUsd": 0.031110333999999983
+    },
+    {
+      "id": "20261012-221341-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-221341-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        87,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15018,
+      "startTime": "2026-10-13T03:13:41.886Z",
+      "totalTicks": 6236,
+      "finalStateHash": "c2db7219023b9b8c",
+      "costUsd": 0.021382935999999998
+    },
+    {
+      "id": "20261012-221525-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-221525-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        75
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15019,
+      "startTime": "2026-10-13T03:15:26.295Z",
+      "totalTicks": 8398,
+      "finalStateHash": "6c622d342bed0817",
+      "costUsd": 0.03210428000000001
+    },
+    {
+      "id": "20261012-221746-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-221746-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        80,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15020,
+      "startTime": "2026-10-13T03:17:46.588Z",
+      "totalTicks": 7191,
+      "finalStateHash": "9e442c392cdb002f",
+      "costUsd": 0.025746404
+    },
+    {
+      "id": "20261012-221946-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-221946-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        81
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15021,
+      "startTime": "2026-10-13T03:19:46.706Z",
+      "totalTicks": 7522,
+      "finalStateHash": "954c426ca00a8667",
+      "costUsd": 0.027353367999999968
+    },
+    {
+      "id": "20261012-222152-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-222152-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        52,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15022,
+      "startTime": "2026-10-13T03:21:52.305Z",
+      "totalTicks": 8766,
+      "finalStateHash": "5a4fff7e93c4fbeb",
+      "costUsd": 0.03398970399999995
+    },
+    {
+      "id": "20261012-222418-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-222418-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        57
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15023,
+      "startTime": "2026-10-13T03:24:18.713Z",
+      "totalTicks": 8638,
+      "finalStateHash": "e8eee8e44ae9326a",
+      "costUsd": 0.03319802
+    },
+    {
+      "id": "20261012-222642-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-222642-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        80,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15024,
+      "startTime": "2026-10-13T03:26:43.568Z",
+      "totalTicks": 7404,
+      "finalStateHash": "92e51e41b08ed300",
+      "costUsd": 0.02697883999999999
+    },
+    {
+      "id": "20261012-222846-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-222846-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        76
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15025,
+      "startTime": "2026-10-13T03:28:47.231Z",
+      "totalTicks": 7131,
+      "finalStateHash": "5734c0d2cbc6314a",
+      "costUsd": 0.025723319999999997
+    },
+    {
+      "id": "20261012-223046-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-223046-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        79,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15026,
+      "startTime": "2026-10-13T03:30:46.383Z",
+      "totalTicks": 7725,
+      "finalStateHash": "35245d53e0d189fb",
+      "costUsd": 0.02854843999999999
+    },
+    {
+      "id": "20261012-223255-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-223255-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        77
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15027,
+      "startTime": "2026-10-13T03:32:55.447Z",
+      "totalTicks": 8148,
+      "finalStateHash": "3ca8479a4cba5de7",
+      "costUsd": 0.030703789999999984
+    },
+    {
+      "id": "20261012-223511-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-223511-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        77,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15028,
+      "startTime": "2026-10-13T03:35:11.442Z",
+      "totalTicks": 7823,
+      "finalStateHash": "eb7f241808998039",
+      "costUsd": 0.02870498599999998
+    },
+    {
+      "id": "20261012-223721-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-223721-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        79
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15029,
+      "startTime": "2026-10-13T03:37:22.080Z",
+      "totalTicks": 7627,
+      "finalStateHash": "dd4823aaa66f5f64",
+      "costUsd": 0.02787206600000001
+    },
+    {
+      "id": "20261012-223929-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-223929-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        83,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15030,
+      "startTime": "2026-10-13T03:39:29.573Z",
+      "totalTicks": 7510,
+      "finalStateHash": "7584d0da4b7327e6",
+      "costUsd": 0.02741248999999998
+    },
+    {
+      "id": "20261012-224134-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-224134-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        86
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15031,
+      "startTime": "2026-10-13T03:41:34.998Z",
+      "totalTicks": 6824,
+      "finalStateHash": "fd32f4a198d8548a",
+      "costUsd": 0.02417822799999997
+    },
+    {
+      "id": "20261012-224328-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-224328-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        87,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15032,
+      "startTime": "2026-10-13T03:43:28.928Z",
+      "totalTicks": 6836,
+      "finalStateHash": "14707a2451693789",
+      "costUsd": 0.024093631999999986
+    },
+    {
+      "id": "20261012-224522-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-224522-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        90
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15033,
+      "startTime": "2026-10-13T03:45:23.204Z",
+      "totalTicks": 5358,
+      "finalStateHash": "627edfd70f82cde3",
+      "costUsd": 0.017345627999999984
+    },
+    {
+      "id": "20261012-224652-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-224652-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        81,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15034,
+      "startTime": "2026-10-13T03:46:52.918Z",
+      "totalTicks": 6236,
+      "finalStateHash": "9fa70088e40dd6ca",
+      "costUsd": 0.021299361999999985
+    },
+    {
+      "id": "20261012-224836-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-224836-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        79
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15035,
+      "startTime": "2026-10-13T03:48:37.142Z",
+      "totalTicks": 7581,
+      "finalStateHash": "f5bdc72a4cfeb069",
+      "costUsd": 0.027877395999999995
+    },
+    {
+      "id": "20261012-225043-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-225043-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        75,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15036,
+      "startTime": "2026-10-13T03:50:43.801Z",
+      "totalTicks": 7899,
+      "finalStateHash": "86f420fd9d8b0b82",
+      "costUsd": 0.029430975999999973
+    },
+    {
+      "id": "20261012-225255-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-225255-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        84
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15037,
+      "startTime": "2026-10-13T03:52:55.769Z",
+      "totalTicks": 7226,
+      "finalStateHash": "3728a2c2b40fdaa4",
+      "costUsd": 0.026130781999999988
+    },
+    {
+      "id": "20261012-225456-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-225456-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        80,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15038,
+      "startTime": "2026-10-13T03:54:56.420Z",
+      "totalTicks": 7660,
+      "finalStateHash": "9b2128b9f864097f",
+      "costUsd": 0.02819167200000003
+    },
+    {
+      "id": "20261012-225704-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-225704-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        76
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15039,
+      "startTime": "2026-10-13T03:57:04.441Z",
+      "totalTicks": 7649,
+      "finalStateHash": "5b2508378c76122c",
+      "costUsd": 0.028181237999999963
+    },
+    {
+      "id": "20261012-225911-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-225911-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        75,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15040,
+      "startTime": "2026-10-13T03:59:12.294Z",
+      "totalTicks": 7605,
+      "finalStateHash": "c6b57ff520fc851c",
+      "costUsd": 0.02789338200000002
+    },
+    {
+      "id": "20261012-230119-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-230119-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        75
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15041,
+      "startTime": "2026-10-13T04:01:19.423Z",
+      "totalTicks": 7638,
+      "finalStateHash": "601b70750794999b",
+      "costUsd": 0.028140523999999993
+    },
+    {
+      "id": "20261012-230326-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-230326-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        78,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15042,
+      "startTime": "2026-10-13T04:03:27.022Z",
+      "totalTicks": 7581,
+      "finalStateHash": "b15982fd718f7339",
+      "costUsd": 0.027811479999999975
+    },
+    {
+      "id": "20261012-230533-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-230533-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": false,
+      "featured": false,
+      "seed": 15043,
+      "startTime": "2026-10-13T04:05:33.728Z",
+      "totalTicks": 2426,
+      "finalStateHash": "c202d58248a44e55",
+      "costUsd": 0.0036729479999999966
+    },
+    {
+      "id": "20261012-230614-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-230614-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        83,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15044,
+      "startTime": "2026-10-13T04:06:23.726Z",
+      "totalTicks": 7368,
+      "finalStateHash": "e4d6e09ed0ed06f2",
+      "costUsd": 0.026669575999999997
+    },
+    {
+      "id": "20261012-230826-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-230826-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        81
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15045,
+      "startTime": "2026-10-13T04:08:26.924Z",
+      "totalTicks": 7060,
+      "finalStateHash": "0cb88c8c69c97f43",
+      "costUsd": 0.025142985999999996
+    },
+    {
+      "id": "20261012-231024-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-231024-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        58
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15046,
+      "startTime": "2026-10-13T04:10:24.945Z",
+      "totalTicks": 8387,
+      "finalStateHash": "a412f90e42c75e84",
+      "costUsd": 0.032092993999999965
+    },
+    {
+      "id": "20261012-231244-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-231244-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        16,
+        0
+      ],
+      "valid": false,
+      "featured": false,
+      "seed": 15047,
+      "startTime": "2026-10-13T04:12:45.010Z",
+      "totalTicks": 8806,
+      "finalStateHash": "4ea9d7e657ee09da",
+      "costUsd": 0.033853756000000026
+    },
+    {
+      "id": "20261012-233034-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-233034-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "draw",
+      "winnerSeat": null,
+      "scores": [
+        0,
+        0
+      ],
+      "valid": false,
+      "featured": false,
+      "seed": 15048,
+      "startTime": "2026-10-13T04:30:39.206Z",
+      "totalTicks": 1537,
+      "finalStateHash": "96957b82375089b7",
+      "costUsd": 0.00011178
+    },
+    {
+      "id": "20261012-234726-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261012-234726-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        3
+      ],
+      "valid": false,
+      "excluded": "The machine slept mid-match (on battery, before stall detection existed): the game clock caught up on wake with few or no requests sent.",
+      "featured": false,
+      "seed": 15049,
+      "startTime": "2026-10-13T04:47:26.880Z",
+      "totalTicks": 2639,
+      "finalStateHash": "68bba149be51b060",
+      "costUsd": 0.003715742000000003
+    },
+    {
+      "id": "20261013-000501-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261013-000501-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        3
+      ],
+      "valid": false,
+      "featured": false,
+      "seed": 15050,
+      "startTime": "2026-10-13T05:05:02.427Z",
+      "totalTicks": 1781,
+      "finalStateHash": "4fd1c50b3edd6949",
+      "costUsd": 0.000739716
+    },
+    {
+      "id": "20261015-231158-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261015-231158-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        90,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15100,
+      "startTime": "2026-10-16T04:12:00.218Z",
+      "totalTicks": 3464,
+      "finalStateHash": "8c024bd19d4bb17e",
+      "costUsd": 0.009830454
+    },
+    {
+      "id": "20261015-231257-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261015-231257-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        96
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15101,
+      "startTime": "2026-10-16T04:12:58.183Z",
+      "totalTicks": 2911,
+      "finalStateHash": "5988f44df6e3d4d4",
+      "costUsd": 0.007750439999999995
+    },
+    {
+      "id": "20261015-231346-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261015-231346-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        88,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15102,
+      "startTime": "2026-10-16T04:13:46.988Z",
+      "totalTicks": 3910,
+      "finalStateHash": "9dac217872032f93",
+      "costUsd": 0.011780262
+    },
+    {
+      "id": "20261015-231452-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261015-231452-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        79,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15103,
+      "startTime": "2026-10-16T04:14:52.397Z",
+      "totalTicks": 7975,
+      "finalStateHash": "778d5dd4a27f2409",
+      "costUsd": 0.03005170999999997
+    },
+    {
+      "id": "20261015-231705-inbox-openai-vs-jev-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261015-231705-inbox-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        79
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15104,
+      "startTime": "2026-10-16T04:17:05.575Z",
+      "totalTicks": 6582,
+      "finalStateHash": "1b25396a63a199aa",
+      "costUsd": 0.023057955999999994
+    },
+    {
+      "id": "20261015-231855-inbox-jev-vs-openai-1",
+      "game": "inbox",
+      "file": "inbox/matches/20261015-231855-inbox-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        80,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 15105,
+      "startTime": "2026-10-16T04:18:55.504Z",
+      "totalTicks": 7703,
+      "finalStateHash": "3b4929ebfb945c4a",
+      "costUsd": 0.028320803999999998
+    },
+    {
+      "id": "20261015-232105-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232105-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25000,
+      "startTime": "2026-10-16T04:21:05.353Z",
+      "totalTicks": 3066,
+      "finalStateHash": "e7cef84441365b34",
+      "costUsd": 0.029505656000000026
+    },
+    {
+      "id": "20261015-232156-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232156-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25001,
+      "startTime": "2026-10-16T04:21:56.684Z",
+      "totalTicks": 2023,
+      "finalStateHash": "43151a429e9fb392",
+      "costUsd": 0.019076938
+    },
+    {
+      "id": "20261015-232230-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232230-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25002,
+      "startTime": "2026-10-16T04:22:30.606Z",
+      "totalTicks": 2506,
+      "finalStateHash": "20b42c51a84aa6f9",
+      "costUsd": 0.025219899999999962
+    },
+    {
+      "id": "20261015-232312-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232312-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25003,
+      "startTime": "2026-10-16T04:23:12.667Z",
+      "totalTicks": 2239,
+      "finalStateHash": "69fbfb2b5f8686ee",
+      "costUsd": 0.021866544000000022
+    },
+    {
+      "id": "20261015-232349-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232349-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25004,
+      "startTime": "2026-10-16T04:23:50.242Z",
+      "totalTicks": 3241,
+      "finalStateHash": "ecbcabcde862c6e8",
+      "costUsd": 0.03049319000000003
+    },
+    {
+      "id": "20261015-232444-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232444-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25005,
+      "startTime": "2026-10-16T04:24:44.529Z",
+      "totalTicks": 3717,
+      "finalStateHash": "f2fbb71c2ee1efe6",
+      "costUsd": 0.044373182000000004
+    },
+    {
+      "id": "20261015-232546-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232546-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25006,
+      "startTime": "2026-10-16T04:25:46.737Z",
+      "totalTicks": 3765,
+      "finalStateHash": "928eae6439f38a4e",
+      "costUsd": 0.04365252999999999
+    },
+    {
+      "id": "20261015-232649-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232649-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25007,
+      "startTime": "2026-10-16T04:26:49.697Z",
+      "totalTicks": 2296,
+      "finalStateHash": "8e1acdae14701843",
+      "costUsd": 0.025611032000000044
+    },
+    {
+      "id": "20261015-232727-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232727-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25008,
+      "startTime": "2026-10-16T04:27:28.273Z",
+      "totalTicks": 4064,
+      "finalStateHash": "e5506f7ce9f300d9",
+      "costUsd": 0.04583148199999997
+    },
+    {
+      "id": "20261015-232835-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232835-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25009,
+      "startTime": "2026-10-16T04:28:36.584Z",
+      "totalTicks": 2500,
+      "finalStateHash": "6a43a4205dc40528",
+      "costUsd": 0.026994915999999997
+    },
+    {
+      "id": "20261015-232918-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232918-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25010,
+      "startTime": "2026-10-16T04:29:18.535Z",
+      "totalTicks": 2223,
+      "finalStateHash": "91d7d16b0ab5e3a3",
+      "costUsd": 0.022913688000000005
+    },
+    {
+      "id": "20261015-232955-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-232955-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25011,
+      "startTime": "2026-10-16T04:29:55.814Z",
+      "totalTicks": 3867,
+      "finalStateHash": "ab89abe12fa97159",
+      "costUsd": 0.034288788
+    },
+    {
+      "id": "20261015-233100-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-233100-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25012,
+      "startTime": "2026-10-16T04:31:01.575Z",
+      "totalTicks": 4335,
+      "finalStateHash": "d251abb572d91c0f",
+      "costUsd": 0.02891117600000003
+    },
+    {
+      "id": "20261015-233213-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-233213-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25013,
+      "startTime": "2026-10-16T04:32:14.215Z",
+      "totalTicks": 4261,
+      "finalStateHash": "18fb81648821658f",
+      "costUsd": 0.029570244000000034
+    },
+    {
+      "id": "20261015-233325-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-233325-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25014,
+      "startTime": "2026-10-16T04:33:25.545Z",
+      "totalTicks": 4566,
+      "finalStateHash": "dcef260888815c4e",
+      "costUsd": 0.02421922999999996
+    },
+    {
+      "id": "20261015-233441-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-233441-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25015,
+      "startTime": "2026-10-16T04:34:42.760Z",
+      "totalTicks": 4200,
+      "finalStateHash": "6c3f27764a9f6a63",
+      "costUsd": 0.023556070000000026
+    },
+    {
+      "id": "20261015-233552-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-233552-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25016,
+      "startTime": "2026-10-16T04:35:54.499Z",
+      "totalTicks": 2909,
+      "finalStateHash": "229d05924813d46a",
+      "costUsd": 0.026487178000000004
+    },
+    {
+      "id": "20261015-233642-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-233642-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25017,
+      "startTime": "2026-10-16T04:36:43.293Z",
+      "totalTicks": 2326,
+      "finalStateHash": "a349c761a2a72608",
+      "costUsd": 0.02649258800000002
+    },
+    {
+      "id": "20261015-233722-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-233722-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25018,
+      "startTime": "2026-10-16T04:37:22.287Z",
+      "totalTicks": 2227,
+      "finalStateHash": "5339c4e010932b3a",
+      "costUsd": 0.022441008
+    },
+    {
+      "id": "20261015-233759-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-233759-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25019,
+      "startTime": "2026-10-16T04:37:59.707Z",
+      "totalTicks": 2188,
+      "finalStateHash": "c06c165a2334eb96",
+      "costUsd": 0.02580287600000002
+    },
+    {
+      "id": "20261015-233836-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-233836-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25020,
+      "startTime": "2026-10-16T04:38:36.436Z",
+      "totalTicks": 3661,
+      "finalStateHash": "024bfbb863730ff7",
+      "costUsd": 0.03845508999999995
+    },
+    {
+      "id": "20261015-233937-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-233937-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25021,
+      "startTime": "2026-10-16T04:39:37.803Z",
+      "totalTicks": 3852,
+      "finalStateHash": "532e5aa4a02a4085",
+      "costUsd": 0.039264268000000026
+    },
+    {
+      "id": "20261015-234041-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-234041-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25022,
+      "startTime": "2026-10-16T04:40:42.292Z",
+      "totalTicks": 2530,
+      "finalStateHash": "a49984c9f472880d",
+      "costUsd": 0.024579650000000043
+    },
+    {
+      "id": "20261015-234124-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-234124-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25023,
+      "startTime": "2026-10-16T04:41:24.849Z",
+      "totalTicks": 2598,
+      "finalStateHash": "a80570955f0797c3",
+      "costUsd": 0.028786095999999994
+    },
+    {
+      "id": "20261015-234208-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-234208-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25024,
+      "startTime": "2026-10-16T04:42:08.402Z",
+      "totalTicks": 3331,
+      "finalStateHash": "aeb321d1f484b3f4",
+      "costUsd": 0.03209918799999997
+    },
+    {
+      "id": "20261015-234303-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-234303-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25025,
+      "startTime": "2026-10-16T04:43:04.179Z",
+      "totalTicks": 3795,
+      "finalStateHash": "e79d7afbe3e6d100",
+      "costUsd": 0.03733353799999996
+    },
+    {
+      "id": "20261015-234407-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-234407-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25026,
+      "startTime": "2026-10-16T04:44:07.824Z",
+      "totalTicks": 3476,
+      "finalStateHash": "614ab6d7d2d4f401",
+      "costUsd": 0.03946288800000004
+    },
+    {
+      "id": "20261015-234505-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-234505-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25027,
+      "startTime": "2026-10-16T04:45:06.146Z",
+      "totalTicks": 4106,
+      "finalStateHash": "81c54079c996ac6e",
+      "costUsd": 0.04538832600000005
+    },
+    {
+      "id": "20261015-234614-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-234614-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25028,
+      "startTime": "2026-10-16T04:46:14.925Z",
+      "totalTicks": 2890,
+      "finalStateHash": "a07231157c71d798",
+      "costUsd": 0.03150470199999998
+    },
+    {
+      "id": "20261015-234703-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-234703-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25029,
+      "startTime": "2026-10-16T04:47:03.321Z",
+      "totalTicks": 3508,
+      "finalStateHash": "06aa9179516b111d",
+      "costUsd": 0.03530597599999998
+    },
+    {
+      "id": "20261015-234801-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-234801-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25030,
+      "startTime": "2026-10-16T04:48:02.062Z",
+      "totalTicks": 5998,
+      "finalStateHash": "64266edce54f2fd1",
+      "costUsd": 0.07097168199999952
+    },
+    {
+      "id": "20261015-234942-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-234942-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25031,
+      "startTime": "2026-10-16T04:49:43.182Z",
+      "totalTicks": 3861,
+      "finalStateHash": "2d018a427d3e6b02",
+      "costUsd": 0.04364806199999993
+    },
+    {
+      "id": "20261015-235047-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-235047-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25032,
+      "startTime": "2026-10-16T04:50:47.811Z",
+      "totalTicks": 2927,
+      "finalStateHash": "44c45d1317cffaf7",
+      "costUsd": 0.033704392000000034
+    },
+    {
+      "id": "20261015-235136-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-235136-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25033,
+      "startTime": "2026-10-16T04:51:36.892Z",
+      "totalTicks": 2539,
+      "finalStateHash": "a6e6732f772d6e18",
+      "costUsd": 0.029087990000000005
+    },
+    {
+      "id": "20261015-235219-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-235219-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25034,
+      "startTime": "2026-10-16T04:52:19.482Z",
+      "totalTicks": 4352,
+      "finalStateHash": "28d7d426f19e6bd9",
+      "costUsd": 0.044460996
+    },
+    {
+      "id": "20261015-235332-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-235332-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25035,
+      "startTime": "2026-10-16T04:53:32.296Z",
+      "totalTicks": 2517,
+      "finalStateHash": "b3f2455d44765212",
+      "costUsd": 0.027388726000000002
+    },
+    {
+      "id": "20261015-235414-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-235414-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25036,
+      "startTime": "2026-10-16T04:54:14.552Z",
+      "totalTicks": 2626,
+      "finalStateHash": "5b764037d9e3751c",
+      "costUsd": 0.02826678800000002
+    },
+    {
+      "id": "20261015-235458-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-235458-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25037,
+      "startTime": "2026-10-16T04:54:58.636Z",
+      "totalTicks": 3966,
+      "finalStateHash": "25a489dcd9ff1ac8",
+      "costUsd": 0.044996477999999944
+    },
+    {
+      "id": "20261015-235604-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-235604-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25038,
+      "startTime": "2026-10-16T04:56:05.075Z",
+      "totalTicks": 1720,
+      "finalStateHash": "652c2c10338e46a3",
+      "costUsd": 0.018009993999999977
+    },
+    {
+      "id": "20261015-235633-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-235633-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25039,
+      "startTime": "2026-10-16T04:56:34.015Z",
+      "totalTicks": 2291,
+      "finalStateHash": "caadb927bdf95565",
+      "costUsd": 0.023083928000000017
+    },
+    {
+      "id": "20261015-235712-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-235712-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": true,
+      "seed": 25040,
+      "startTime": "2026-10-16T04:57:12.598Z",
+      "totalTicks": 7716,
+      "finalStateHash": "675de55e06462fb5",
+      "costUsd": 0.0866927759999997
+    },
+    {
+      "id": "20261015-235921-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261015-235921-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25041,
+      "startTime": "2026-10-16T04:59:21.513Z",
+      "totalTicks": 2449,
+      "finalStateHash": "c9bd707f042cd927",
+      "costUsd": 0.02776732600000001
+    },
+    {
+      "id": "20261016-000002-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000002-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25042,
+      "startTime": "2026-10-16T05:00:02.605Z",
+      "totalTicks": 2450,
+      "finalStateHash": "d1126721156cb999",
+      "costUsd": 0.023690340000000053
+    },
+    {
+      "id": "20261016-000043-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000043-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25043,
+      "startTime": "2026-10-16T05:00:43.693Z",
+      "totalTicks": 3236,
+      "finalStateHash": "56cf75f6d68f01d9",
+      "costUsd": 0.035110680000000026
+    },
+    {
+      "id": "20261016-000137-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000137-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25044,
+      "startTime": "2026-10-16T05:01:38.026Z",
+      "totalTicks": 2591,
+      "finalStateHash": "e4915bebc14d4e9c",
+      "costUsd": 0.026050760000000017
+    },
+    {
+      "id": "20261016-000221-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000221-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        1,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25045,
+      "startTime": "2026-10-16T05:02:21.555Z",
+      "totalTicks": 3812,
+      "finalStateHash": "47afa47474d351ff",
+      "costUsd": 0.03886615000000003
+    },
+    {
+      "id": "20261016-000325-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000325-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25046,
+      "startTime": "2026-10-16T05:03:25.370Z",
+      "totalTicks": 2583,
+      "finalStateHash": "f971d5de0ee78a97",
+      "costUsd": 0.028071521999999974
+    },
+    {
+      "id": "20261016-000408-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000408-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25047,
+      "startTime": "2026-10-16T05:04:08.724Z",
+      "totalTicks": 2067,
+      "finalStateHash": "f31faa2f7c9ba7c6",
+      "costUsd": 0.02065777599999999
+    },
+    {
+      "id": "20261016-000443-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000443-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25048,
+      "startTime": "2026-10-16T05:04:43.489Z",
+      "totalTicks": 3537,
+      "finalStateHash": "85bd2309b0e8e276",
+      "costUsd": 0.03716860799999998
+    },
+    {
+      "id": "20261016-000542-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000542-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25049,
+      "startTime": "2026-10-16T05:05:42.691Z",
+      "totalTicks": 3167,
+      "finalStateHash": "53e3674c48e9a22c",
+      "costUsd": 0.033618612000000075
+    },
+    {
+      "id": "20261016-000635-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000635-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25050,
+      "startTime": "2026-10-16T05:06:35.788Z",
+      "totalTicks": 2105,
+      "finalStateHash": "a4f0aeb6e3b9609f",
+      "costUsd": 0.020923075999999995
+    },
+    {
+      "id": "20261016-000710-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000710-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25051,
+      "startTime": "2026-10-16T05:07:11.116Z",
+      "totalTicks": 5783,
+      "finalStateHash": "f4c3da1338f8df3a",
+      "costUsd": 0.057783246000000045
+    },
+    {
+      "id": "20261016-000847-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000847-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        1
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25052,
+      "startTime": "2026-10-16T05:08:47.772Z",
+      "totalTicks": 3630,
+      "finalStateHash": "edeb92c8f20699dd",
+      "costUsd": 0.035363471999999986
+    },
+    {
+      "id": "20261016-000948-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-000948-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 0,
+      "scores": [
+        2,
+        0
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25053,
+      "startTime": "2026-10-16T05:09:48.628Z",
+      "totalTicks": 3106,
+      "finalStateHash": "15e9f70e48aabfa9",
+      "costUsd": 0.03467179400000005
+    },
+    {
+      "id": "20261016-001040-fighter-jev-vs-openai-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-001040-fighter-jev-vs-openai-1.jsonl",
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "winner": "openai",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25054,
+      "startTime": "2026-10-16T05:10:40.649Z",
+      "totalTicks": 2578,
+      "finalStateHash": "19cbbf0e7c5aaea4",
+      "costUsd": 0.02913286799999997
+    },
+    {
+      "id": "20261016-001123-fighter-openai-vs-jev-1",
+      "game": "fighter",
+      "file": "fighter/matches/20261016-001123-fighter-openai-vs-jev-1.jsonl",
+      "players": [
+        "openai",
+        "jev"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Jev (TypeSafe)"
+      ],
+      "winner": "jev",
+      "winnerSeat": 1,
+      "scores": [
+        0,
+        2
+      ],
+      "valid": true,
+      "featured": false,
+      "seed": 25055,
+      "startTime": "2026-10-16T05:11:23.972Z",
+      "totalTicks": 2482,
+      "finalStateHash": "21e83a684d1a8185",
+      "costUsd": 0.024642750000000005
+    }
+  ]
+}

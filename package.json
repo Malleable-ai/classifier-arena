@@ -1,0 +1,52 @@
+{
+  "name": "classifier-arena",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Decision models compete head to head in small browser games, starting with a real-time fighting game.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@10.14.0",
+  "scripts": {
+    "dev": "vite",
+    "live": "concurrently -n proxy,web \"tsx src/server/proxy.ts\" \"vite\"",
+    "match": "tsx src/cli/match.ts",
+    "tournament": "tsx src/cli/tournament.ts",
+    "tune": "tsx src/cli/tune.ts",
+    "render": "tsx src/cli/render.ts",
+    "cut": "tsx src/cli/cut.ts",
+    "leaderboard": "tsx src/cli/leaderboard.ts",
+    "build": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.node.json --noEmit && vite build",
+    "build:web": "vite build --mode web",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.node.json --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:determinism": "vitest run test/determinism && playwright test e2e/replay.spec.ts",
+    "index-results": "tsx src/cli/index-results.ts",
+    "data:inbox": "tsx src/cli/build-inbox-data.ts",
+    "data:clues": "tsx src/cli/build-clues-data.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^24.19.1",
+    "concurrently": "^10.0.5",
+    "eslint": "^10.12.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.9.9",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.1",
+    "vite": "^8.3.3",
+    "vitest": "^5.0.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

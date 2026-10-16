@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 5,
+  "game": "clues",
+  "label": "Clue Clash",
+  "graded": true,
+  "gameVersion": 2,
+  "runIds": [
+    "m-f2d69b452ec5"
+  ],
+  "matches": {
+    "total": 84,
+    "valid": 84,
+    "invalid": 0,
+    "excluded": 0,
+    "unfinished": 0,
+    "olderVersion": 0
+  },
+  "invalidMatches": [],
+  "excluded": [],
+  "olderVersion": [],
+  "rescored": [
+    {
+      "id": "20261012-211946-clues-openai-vs-random-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-212209-clues-jev-vs-openai-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-212303-clues-openai-vs-jev-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-212605-clues-openai-vs-jev-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-212852-clues-openai-vs-jev-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-212923-clues-openai-vs-jev-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-213043-clues-jev-vs-openai-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-213059-clues-openai-vs-jev-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-213237-clues-openai-vs-jev-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-213339-clues-openai-vs-jev-1",
+      "loggedValid": false,
+      "valid": true
+    },
+    {
+      "id": "20261012-213501-clues-jev-vs-openai-1",
+      "loggedValid": false,
+      "valid": true
+    }
+  ],
+  "totalCostUsd": 0.21323041600000003,
+  "players": [
+    {
+      "player": "jev",
+      "label": "Jev (TypeSafe)",
+      "kind": "provider",
+      "model": "jev-latest",
+      "hosting": "vendor-api",
+      "matches": 70,
+      "decisions": 3360,
+      "misses": 3,
+      "missRate": 0.0008928571428571428,
+      "refusals": 0,
+      "refusalRate": 0,
+      "dropped": 0,
+      "graded": 3357,
+      "correct": 2728,
+      "accuracy": 0.8126303246946679,
+      "latencyMs": {
+        "p50": 158.9,
+        "p95": 214.6,
+        "n": 3357
+      },
+      "costUsd": 0.095167716,
+      "costPer1000": 0.028323725
+    },
+    {
+      "player": "openai",
+      "label": "OpenAI Decisions (gpt-6-luna)",
+      "kind": "provider",
+      "model": "gpt-6-luna",
+      "hosting": "vendor-api",
+      "matches": 71,
+      "decisions": 3408,
+      "misses": 17,
+      "missRate": 0.004988262910798122,
+      "refusals": 13,
+      "refusalRate": 0.0038145539906103286,
+      "dropped": 0,
+      "graded": 3378,
+      "correct": 2648,
+      "accuracy": 0.7838957963291888,
+      "latencyMs": {
+        "p50": 207.6,
+        "p95": 385.3,
+        "n": 3378
+      },
+      "costUsd": 0.1180627,
+      "costPer1000": 0.03464281103286385
+    },
+    {
+      "player": "random",
+      "label": "Random (uniform)",
+      "kind": "baseline",
+      "model": null,
+      "hosting": null,
+      "matches": 24,
+      "decisions": 1296,
+      "misses": 0,
+      "missRate": 0,
+      "refusals": 0,
+      "refusalRate": 0,
+      "dropped": 0,
+      "graded": 1296,
+      "correct": 93,
+      "accuracy": 0.07175925925925926,
+      "latencyMs": {
+        "p50": 200.8,
+        "p95": 201.7,
+        "n": 1296
+      },
+      "costUsd": 0,
+      "costPer1000": 0
+    }
+  ],
+  "pairings": [
+    {
+      "players": [
+        "jev",
+        "openai"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "OpenAI Decisions (gpt-6-luna)"
+      ],
+      "headToHead": true,
+      "matches": 60,
+      "invalid": 0,
+      "wins": 49,
+      "draws": 0,
+      "losses": 11,
+      "winRate": {
+        "p": 0.8166666666666667,
+        "low": 0.7008000677353371,
+        "high": 0.8944231096286387
+      }
+    },
+    {
+      "players": [
+        "jev",
+        "random"
+      ],
+      "labels": [
+        "Jev (TypeSafe)",
+        "Random (uniform)"
+      ],
+      "headToHead": false,
+      "matches": 10,
+      "invalid": 0,
+      "wins": 10,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7224598312333834,
+        "high": 1
+      }
+    },
+    {
+      "players": [
+        "openai",
+        "random"
+      ],
+      "labels": [
+        "OpenAI Decisions (gpt-6-luna)",
+        "Random (uniform)"
+      ],
+      "headToHead": false,
+      "matches": 11,
+      "invalid": 0,
+      "wins": 11,
+      "draws": 0,
+      "losses": 0,
+      "winRate": {
+        "p": 1,
+        "low": 0.7411599827511859,
+        "high": 1
+      }
+    },
+    {
+      "players": [
+        "random",
+        "random"
+      ],
+      "labels": [
+        "Random (uniform)",
+        "Random (uniform)"
+      ],
+      "headToHead": false,
+      "matches": 3,
+      "invalid": 0,
+      "wins": 2,
+      "draws": 1,
+      "losses": 0,
+      "winRate": {
+        "p": 0.8333333333333334,
+        "low": 0.30998154176528897,
+        "high": 0.9823477379353658
+      }
+    }
+  ],
+  "featured": {
+    "id": "20261012-212303-clues-openai-vs-jev-1",
+    "players": [
+      "openai",
+      "jev"
+    ],
+    "winner": 1,
+    "scores": [
+      33,
+      33
+    ],
+    "margin": 0,
+    "totalTicks": 48
+  },
+  "runCheck": {
+    "maxMissRate": 0.02,
+    "passed": true,
+    "failing": []
+  }
+}

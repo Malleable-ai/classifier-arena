@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.local)",
+      "Edit(.claude/skills/**)",
+      "Write(.claude/skills/**)",
+      "Edit(.agents/skills/**)",
+      "Write(.agents/skills/**)",
+      "Edit(.codex/skills/**)",
+      "Write(.codex/skills/**)"
+    ],
+    "ask": [
+      "Bash(gh pr merge*)",
+      "Bash(gh api *)",
+      "Bash(gh repo create*)",
+      "Bash(gh repo edit*)",
+      "Bash(vercel --prod*)",
+      "Bash(vercel deploy --prod*)",
+      "Bash(vercel promote*)",
+      "Bash(vercel env*)",
+      "Bash(pnpm tournament*)"
+    ]
+  },
+  "sandbox": {
+    "credentials": {
+      "files": [
+        { "path": ".env", "mode": "deny" }
+      ]
+    }
+  }
+}

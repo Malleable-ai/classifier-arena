@@ -1,0 +1,17 @@
+{
+  "access-control-allow-origin": "*",
+  "access-control-expose-headers": "x-request-id,retry-after,server-timing-total, CF-Ray",
+  "cf-cache-status": "DYNAMIC",
+  "connection": "keep-alive",
+  "content-encoding": "br",
+  "content-type": "application/json",
+  "date": "Wed, 07 Oct 2026 20:16:37 GMT",
+  "openai-processing-ms": "368",
+  "server": "cloudflare",
+  "server-timing-total": "368.099",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "transfer-encoding": "chunked",
+  "vary": "origin, access-control-request-method, access-control-request-headers",
+  "x-content-type-options": "nosniff",
+  "x-openai-proxy-wasm": "v0.1"
+}
